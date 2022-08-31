@@ -1,2 +1,3 @@
 # ComDes2022
-Site for Comunication Design articles
+
+Code for the article site for Communication Design
