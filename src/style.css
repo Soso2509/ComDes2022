@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    max-width: 2400px;
 
 }
+
+/* Header og global-navigasjon */
 
 .headerGrid {
     display: grid;
@@ -15,7 +20,7 @@
 }
 
 .logo {
-    color: red;
+    color: rgb(0, 0, 0);
     border: 1px solid black;
     font-family: 'Roboto', sans-serif;
     grid-area: logo;
@@ -23,20 +28,23 @@
 }
 
 .headerTekst {
-    color: rgb(0, 110, 255);
+    color: #200F00;
     border: 1px solid black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kanit', sans-serif;
     grid-area: text;
 
 }
 
 .navigation {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
 
 }
 
 nav ul {
     list-style: none;
+    padding: 0%;
 
 }
 
@@ -45,66 +53,142 @@ nav ul li {
     display: flex;
     justify-content: center;
 
-
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
-    border: 1px solid black;
+    border: 1px solid rgba(77, 77, 77, 0.185);
     border-radius: 3px;
     padding: 5px;
     letter-spacing: 0.1rem;
 
 }
 
+/*  */
+
+/* Selve artikkelområdet */
+
 .article {
+    width: 100%;
+    max-width: 2400px;
+    margin: 0 auto;
     display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-template-areas:
         "title title title"
+        "intro intro intro"
+        "text text text"
         "text text text"
     ;
 
 }
 
+/* Artikkeloverskrift */
+
 .articleTitle {
-    color: orange;
-    border: 1px solid black;
+    color: #BF5C00;
     grid-area: title;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif Georgian', serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
 
 }
 
-.articleText {
-    border: 1px solid black;
+/* Teksten under overskriften */
+
+.articleIntro {
+    grid-area: intro;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(230, 34, 93);
+    display: flex;
+
+}
+
+.articleIntro p {
+    display: flex;
+    align-items: center;
+    width: 94%;
+    max-width: 30rem;
+    margin: 2rem auto;
+    font-size: 0.8rem;
+
+}
+
+/* Skriftlig innhold i artikkelen */
+
+.articleContent {
     grid-area: text;
     font-family: 'Roboto', sans-serif;
-    background-color: aliceblue;
+    border: 1px solid aqua;
+    width: 94%;
+    max-width: 30rem;
+    margin: 2rem auto;
+    font-size: 0.8rem;
 
 }
 
-.articleText p {
-    padding: 1rem;
+/* Parallax-effekt, innlevering 1 */
 
-}
-
-.floatingBox {
-    background-color: blue;
-    color: white;
-    background-image: url(https://matchbanker.no/wp-content/uploads/sites/12/2021/12/pexels-karolina-grabowska-5882683.jpg);
+.parallax{
+    background-image: url(https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/sarp/2022/9/13/12/graving.jpg?chk=454595);
+    width: 90%;
+    margin: 2rem auto;
+    padding: 5rem 0 5rem 0;
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center center;
     background-size: cover;
+
+}
+
+.parallax p{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    margin: 70vh auto;
+
+}
+
+/*  */
+
+/* Stilsetting for bilder uten klasse -WIP */
+
+.image {
+/*     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
     overflow: hidden;
-
+    width: 100%;
+    height: 50%; */
+    width: 100%;
+    margin: 2rem auto;
+    padding: 5rem 0 5rem 0;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
+
+/*  */
 
 footer {
-    border: 1px solid black;
-    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin: 2rem auto;
+    padding: 5rem 0 5rem 0;
 
 }
+
+footer h3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* PC-modus */
 
 @media screen and (min-width: 1000px) {
     .articleTitle {
