@@ -1,8 +1,10 @@
 export default function Article3() {
   return (
-    <>
-      <h1>Article3</h1>
-      <p>Under construction</p>
-    </>
+    <div className={"article"}>
+      <h1 className={"articleTitle"}>Article 3</h1>
+      <section className={"articleText"}>
+        <p>Lorem</p>
+      </section>
+    </div>
   );
 }

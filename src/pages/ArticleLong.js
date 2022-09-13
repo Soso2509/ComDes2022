@@ -1,8 +1,10 @@
 export default function ArticleLong() {
   return (
-    <>
-      <h1>Long Article</h1>
-      <p>Under construction</p>
-    </>
+    <div className={"article"}>
+      <h1 className={"articleTitle"}>Long Article</h1>
+      <section className={"articleText"}>
+        <p>Lorem</p>
+      </section>
+    </div>
   );
 }

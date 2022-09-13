@@ -6,22 +6,22 @@ export default function Layout() {
   return (
     <>
       <Header />
-      <nav>
+      <nav className={"navigation"}>
         <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/article1">Article1</Link>
+            <Link to="/article1">Article 1</Link>
           </li>
           <li>
-            <Link to="/article2">Article2</Link>
+            <Link to="/article2">Article 2</Link>
           </li>
           <li>
-            <Link to="/article3">Article3</Link>
+            <Link to="/article3">Article 3</Link>
           </li>
           <li>
-            <Link to="/article4">Article4</Link>
+            <Link to="/article4">Article 4</Link>
           </li>
           <li>
             <Link to="/article-long">Article-Long</Link>

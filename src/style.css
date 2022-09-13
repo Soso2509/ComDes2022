@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+.headerGrid {
+    display: grid;
+    grid-template-areas: 
+        "logo logo text"
+    ;
+
+}
+
+.logo {
+    color: red;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    grid-area: logo;
+
+}
+
+.headerTekst {
+    color: rgb(0, 110, 255);
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    grid-area: text;
+
+}
+
+.navigation {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    letter-spacing: 0.1rem;
+
+}
+
+.article {
+    display: grid;
+    grid-template-areas:
+        "title title title"
+        "text text text"
+    ;
+
+}
+
+.articleTitle {
+    color: orange;
+    border: 1px solid black;
+    grid-area: title;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.articleText {
+    color: rgb(255, 109, 133);
+    border: 1px solid black;
+    grid-area: text;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+
+}
+
+.articleText p {
+    padding: 1rem;
+
+}
+
+footer {
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+@media screen and (min-width: 1000px) {
+    .articleTitle {
+        color: green;
+
+    }
+
+    nav ul li {
+        display: inline;
+        padding-right: 20px;
+    
+    }
+
+}

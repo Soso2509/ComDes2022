@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <>
-      <h1>LOGO</h1>
-      <p>hello</p>
-    </>
+    <header className={"headerGrid"}>
+      <h1 className={"logo"}>LOGO</h1>
+      <h2 className={"headerTekst"}>Her skal det stå tekst</h2>
+    </header>
   );
 }
