@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 * {
     box-sizing: border-box;
@@ -12,7 +12,7 @@
 /* Header og global-navigasjon */
 
 header {
-    background: rgba(230, 246, 246, 0.671);
+    background: rgba(109, 109, 109, 0.671);
     height: 10vh;
 
 }
@@ -26,11 +26,12 @@ header {
 
 .headerTekst {
     color: #200F00;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     display: flex;
     justify-content: center;
     padding: 1rem;
-    margin: 0px;
+    margin: auto;
+    font-size: 1rem;
 
 }
 
@@ -38,7 +39,7 @@ header {
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
-    background: rgba(230, 246, 246, 0.671);
+    background: rgba(230, 230, 230, 0.671);
     margin: 0px;
 
 
@@ -84,8 +85,9 @@ nav ul li a {
     color: #BF5C00;
     font-family: 'Noto Serif Georgian', serif;
     display: flex;
-    text-align: center;
+    justify-content: center;
     font-size: 40px;
+    margin: 2rem auto;
 
 }
 
@@ -93,12 +95,10 @@ nav ul li a {
 
 .articleIntro {
     font-family: 'Roboto', sans-serif;
-    border: 1px solid rgb(230, 34, 93);
     display: flex;
     width: 94%;
     max-width: 30rem;
     margin: 2rem auto;
-    font-size: 0.8rem;
 
 }
 
@@ -107,7 +107,10 @@ nav ul li a {
     width: 94%;
     max-width: 30rem;
     margin: 2rem auto;
-    font-size: 0.8rem;
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
+    text-align: center;
 
 }
 
@@ -119,7 +122,12 @@ nav ul li a {
     width: 94%;
     max-width: 30rem;
     margin: 2rem auto;
-    font-size: 0.8rem;
+    font-size: 15px;
+
+}
+
+.articleContent h3 {
+    text-align: center;
 
 }
 
@@ -208,19 +216,13 @@ footer h3{
     color: white;
     display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 
 /* PC-modus */
 
 @media screen and (min-width: 1000px) {
-    .headerGrid h1 {
-        width: 94%;
-        max-width: 30rem;
-        margin: 2rem auto;
-        font-size: 0.8rem;
-    }
-    
-    .navigation ul li {
+     .navigation ul li {
         width: 94%;
         max-width: 30rem;
         margin: 2rem auto;
@@ -237,7 +239,7 @@ footer h3{
     
     }
 
-    .textBox {
+    .textBox1, .textBox2, .textBox3, .textBox4 {
         padding: 0.5rem;
         margin: 50vh auto;
         max-width: 40%;
