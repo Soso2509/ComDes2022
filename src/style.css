@@ -11,27 +11,26 @@
 
 /* Header og global-navigasjon */
 
-.headerGrid {
-    display: grid;
-    grid-template-areas: 
-        "logo logo text"
-    ;
+header {
+    background: rgba(230, 246, 246, 0.671);
+    height: 10vh;
 
 }
 
-.logo {
+/* .logo {
     color: rgb(0, 0, 0);
-    border: 1px solid black;
     font-family: 'Roboto', sans-serif;
     grid-area: logo;
 
-}
+} */
 
 .headerTekst {
     color: #200F00;
-    border: 1px solid black;
     font-family: 'Kanit', sans-serif;
-    grid-area: text;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0px;
 
 }
 
@@ -39,6 +38,9 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
+    background: rgba(230, 246, 246, 0.671);
+    margin: 0px;
+
 
 }
 
@@ -69,19 +71,10 @@ nav ul li a {
 
 /* Selve artikkelområdet */
 
-.article {
+.article1 {
     width: 100%;
     max-width: 2400px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "title title title"
-        "intro intro intro"
-        "text text text"
-        "text text text"
-    ;
 
 }
 
@@ -89,10 +82,9 @@ nav ul li a {
 
 .articleTitle {
     color: #BF5C00;
-    grid-area: title;
     font-family: 'Noto Serif Georgian', serif;
     display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 40px;
 
 }
@@ -100,15 +92,17 @@ nav ul li a {
 /* Teksten under overskriften */
 
 .articleIntro {
-    grid-area: intro;
     font-family: 'Roboto', sans-serif;
     border: 1px solid rgb(230, 34, 93);
     display: flex;
+    width: 94%;
+    max-width: 30rem;
+    margin: 2rem auto;
+    font-size: 0.8rem;
 
 }
 
 .articleIntro p {
-    display: flex;
     align-items: center;
     width: 94%;
     max-width: 30rem;
@@ -120,7 +114,6 @@ nav ul li a {
 /* Skriftlig innhold i artikkelen */
 
 .articleContent {
-    grid-area: text;
     font-family: 'Roboto', sans-serif;
     border: 1px solid aqua;
     width: 94%;
@@ -132,8 +125,7 @@ nav ul li a {
 
 /* Parallax-effekt, innlevering 1 */
 
-.parallax{
-    background-image: url(https://g.acdn.no/obscura/API/dynamic/r1/ece5/tr_2000_2000_s_f/0000/sarp/2022/9/13/12/graving.jpg?chk=454595);
+/* .parallax {
     width: 90%;
     margin: 2rem auto;
     padding: 5rem 0 5rem 0;
@@ -142,41 +134,71 @@ nav ul li a {
     background-position: center center;
     background-size: cover;
 
-}
+} */
 
-.parallax p{
-    background: rgba(255, 255, 255, 0.8);
+.textBox1, .textBox2, .textBox3, .textBox4{
+    background: rgba(126, 120, 120, 0.897);
     padding: 1rem;
-    margin: 70vh auto;
+    margin: 40vh auto;
+    color: black;
+    max-width: 90%;
+    font-family: 'Roboto', sans-serif;
 
 }
 
-/*  */
-
-/* Stilsetting for bilder uten klasse -WIP */
-
-.image {
-/*     background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    overflow: hidden;
+.parallax1{
     width: 100%;
-    height: 50%; */
-    width: 100%;
-    margin: 2rem auto;
-    padding: 5rem 0 5rem 0;
-    min-height: 100vh;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    background-image:url("https://images.unsplash.com/photo-1661961111184-11317b40adb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80");
+    min-height: 50vh;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.parallax2{
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    background-image:url("https://images.unsplash.com/photo-1662873689362-924843d0962e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.parallax3{
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373B44;
+    background-image:url("https://images.unsplash.com/photo-1662581871665-f299ba8ace07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80");
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 /*  */
 
 footer {
-    background-color: black;
-    margin: 2rem auto;
+    background-color: rgba(0, 0, 0, 0.37);
+    margin: 0px;
     padding: 5rem 0 5rem 0;
 
 }
@@ -191,8 +213,34 @@ footer h3{
 /* PC-modus */
 
 @media screen and (min-width: 1000px) {
+    .headerGrid h1 {
+        width: 94%;
+        max-width: 30rem;
+        margin: 2rem auto;
+        font-size: 0.8rem;
+    }
+    
+    .navigation ul li {
+        width: 94%;
+        max-width: 30rem;
+        margin: 2rem auto;
+        font-size: 0.8rem;
+
+    }
+
     .articleTitle {
-        color: green;
+        color: #BF5C00;
+        font-family: 'Noto Serif Georgian', serif;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    
+    }
+
+    .textBox {
+        padding: 0.5rem;
+        margin: 50vh auto;
+        max-width: 40%;
 
     }
 
@@ -202,4 +250,4 @@ footer h3{
     
     }
 
-}
+ }
