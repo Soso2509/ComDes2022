@@ -118,7 +118,6 @@ nav ul li a {
 
 .articleContent {
     font-family: 'Roboto', sans-serif;
-    border: 1px solid aqua;
     width: 94%;
     max-width: 30rem;
     margin: 2rem auto;
@@ -144,14 +143,24 @@ nav ul li a {
 
 } */
 
-.textBox1, .textBox2, .textBox3, .textBox4{
-    background: rgba(194, 182, 182, 0.897);
-    padding: 1rem;
-    margin: 40vh auto;
+.textBox1, .textBox2, .textBox3{
+    background: rgba(255, 253, 253, 0.89);
+    padding: 50rem;
+    margin: 30vh auto;
     color: black;
     max-width: 90%;
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+
+}
+
+.textBox3 {
     font-size: 1.5rem;
+
+}
+
+a {
+    color: black;
 
 }
 
