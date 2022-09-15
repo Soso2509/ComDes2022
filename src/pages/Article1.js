@@ -1,19 +1,25 @@
 export default function Article1() {
   return (
     <div className={"article1"}>
-      <h1 className={"articleTitle"}>Setningsskader på Torvbyen kjøpesenter</h1>
+      <h1 className={"articleTitle"}>Sjokkbeskjed for Torvbyens ansatte</h1>
       <section className={"articleIntro"}>
-       <p>Den 24 mai måtte 5 butikker, Junkyard, Clas Ohlson, Eurosko, Bikbok, og en inngang stenge i Torvbyen kjøpesenter, for å undersøke bygningsmassen på grunn av setningsskader</p>
-      </section>
-      <section className="articleContent">
-        <h3>Nye lokaler</h3>
-        <br></br>
-        <p>Noen av butikkene har fått nye lokaler. Bik Bok fikk helt nytt lokale på Store torv, Junkyard tok over de gamle lokalene til Gamestop, dette kan du lese mer om i Fredrikstadblad sin artikkel om saken,</p>
-        <p>Den 17.08 kunne man se på Torvbyen kjøpesenter sin Facebook side at Eurosko har åpnet i nytt lokale i tredje etasje mellom Intersport og Kitchen.</p>
-        <p>Vi har snakket med to ansatte fra Eurosko som har gått gjennom dette, Stine Nordmanseth (47) og Rita Jensen (58), for å høre hvordan denne situasjonen har vært.</p>
-      </section>
+        <p>I år ble det registrert store bevegelser i Torvbyen sin bygningsmasse som resulterte i setningsskader i senteret som er nærmest kirken.
+        <br></br>Den 24 mai så eksperter seg nødt til å stenge den delen av senteret for å undersøke bygningsmassen nærmere. 
+        Resulterte i at 5 butikker og en hovedinngang måtte stenge. Fredrikstadblad skrev <a href="https://www.f-b.no/venter-pa-risikoanalyse-i-torvbyen/s/5-59-2611139">mer</a> om dette.</p>
+      </section> 
       <section className={"parallax1"}>
-        <p className={"textBox1"}>"Vi kunne åpne halve butikken i midten av juni, men fikk beskjed 1 uke og 1 dag senere at vi måtte stenge hele butikken"</p>
+        <p className={"textBox1"}>        <h3>Stengte butikker</h3>
+        <p>Den 24 mai startet som en helt vanlig arbeidsdag for Stine Nordmandseth (47) og Rita Jensen (58) på Eurosko i Torvbyen kjøpesenter i Fredrikstad.
+        Senere den dagen fikk de sjokkbeskjeden, de skulle jobbe ut dagen for så å stenge butikken i en ukjent periode.
+        <br></br>Dette gjaldt ikke bare Eurosko, men alle butikkene på samme side av senteret, Junkyard, Clas Ohlson, BikBok og En inngang, som man kan lese mer om <a href="https://www.f-b.no/venter-pa-risikoanalyse-i-torvbyen/s/5-59-2611139">her</a>.
+        Senere måtte Narvesen, Vita og Touch stenge. </p></p>
+      </section>
+      <section className={"parallax3"}>
+        <p className={"textBox3"}> 
+        <h3>Nye lokaler</h3>
+        Fredrikstad blad <a href="https://www.f-b.no/dette-er-status-pa-de-stengte-butik-kene-i-torv-byen/s/5-59-2641486">rapporterte </a> den 23 juni, at BikBok har fått et helt nytt lokale på Store torv, og Junkyard tok over de gamle lokalene til Gamestop. 
+        Den 17 august kunne man se på Torvbyen sin, <a href="https://m.facebook.com/story.php?story_fbid=pfbid02bQcKzqrZYGR69f2dx2C7U7pfFJxBrg94RTHKHXv6vYseiyQSNRin3Pq7EnSKjLU2l&id=145215378951">Facebook side</a>, at Eurosko har åpnet i nytt lokale i tredje etasje, mellom Intersport og Kitchen. 
+        </p>
       </section>
       <section className={"articleContent"}>
         <h3>Når fikk dere beskjed om stenging, hva medførte dette?</h3>
@@ -39,9 +45,6 @@ export default function Article1() {
         <h3>Hvordan har dette påvirket dere?</h3>
         <br></br>
         <p>Det har vært tungt både psykisk og fysisk. Det har blitt mye flytting, tømme lageret når vi stengte ned, og for å flytte inn i det nye lokalet. Nå er varene spredt på 3 lagere, 1 bak i butikken, 1 i samme etasje og 1 i kjelleren, så det blir mye gåing. </p>
-      </section>
-      <section className={"parallax3"}>
-        <p className={"textBox3"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
       </section>
       <section className="articleContent">
         <h3>Hvordan ser framtiden ut for dere og butikken?</h3>
