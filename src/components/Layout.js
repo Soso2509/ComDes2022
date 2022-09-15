@@ -12,7 +12,7 @@ export default function Layout() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/setningsskader-pa-torvbyen-kjopesenter">Setningsskader på Torvbyen kjøpesenter</Link>
+            <Link to="/sjokkbeskjed-for-torvbyens-ansatte">Sjokkbeskjed for Torvbyens ansatte</Link>
           </li>
           <li>
             <Link to="/article2">Article 2</Link>
