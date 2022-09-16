@@ -156,36 +156,34 @@ a {
   color: black;
 }
 
-.parallax1{
-    width: 100%;
-    padding: 0 7%;
-    display: table;
-    margin: 0;
-    max-width: none;
-    background-color: #373B44;
-    background-image: url("../images/IMG_0789.png");
-    min-height: 50vh;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+.parallax1 {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373b44;
+  background-image: url("../images/IMG_0789.png");
+  background-size: cover;
+  background-position: center center;
+  min-height: 50vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-.parallax2{
-    width: 100%;
-    padding: 0 7%;
-    display: table;
-    margin: 0;
-    max-width: none;
-    background-color: #373B44;
-    background-image: url("../images/IMG_0788.png");
-    min-height: 50vh;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+.parallax2 {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373b44;
+  background-image: url("../images/IMG_0788.png");
+  background-size: cover;
+  background-position: center center;
+  min-height: 50vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .parallax3 {
