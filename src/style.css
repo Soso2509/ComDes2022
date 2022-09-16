@@ -145,7 +145,7 @@ nav ul li a {
 
 .textBox1, .textBox2, .textBox3{
     background: rgba(255, 253, 253, 0.89);
-    padding: 50rem;
+    padding: 2rem;
     margin: 30vh auto;
     color: black;
     max-width: 90%;
@@ -175,7 +175,7 @@ a {
     min-height: 50vh;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
 }
@@ -191,7 +191,7 @@ a {
     min-height: 50vh;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
 }
