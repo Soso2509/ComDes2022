@@ -137,15 +137,16 @@ nav ul li a {
 
 } */
 
-.textBox1, .textBox2, .textBox3{
-    background: rgba(255, 253, 253, 0.89);
-    padding: 2rem;
-    margin: 30vh auto;
-    color: black;
-    max-width: 90%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-
+.textBox1,
+.textBox2,
+.textBox3 {
+  background: rgba(255, 253, 253, 0.89);
+  padding: 2rem;
+  margin: 30vh auto;
+  color: black;
+  max-width: 90%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
 .textBox3 {
@@ -163,7 +164,7 @@ a {
   margin: 0;
   max-width: none;
   background-color: #373b44;
-  background-image: url("../images/IMG_0789.png");
+  background-image: url("../../images/IMG_0789.png");
   background-size: cover;
   background-position: center center;
   min-height: 50vh;
@@ -178,7 +179,7 @@ a {
   margin: 0;
   max-width: none;
   background-color: #373b44;
-  background-image: url("../images/IMG_0788.png");
+  background-image: url("../../images/IMG_0788.png");
   background-size: cover;
   background-position: center center;
   min-height: 50vh;
@@ -193,7 +194,7 @@ a {
   margin: 0;
   max-width: none;
   background-color: #373b44;
-  background-image: url("../images/IMG_0786.png");
+  background-image: url("../../images/IMG_0786.png");
   min-height: 50vh;
   background-attachment: fixed;
   background-position: center center;
