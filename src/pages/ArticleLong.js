@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function ArticleLong() {
   return (
     <div className={"article"}>

@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Article3() {
   return (
     <div className={"article"}>
