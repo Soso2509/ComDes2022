@@ -17,7 +17,7 @@ export default function Layout() {
             <Link to="/sjokkbeskjed-for-torvbyens-ansatte">Sjokkbeskjed for Torvbyens ansatte</Link>
           </li>
           <li>
-            <Link to="/article2">Article 2</Link>
+            <Link to="/article2">Renteøkning</Link>
           </li>
           <li>
             <Link to="/article3">Article 3</Link>

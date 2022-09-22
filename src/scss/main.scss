@@ -1,65 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+@import "variables.scss" ;
+
 
 * {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  max-width: 2400px;
+  @include defaultValues;
+
 }
 
 /* Header og global-navigasjon */
 
 header {
-  background: rgba(109, 109, 109, 0.671);
   height: 10vh;
+
 }
-
-/* .logo {
-    color: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
-    grid-area: logo;
-
-} */
 
 .headerTekst {
   color: #200f00;
   font-family: "Hammersmith One", sans-serif;
   display: flex;
-  justify-content: center;
   padding: 1rem;
   margin: auto;
   font-size: 1rem;
 }
 
 .navigation {
-  font-family: "Roboto", sans-serif;
+  font-family: $defaultFont;
   display: flex;
-  justify-content: center;
-  background: rgba(230, 230, 230, 0.671);
   margin: 0px;
+  border-bottom: 1px solid black;
+
 }
 
-nav ul {
+nav {
+
+  ul {
   list-style: none;
   padding: 0%;
-}
 
-nav ul li {
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: center;
-}
+  }
 
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  border: 1px solid rgba(77, 77, 77, 0.185);
-  border-radius: 3px;
-  padding: 5px;
-  letter-spacing: 0.1rem;
-}
+  li {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  
+  }
 
+  a {
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+    letter-spacing: 0.1rem;
+
+    }
+
+}
 /*  */
 
 /* Selve artikkelområdet */
@@ -73,13 +68,14 @@ nav ul li a {
 /* Artikkeloverskrift */
 
 .articleTitle {
-  color: #bf5c00;
-  font-family: "Noto Serif Georgian", serif;
+  color: #D1BAB4;
+  font-family: $defaultFont;
   display: flex;
   justify-content: center;
   font-size: 40px;
   margin: 2rem auto 0.5rem;
 }
+
 /* Liten bit tekst under title, f.eks hvem som har tatt bilder osv*/
 .articleUnderTitle {
   display: flex;
@@ -92,61 +88,46 @@ nav ul li a {
 /* Teksten under overskriften */
 
 .articleIntro {
-  font-family: "Roboto", sans-serif;
+  font-family: $defaultFont;
+  font-style: italic;
   display: flex;
+  color: #6c7883;
   width: 94%;
   max-width: 30rem;
   margin: 2rem auto;
+
+  p {
+
+    width: 94%;
+    max-width: 30rem;
+    margin: 2rem auto;
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
+
+  }
+
 }
 
-.articleIntro p {
-  align-items: center;
-  width: 94%;
-  max-width: 30rem;
-  margin: 2rem auto;
-  font-size: 20px;
-  font-style: italic;
-  color: gray;
-  text-align: center;
-}
 
 /* Skriftlig innhold i artikkelen */
 
 .articleContent {
-  font-family: "Roboto", sans-serif;
+  font-family: $defaultFont;
   width: 94%;
   max-width: 30rem;
   margin: 2rem auto;
   font-size: 1rem;
-}
 
-.articleContent h3 {
-  text-align: center;
 }
-
 /* Parallax-effekt, innlevering 1 */
 
-/* .parallax {
-    width: 90%;
-    margin: 2rem auto;
-    padding: 5rem 0 5rem 0;
-    min-height: 50vh;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-
-} */
 
 .textBox1,
 .textBox2,
 .textBox3 {
-  background: rgba(255, 253, 253, 0.89);
-  padding: 2rem;
-  margin: 30vh auto;
-  color: black;
-  max-width: 90%;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  @include textboxes;
+
 }
 
 .textBox3 {
@@ -154,52 +135,26 @@ nav ul li a {
 }
 
 a {
-  color: black;
+  color: black
 }
 
 .parallax1 {
-  width: 100%;
-  padding: 0 7%;
-  display: table;
-  margin: 0;
-  max-width: none;
-  background-color: #373b44;
-  background-image: url("../../images/IMG_0789.png");
-  background-size: cover;
-  background-position: center center;
-  min-height: 50vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  @include parallax;
+  background-image: url("../../images/IMG_0789.png")
+
+
 }
 
 .parallax2 {
-  width: 100%;
-  padding: 0 7%;
-  display: table;
-  margin: 0;
-  max-width: none;
-  background-color: #373b44;
+  @include parallax;
   background-image: url("../../images/IMG_0788.png");
-  background-size: cover;
-  background-position: center center;
-  min-height: 50vh;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+
 }
 
 .parallax3 {
-  width: 100%;
-  padding: 0 7%;
-  display: table;
-  margin: 0;
-  max-width: none;
-  background-color: #373b44;
+  @include parallax;
   background-image: url("../../images/IMG_0786.png");
-  min-height: 50vh;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 /*  */
@@ -208,29 +163,50 @@ footer {
   background-color: rgba(0, 0, 0, 0.37);
   margin: 0px;
   padding: 5rem 0 5rem 0;
+
+  h3 {
+    font-family: $defaultFont;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+
 }
 
-footer h3 {
-  font-family: "Roboto", sans-serif;
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-}
+
 
 /* PC-modus */
 
 @media screen and (min-width: 1000px) {
-  .navigation ul li {
-    width: 94%;
-    max-width: 30rem;
-    margin: 2rem auto;
-    font-size: 0.8rem;
+  .headerTekst {
+      font-size: 3rem;
+      font-family: $headerfont;
+      color: #4A687E;
+  }
+  
+  nav {
+    li {
+      display: inline;
+      padding-right: 20px;
+      width: 94%;
+      max-width: 30rem;
+      margin: 2rem auto;
+      font-size: 1rem;
+
+        :hover {
+          color: #7F6E8D;
+          font-weight: bold;
+
+        }
+
+    }
+
   }
 
   .articleTitle {
-    color: #bf5c00;
-    font-family: "Noto Serif Georgian", serif;
+    color: #D1BAB4;
+    font-family: $defaultFont;
     display: flex;
     justify-content: center;
     font-size: 40px;
@@ -245,8 +221,4 @@ footer h3 {
     max-width: 40%;
   }
 
-  nav ul li {
-    display: inline;
-    padding-right: 20px;
-  }
 }
