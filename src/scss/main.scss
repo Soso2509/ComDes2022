@@ -1,16 +1,13 @@
-@import "variables.scss" ;
-
+@import "variables.scss";
 
 * {
   @include defaultValues;
-
 }
 
 /* Header og global-navigasjon */
 
 header {
   height: 10vh;
-
 }
 
 .headerTekst {
@@ -27,22 +24,18 @@ header {
   display: flex;
   margin: 0px;
   border-bottom: 1px solid black;
-
 }
 
 nav {
-
   ul {
-  list-style: none;
-  padding: 0%;
-
+    list-style: none;
+    padding: 0%;
   }
 
   li {
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
-  
   }
 
   a {
@@ -51,9 +44,7 @@ nav {
     border-radius: 3px;
     padding: 5px;
     letter-spacing: 0.1rem;
-
-    }
-
+  }
 }
 /*  */
 
@@ -68,7 +59,7 @@ nav {
 /* Artikkeloverskrift */
 
 .articleTitle {
-  color: #D1BAB4;
+  color: #d1bab4;
   font-family: $defaultFont;
   display: flex;
   justify-content: center;
@@ -97,18 +88,14 @@ nav {
   margin: 2rem auto;
 
   p {
-
     width: 94%;
     max-width: 30rem;
     margin: 2rem auto;
     font-size: 20px;
     font-style: italic;
     color: gray;
-
   }
-
 }
-
 
 /* Skriftlig innhold i artikkelen */
 
@@ -118,7 +105,6 @@ nav {
   max-width: 30rem;
   margin: 2rem auto;
   font-size: 1rem;
-
 }
 
 /* Parallax-effekt, innlevering 1 */
@@ -127,7 +113,6 @@ nav {
 .textBox2,
 .textBox3 {
   @include textboxes;
-
 }
 
 .textBox3 {
@@ -135,26 +120,22 @@ nav {
 }
 
 a {
-  color: black
+  color: black;
 }
 
 .parallax1 {
   @include parallax;
-  background-image: url("../../images/IMG_0789.png")
-
-
+  background-image: url("../images/IMG_0789.png");
 }
 
 .parallax2 {
   @include parallax;
-  background-image: url("../../images/IMG_0788.png");
-
+  background-image: url("../images/IMG_0788.png");
 }
 
 .parallax3 {
   @include parallax;
-  background-image: url("../../images/IMG_0786.png");
-
+  background-image: url("../images/IMG_0786.png");
 }
 
 /*  */
@@ -171,24 +152,21 @@ footer {
     justify-content: center;
     padding: 1rem;
   }
-
 }
 
-.image{
+.image {
   max-width: 30rem;
-
 }
-
 
 /* PC-modus */
 
 @media screen and (min-width: 1000px) {
   .headerTekst {
-      font-size: 3rem;
-      font-family: $headerfont;
-      color: #4A687E;
+    font-size: 3rem;
+    font-family: $headerfont;
+    color: #4a687e;
   }
-  
+
   nav {
     li {
       display: inline;
@@ -198,17 +176,14 @@ footer {
       margin: 2rem auto;
       font-size: 1rem;
 
-        :hover {
-          color: #7F6E8D;
-
-        }
-
+      :hover {
+        color: #7f6e8d;
+      }
     }
-
   }
 
   .articleTitle {
-    color: #D1BAB4;
+    color: #d1bab4;
     font-family: $defaultFont;
     display: flex;
     justify-content: center;
@@ -223,5 +198,4 @@ footer {
     margin: 50vh auto;
     max-width: 40%;
   }
-
 }
