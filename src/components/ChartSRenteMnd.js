@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 import {
   Chart as ChartJS,
@@ -79,3 +79,4 @@ export const data = {
 export function ChartSRenteMnd() {
   return <Line options={options} data={data} />;
 }
+ */

@@ -140,6 +140,20 @@ a {
 
 /*  */
 
+p {
+  line-height: 1.5;
+}
+
+.questionText {
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.quote {
+  font-style: italic;
+}
+
 footer {
   background-color: rgba(0, 0, 0, 0.37);
   margin: 0px;
@@ -155,6 +169,10 @@ footer {
 }
 
 .image {
+  max-width: 30rem;
+}
+
+.infograph {
   max-width: 30rem;
 }
 
