@@ -21,7 +21,7 @@ export default function App() {
           path="sjokkbeskjed-for-torvbyens-ansatte"
           element={<Article1 />}
         />
-        <Route path="article2" element={<Article2 />} />
+        <Route path="renteokning" element={<Article2 />} />
         <Route path="article3" element={<Article3 />} />
         <Route path="article4" element={<Article4 />} />
         <Route path="article-long" element={<ArticleLong />} />
