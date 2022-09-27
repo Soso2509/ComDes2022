@@ -1,8 +1,9 @@
 import React from "react";
 import { ChartSRenteMnd } from "../components/ChartSRenteMnd";
 import { ChartSRenteÅr } from "../components/ChartSRenteÅr";
-import Infograph from "../images/infographic1.png";
+/* import InfographDesktop from "../images/infographic1.png"; */
 import Erlend from "../images/erlend.png";
+import InfographMobile from "../images/infographMobile.png";
 
 export default function Article2() {
   return (
@@ -21,6 +22,7 @@ export default function Article2() {
           - Energibehov og kapitalbehov er de viktigste faktorene innen økonomi,
           Erlend Sand Aas (43).
         </p>
+      <br></br>
         <h2>Eksplosiv økning</h2>
         <p>
           Det er 11 år siden styringsrenten har vært så høy som den er i dag, i
@@ -31,11 +33,7 @@ export default function Article2() {
           </a>{" "}
           kan man se hvordan renten har forandret seg gjennom tidene.{" "}
         </p>
-        <img
-          className={"image"}
-          src="https://images.unsplash.com/photo-1663688762323-2bc6d8a034e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
-          alt=""
-        ></img>
+        <ChartSRenteMnd />
         <p>
           Denne eksplosive renteøkningen har kommet som et sjokk på mange, siden
           vi har i en lengre periode hatt en rente som var nesten nede på 0%,
@@ -49,11 +47,7 @@ export default function Article2() {
           senker styringsrenten. Det denne som «bestemmer» rentene bankene
           tilbyr på sine lån.
         </p>
-        <img
-          className={"image"}
-          src="https://images.unsplash.com/photo-1663688762323-2bc6d8a034e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
-          alt=""
-        ></img>
+        <ChartSRenteÅr />
         <p>
           Lavere rente gjør at lån blir billigere, da har folk også mer penger å
           rutte med og dermed bruker mer penger, samtidig som det ikke lønner
@@ -71,8 +65,10 @@ export default function Article2() {
           Folk har litt dårligere råd og handler dermed mindre, da blir prisene
           lavere og lønninger reduseres. Dermed blir inflasjon dempet.
         </p>
+        <img className={"infograph"} src={InfographMobile} alt="" />
         <br></br>
         <h2>Dette sier eksperten</h2>
+        <img className={"portrait"} src={Erlend} alt="" />
         <p>
           Vi har vært i kontakt med Erlend (43), utdannet sivilingeniør fra
           NTNU, med 15 års erfaring innen finans.
@@ -144,11 +140,7 @@ export default function Article2() {
           - Ja, målet er å stoppe at folk bruker mye penger. Det har aldri
           skjedd fortere enn man ser nå.{" "}
         </p>
-        <img className={"infograph"} src={Infograph} alt="" />
-        <img className={"infograph"} src={Erlend} alt="" />
       </section>
-      <ChartSRenteÅr />
-      <ChartSRenteMnd />
     </div>
   );
 }
