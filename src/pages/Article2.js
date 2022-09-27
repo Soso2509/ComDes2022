@@ -2,6 +2,7 @@ import React from "react";
 import { ChartSRenteMnd } from "../components/ChartSRenteMnd";
 import { ChartSRenteÅr } from "../components/ChartSRenteÅr";
 import Infograph from "../images/infographic1.png";
+import Erlend from "../images/erlend.png";
 
 export default function Article2() {
   return (
@@ -144,6 +145,7 @@ export default function Article2() {
           skjedd fortere enn man ser nå.{" "}
         </p>
         <img className={"infograph"} src={Infograph} alt="" />
+        <img className={"infograph"} src={Erlend} alt="" />
       </section>
       <ChartSRenteÅr />
       <ChartSRenteMnd />
