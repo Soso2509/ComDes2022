@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
+$defaultFont: "Roboto", sans-serif;
+$headerfont: 'Montserrat Subrayada', sans-serif;
+
+@mixin defaultValues {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+     max-width: 2400px;
+}
+
+@mixin parallax {
+    width: 100%;
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    background-color: #373b44;
+    background-size: cover;
+    background-position: center center;
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@mixin textboxes {
+    background: rgba(255, 253, 253, 0.89);
+    padding: 2rem;
+    margin: 30vh auto;
+    color: black;
+    max-width: 90%;
+    font-family: $defaultFont;
+    font-size: 1rem;
+    
+}

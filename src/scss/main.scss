@@ -1,0 +1,229 @@
+@import "variables.scss";
+
+* {
+  @include defaultValues;
+}
+
+/* Header og global-navigasjon */
+
+header {
+  height: 10vh;
+}
+
+.headerTekst {
+  color: #200f00;
+  font-family: "Hammersmith One", sans-serif;
+  display: flex;
+  padding: 1rem;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.navigation {
+  font-family: $defaultFont;
+  display: flex;
+  margin: 0px;
+  border-bottom: 1px solid black;
+}
+
+nav {
+  ul {
+    list-style: none;
+    padding: 0%;
+  }
+
+  li {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+    letter-spacing: 0.1rem;
+  }
+}
+/*  */
+
+/* Selve artikkelområdet */
+
+.article1 {
+  width: 100%;
+  max-width: 2400px;
+  margin: 0 auto;
+}
+
+/* Artikkeloverskrift */
+
+.articleTitle {
+  color: #d1bab4;
+  font-family: $defaultFont;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 2rem auto 0.5rem;
+}
+
+/* Liten bit tekst under title, f.eks hvem som har tatt bilder osv*/
+.articleUnderTitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Serif Georgian", serif;
+  color: gray;
+  font-size: small;
+}
+
+/* Teksten under overskriften */
+
+.articleIntro {
+  font-family: $defaultFont;
+  font-style: italic;
+  display: flex;
+  color: #6c7883;
+  width: 94%;
+  max-width: 30rem;
+  margin: 2rem auto;
+
+  p {
+    width: 94%;
+    max-width: 30rem;
+    margin: 2rem auto;
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
+  }
+}
+
+/* Skriftlig innhold i artikkelen */
+
+.articleContent {
+  font-family: $defaultFont;
+  width: 94%;
+  max-width: 30rem;
+  margin: 2rem auto;
+  font-size: 1rem;
+}
+
+/* Parallax-effekt, innlevering 1 */
+
+.textBox1,
+.textBox2,
+.textBox3 {
+  @include textboxes;
+}
+
+.textBox3 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+}
+
+.parallax1 {
+  @include parallax;
+  background-image: url("../images/IMG_0789.png");
+}
+
+.parallax2 {
+  @include parallax;
+  background-image: url("../images/IMG_0788.png");
+}
+
+.parallax3 {
+  @include parallax;
+  background-image: url("../images/IMG_0786.png");
+}
+
+/*  */
+
+p {
+  line-height: 1.5;
+}
+
+.questionText {
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.quote {
+  font-style: italic;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.37);
+  margin: 0px;
+  padding: 5rem 0 5rem 0;
+
+  h3 {
+    font-family: $defaultFont;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+}
+
+.image {
+  width: 30rem;
+  height: 30rem;
+
+}
+
+.infograp {
+  width: 100%;
+  
+}
+
+.portrait {
+  width: 38%;
+  float: right;
+  margin: 0 0 0 0.5rem;
+
+}
+
+/* PC-modus */
+
+@media screen and (min-width: 1000px) {
+  .headerTekst {
+    font-size: 3rem;
+    font-family: $headerfont;
+    color: #4a687e;
+  }
+
+  nav {
+    li {
+      display: inline;
+      padding-right: 20px;
+      width: 94%;
+      max-width: 30rem;
+      margin: 2rem auto;
+      font-size: 1rem;
+
+      :hover {
+        color: #7f6e8d;
+      }
+    }
+  }
+
+  .articleTitle {
+    color: #d1bab4;
+    font-family: $defaultFont;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  .textBox1,
+  .textBox2,
+  .textBox3,
+  .textBox4 {
+    padding: 0.5rem;
+    margin: 50vh auto;
+    max-width: 40%;
+  }
+}

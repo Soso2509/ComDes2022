@@ -1,3 +1,5 @@
+import React from "react";
+
 import { Outlet, Link } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -15,7 +17,7 @@ export default function Layout() {
             <Link to="/sjokkbeskjed-for-torvbyens-ansatte">Sjokkbeskjed for Torvbyens ansatte</Link>
           </li>
           <li>
-            <Link to="/article2">Article 2</Link>
+            <Link to="/renteokning">Kort forklart: Renteøkningen</Link>
           </li>
           <li>
             <Link to="/article3">Article 3</Link>

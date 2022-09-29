@@ -1,7 +1,9 @@
+import React from "react";
+
 export default function Header() {
   return (
     <header>
-      <h2 className={"headerTekst"}>Kommunikasjonsdesign 2022</h2>
+      <h1 className={"headerTekst"}>Kommunikasjonsdesign 2022</h1>
     </header>
   );
 }
