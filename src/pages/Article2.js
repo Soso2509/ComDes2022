@@ -8,8 +8,8 @@ import InfographMobile from "../images/infographMobile.png";
 export default function Article2() {
   return (
     <div className={"article2"}>
-      <h1 className={"articleTitle"}>Renteøkning</h1>
-      <span className={"articleUnderTitle"}>Lorem ipsum dolor sit amet</span>
+      <h1 className={"articleTitle"}>Kort forklart: Renteøkningen</h1>
+      <span className={"articleUnderTitle"}>Illustrasjoner av Sofie Karlsen og Ivo Eilertsen</span>
       <section className={"articleIntro"}>
         Folk flest ser kanskje på renteøkning som et rent negativt tema, hvor
         man da ender opp med å betale mer for lån, og dermed blir lommeboken
