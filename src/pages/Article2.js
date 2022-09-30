@@ -70,13 +70,15 @@ export default function Article2() {
         <img className={"infograph"} src={InfographMobile} alt="" />
         <br></br>
         <h2>Dette sier eksperten</h2>
-        <img className={"portrait"} src={Erlend} alt="" />
-        <figcaption>
-          Bilde fra{" "}
-          <a href="https://www.hiof.no/iio/ois/personer/tekn-adm-ansatte/erlendsa/index.html">
-            Høgskolen i Østfold
-          </a>
-        </figcaption>
+        <figure>
+          <img className={"portrait"} src={Erlend} alt="" />
+          <figcaption>
+            Bilde fra{" "}
+            <a href="https://www.hiof.no/iio/ois/personer/tekn-adm-ansatte/erlendsa/index.html">
+              Høgskolen i Østfold
+            </a>
+          </figcaption>
+        </figure>
         <p>
           Vi har vært i kontakt med Erlend (43), utdannet sivilingeniør fra
           NTNU, med 15 års erfaring innen finans.
