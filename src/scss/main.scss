@@ -186,6 +186,15 @@ footer {
 
 }
 
+figcaption {
+  color: gray;
+  font-size: xx-small;
+
+  a {
+    color: gray;
+  }
+}
+
 /* PC-modus */
 
 @media screen and (min-width: 1000px) {
