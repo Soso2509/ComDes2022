@@ -9,7 +9,9 @@ export default function Article2() {
   return (
     <div className={"article2"}>
       <h1 className={"articleTitle"}>Kort forklart: Renteøkningen</h1>
-      <span className={"articleUnderTitle"}>Illustrasjoner av Sofie Karlsen og Ivo Eilertsen</span>
+      <span className={"articleUnderTitle"}>
+        Illustrasjoner av Sofie Karlsen og Ivo Eilertsen
+      </span>
       <section className={"articleIntro"}>
         Folk flest ser kanskje på renteøkning som et rent negativt tema, hvor
         man da ender opp med å betale mer for lån, og dermed blir lommeboken
@@ -22,7 +24,7 @@ export default function Article2() {
           - Energibehov og kapitalbehov er de viktigste faktorene innen økonomi,
           Erlend Sand Aas (43).
         </p>
-      <br></br>
+        <br></br>
         <h2>Eksplosiv økning</h2>
         <p>
           Det er 11 år siden styringsrenten har vært så høy som den er i dag, i
@@ -69,6 +71,12 @@ export default function Article2() {
         <br></br>
         <h2>Dette sier eksperten</h2>
         <img className={"portrait"} src={Erlend} alt="" />
+        <figcaption>
+          Bilde fra{" "}
+          <a href="https://www.hiof.no/iio/ois/personer/tekn-adm-ansatte/erlendsa/index.html">
+            Høgskolen i Østfold
+          </a>
+        </figcaption>
         <p>
           Vi har vært i kontakt med Erlend (43), utdannet sivilingeniør fra
           NTNU, med 15 års erfaring innen finans.
