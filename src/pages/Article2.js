@@ -73,7 +73,7 @@ export default function Article2() {
         <figure>
           <img className={"portrait"} src={Erlend} alt="" />
           <figcaption>
-            Bilde fra{" "}
+            Bilde fra{"    "}
             <a href="https://www.hiof.no/iio/ois/personer/tekn-adm-ansatte/erlendsa/index.html">
               Høgskolen i Østfold
             </a>
