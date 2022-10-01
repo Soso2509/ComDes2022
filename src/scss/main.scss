@@ -171,19 +171,32 @@ footer {
 .image {
   width: 30rem;
   height: 30rem;
-
 }
 
 .infograp {
   width: 100%;
-  
+}
+
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  width: 38%;
+  float: right;
 }
 
 .portrait {
-  width: 38%;
+  width: 100%;
   float: right;
   margin: 0 0 0 0.5rem;
+}
 
+figcaption {
+  color: gray;
+  font-size: xx-small;
+
+  a {
+    color: gray;
+  }
 }
 
 /* PC-modus */
