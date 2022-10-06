@@ -30,7 +30,7 @@ export const options = {
     },
     title: {
       display: true,
-      text: "Chart.js Line Chart",
+      text: "Styringsrenten på en mer månedlig basis siden 2020",
     },
   },
 };
@@ -77,5 +77,5 @@ export const data = {
 };
 
 export function ChartSRenteMnd() {
-  return <Line options={options} data={data}  />;
+  return <Line options={options} data={data} />;
 }
