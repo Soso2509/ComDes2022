@@ -17,12 +17,9 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route
-          path="sjokkbeskjed-for-torvbyens-ansatte"
-          element={<Article1 />}
-        />
+        <Route path="sjokkbeskjed-for-torvbyens-ansatte" element={<Article1 />} />
         <Route path="renteokning" element={<Article2 />} />
-        <Route path="article3" element={<Article3 />} />
+        <Route path="klimagreier" element={<Article3 />} />
         <Route path="article4" element={<Article4 />} />
         <Route path="article-long" element={<ArticleLong />} />
         <Route path="*" element={<NoPage />} />

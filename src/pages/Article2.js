@@ -2,8 +2,8 @@ import React from "react";
 import { ChartSRenteMnd } from "../components/ChartSRenteMnd";
 import { ChartSRenteÅr } from "../components/ChartSRenteÅr";
 import InfographDesktop from "../images/infographic1.png";
-import Erlend from "../images/erlend.png";
 import InfographMobile from "../images/infographMobile.png";
+import Erlend from "../images/erlend.png";
 
 export default function Article2() {
   return (

@@ -21,7 +21,7 @@ export default function Article1() {
         </p>
       </section>
       <section className={"parallax1"}>
-        <p className={"textBox1"}>
+        <p className={"textBox"}>
           <h3>Stengte butikker</h3>
           Den 24 mai startet som en helt vanlig arbeidsdag for Stine
           Nordmandseth (47) og Rita Jensen (58) på Eurosko i Torvbyen
@@ -38,7 +38,7 @@ export default function Article1() {
         </p>
       </section>
       <section className={"parallax2"}>
-        <p className={"textBox2"}>
+        <p className={"textBox"}>
           <h3>Nye lokaler</h3>
           Fredrikstad blad{" "}
           <a href="https://www.f-b.no/dette-er-status-pa-de-stengte-butik-kene-i-torv-byen/s/5-59-2641486">
@@ -89,7 +89,7 @@ export default function Article1() {
         </p>
       </section>
       <section className={"parallax3"}>
-        <p className={"textBox3"}>
+        <p className={"textBox"}>
           "Det har vært tungt både psykisk og fysisk"
         </p>
       </section>

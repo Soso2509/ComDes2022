@@ -105,16 +105,11 @@ nav {
   font-size: 1rem;
 }
 
-/* Parallax-effekt, innlevering 1 */
+/* Parallax-effekt */
 
-.textBox1,
-.textBox2,
-.textBox3 {
+.textBox {
   @include textboxes;
-}
 
-.textBox3 {
-  font-size: 1.5rem;
 }
 
 a {
@@ -256,12 +251,10 @@ figcaption {
     max-width: 60rem;
   }
 
-  .textBox1,
-  .textBox2,
-  .textBox3,
-  .textBox4 {
+  .textBox {
     padding: 0.5rem;
     margin: 50vh auto;
     max-width: 40%;
   }
+
 }
