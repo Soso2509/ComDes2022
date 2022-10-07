@@ -1,7 +1,7 @@
 import React from "react";
 import { ChartSRenteMnd } from "../components/ChartSRenteMnd";
 import { ChartSRenteÅr } from "../components/ChartSRenteÅr";
-/* import InfographDesktop from "../images/infographic1.png"; */
+import InfographDesktop from "../images/infographic1.png";
 import Erlend from "../images/erlend.png";
 import InfographMobile from "../images/infographMobile.png";
 
@@ -67,7 +67,8 @@ export default function Article2() {
           Folk har litt dårligere råd og handler dermed mindre, da blir prisene
           lavere og lønninger reduseres. Dermed blir inflasjon dempet.
         </p>
-        <img className={"infograph"} src={InfographMobile} alt="" />
+        <img className={"infographMobile"} src={InfographMobile} alt="" />
+        <img className={"infographDesktop"} src={InfographDesktop} alt="" />
         <br></br>
         <h2>Dette sier eksperten</h2>
         <figure>
