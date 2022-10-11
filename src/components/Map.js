@@ -42,7 +42,7 @@ const markers = [
   },
 ];
 
-export default function MapChart() {
+export default function Map() {
   return (
     <ComposableMap
       projectionConfig={{

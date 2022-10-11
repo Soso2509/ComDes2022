@@ -1,5 +1,5 @@
 import React from "react";
-import MapChart from "../components/Map";
+import Map from "../components/Map";
 
 export default function Article3() {
   return (
@@ -36,7 +36,7 @@ export default function Article3() {
           Condimentum mattis pellentesque id nibh tortor.
         </p>
       </section>
-      <p>kart</p>
+      <Map />
       <section className={"articleContent"}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -62,7 +62,6 @@ export default function Article3() {
           Condimentum mattis pellentesque id nibh tortor.
         </p>
       </section>
-      <MapChart />
     </div>
   );
 }
