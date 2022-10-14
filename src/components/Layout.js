@@ -20,7 +20,7 @@ export default function Layout() {
             <Link to="/renteokning">Kort forklart: Renteøkningen</Link>
           </li>
           <li>
-            <Link to="/klimagreier">Klimagreier</Link>
+            <Link to="/et-hav-av-plast">Et hav av plast</Link>
           </li>
           <li>
             <Link to="/article4">Article 4</Link>

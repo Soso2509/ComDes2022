@@ -19,7 +19,7 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="sjokkbeskjed-for-torvbyens-ansatte" element={<Article1 />} />
         <Route path="renteokning" element={<Article2 />} />
-        <Route path="klimagreier" element={<Article3 />} />
+        <Route path="et-hav-av-plast" element={<Article3 />} />
         <Route path="article4" element={<Article4 />} />
         <Route path="article-long" element={<ArticleLong />} />
         <Route path="*" element={<NoPage />} />
