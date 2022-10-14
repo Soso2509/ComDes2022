@@ -67,6 +67,15 @@ nav {
   margin: 2rem auto 0.5rem;
 }
 
+.article3Title {
+  color: rgb(88, 128, 142);
+  font-family: $defaultFont;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 2rem auto 0.5rem;
+}
+
 /* Liten bit tekst under title, f.eks hvem som har tatt bilder osv*/
 .articleUnderTitle {
   display: flex;
@@ -80,7 +89,6 @@ nav {
 
 .articleIntro {
   font-family: $defaultFont;
-  font-style: italic;
   display: flex;
   color: #6c7883;
   width: 94%;
@@ -92,7 +100,6 @@ nav {
     max-width: 30rem;
     margin: 2rem auto;
     font-size: 20px;
-    font-style: italic;
     color: gray;
   }
 }
@@ -107,16 +114,10 @@ nav {
   font-size: 1rem;
 }
 
-/* Parallax-effekt, innlevering 1 */
+/* Parallax-effekt */
 
-.textBox1,
-.textBox2,
-.textBox3 {
+.textBox {
   @include textboxes;
-}
-
-.textBox3 {
-  font-size: 1.5rem;
 }
 
 a {
@@ -139,6 +140,15 @@ a {
 }
 
 /*  */
+
+/* bildet er hentet fra https://static.vecteezy.com/system/resources/previews/002/869/960/original/plastic-garbage-impact-in-ocean-free-vector.jpg */
+
+.plasticBottle {
+  @include parallax;
+  background-image: url("../images/oceanMan.jpeg");
+  background-color: white;
+  height: 60vh;
+}
 
 p {
   line-height: 1.5;
@@ -173,7 +183,11 @@ footer {
   height: 30rem;
 }
 
-.infograp {
+.infographDesktop {
+  display: none;
+}
+
+.infograpMobile {
   width: 100%;
 }
 
@@ -197,6 +211,11 @@ figcaption {
   a {
     color: gray;
   }
+}
+
+.MapText {
+  font-family: $defaultFont;
+  font-size: x-large;
 }
 
 /* PC-modus */
@@ -231,12 +250,32 @@ figcaption {
     font-size: 40px;
   }
 
-  .textBox1,
-  .textBox2,
-  .textBox3,
-  .textBox4 {
+  .articleContent,
+  .articleIntro {
+    font-family: $defaultFont;
+    width: 100%;
+    max-width: 60rem;
+    margin: 2rem auto;
+    font-size: 1rem;
+  }
+
+  .infographMobile {
+    display: none;
+  }
+
+  .infographDesktop {
+    display: block;
+    width: 100%;
+    max-width: 60rem;
+  }
+
+  .textBox {
     padding: 0.5rem;
     margin: 50vh auto;
     max-width: 40%;
+  }
+
+  .MapText {
+    font-size: xx-small;
   }
 }

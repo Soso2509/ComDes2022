@@ -30,7 +30,7 @@ export const options = {
     },
     title: {
       display: true,
-      text: "Chart.js Line Chart",
+      text: "Styringsrentens årsgjennomsnitt siden 2008",
     },
   },
 };
@@ -56,7 +56,7 @@ export const data = {
   labels,
   datasets: [
     {
-      label: "Styringsrenten årsgjennomsnitt",
+      label: "Styringsrenten",
       data: [
         5.32, 1.75, 1.92, 2.14, 1.55, 1.5, 1.49, 1.05, 0.55, 0.5, 0.57, 1.15,
         0.36, 0.08,
