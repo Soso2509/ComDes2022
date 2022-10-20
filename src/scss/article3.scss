@@ -13,7 +13,8 @@
     @include parallax;
     background-image: url("../images/oceanMan.jpeg");
     background-color: white;
-    height: 60vh;
+    height: 25vh;
+    min-height: 20vh;
 }
 
 .MapText {
@@ -25,4 +26,8 @@
     .MapText {
         font-size: xx-small;
       }
+
+    .plasticBottle {
+       height: 60vh;
+    }
   }

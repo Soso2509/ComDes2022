@@ -16,8 +16,8 @@ header {
 }
 
 .headerTekst {
+  @include adobeFontDidoni;
   color: #200f00;
-  font-family: "Hammersmith One", sans-serif;
   display: flex;
   padding: 1rem;
   margin: auto;
@@ -60,6 +60,16 @@ nav {
   max-width: 2400px;
   margin: 0 auto;
 } */
+
+.articleTitle {
+  color: #000000;
+  font-family: $defaultFont;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
 
 /* Liten bit tekst under title, f.eks hvem som har tatt bilder osv*/
 .articleUnderTitle {
@@ -114,16 +124,23 @@ p {
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.37);
+  background-color: rgba(0, 0, 0, 0.13);
   margin: 0px;
   padding: 1rem 0 1rem 0;
 
   h3 {
     font-family: $defaultFont;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     padding: 1rem;
+  }
+
+  .upButton {
+    border-radius: 5px;
+    color: white;
+    font-family: $defaultFont;
+    background-color: #000000;
   }
 }
 
@@ -158,9 +175,9 @@ figcaption {
 
 @media screen and (min-width: 1000px) {
   .headerTekst {
+    @include adobeFontBroadacre;
     font-size: 3rem;
-    font-family: $headerfont;
-    color: #4a687e;
+    color: #000000;
   }
 
   nav {
@@ -179,8 +196,9 @@ figcaption {
   }
 
   .articleTitle {
-    color: #d1bab4;
+    color: #000000;
     font-family: $defaultFont;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     font-size: 40px;

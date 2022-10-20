@@ -1,13 +1,13 @@
 @import "variables.scss";
 
-.testPerson {
-    background-image: url("../images/person.png");
+.tengs {
+    background-image: url("../images/tengs.png");
     background-color: rgba(63,72,84,1);
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
+    background-position: top;
     display: flex;
-    background-position: center;
     justify-content: center;
 
 }
@@ -20,7 +20,7 @@
     .articleContent {
         background-color: rgb(160, 160, 160);
         padding: 2rem;
-        margin-top: 0px;
+        margin: 0 auto;
 
         p {
             color: rgb(255, 255, 255);
@@ -45,5 +45,21 @@
             color: rgb(0, 0, 0);
         }
 
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .article4Area {
+        
+        .article4Content {
+            background-color: rgb(160, 160, 160);
+            padding: 2rem;
+            margin-top: 0px;
+        }
+    }
+
+    .tengs {
+        padding: 20rem;
     }
 }

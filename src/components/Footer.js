@@ -10,7 +10,7 @@ export default function Footer() {
   };
   return (
     <footer>
-      <button onClick={goToTop}>Til Toppen</button>
+      <button onClick={goToTop} className={"upButton"}>Til Toppen</button>
       <h3>Newsroom 3 Team 4, Ivo Eilertsen, Joachim Fjell, Sofie Karlsen</h3>
     </footer>
   );

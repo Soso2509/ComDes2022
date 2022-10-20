@@ -13,6 +13,18 @@ $headerfont: 'Montserrat Subrayada', sans-serif;
     font-style: normal;
 }
 
+@mixin adobeFontDidoni {
+    font-family: didoni-urw, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin adobeFontBroadacre {
+    font-family: broadacre-thin-3,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
 
 @mixin defaultValues {
     box-sizing: border-box;
