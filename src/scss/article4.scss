@@ -1,1 +1,49 @@
+@import "variables.scss";
 
+.testPerson {
+    background-image: url("../images/person.png");
+    background-color: rgba(63,72,84,1);
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+
+}
+
+.article4Area {
+    background: rgb(16,18,22);
+    background: linear-gradient(0deg, rgba(16,18,22,1) 0%, rgba(47,56,65,1) 50%, rgba(63,72,84,1) 100%);
+    padding-bottom: 1rem;
+
+    .articleContent {
+        background-color: rgb(160, 160, 160);
+        padding: 2rem;
+        margin-top: 0px;
+
+        p {
+            color: rgb(255, 255, 255);
+        }
+
+        .article4Title {
+            @include articleTitle;
+            @include adobeFontErnestine;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+            margin-top: 0px;
+            padding: 3vh;
+        }
+
+        .articleUnderTitle {
+            @include adobeFontErnestine;
+            color: rgb(0, 0, 0);
+        }
+
+        .articleIntro {
+            @include adobeFontErnestine;
+            color: rgb(0, 0, 0);
+        }
+
+    }
+}
