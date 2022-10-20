@@ -47,7 +47,7 @@ export default function Map() {
     <ComposableMap
       projectionConfig={{
         rotate: [100, 0, 0],
-        scale: 100,
+        scale: 130,
       }}
     >
       <Geographies geography={geoUrl}>
