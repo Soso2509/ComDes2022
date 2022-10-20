@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+.infographDesktop {
+    display: none;
+  }
+  
+  .infograpMobile {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    .infographMobile {
+        display: none;
+      }
+    
+      .infographDesktop {
+        display: block;
+        width: 100%;
+        max-width: 60rem;
+      }
+  }
