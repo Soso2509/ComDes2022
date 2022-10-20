@@ -34,15 +34,17 @@ const data = [
 
 export default function Timeline() {
   return (
-    <div
-      className={"timeline"}
-      style={{ maxWidth: "100rem", height: "1000px" }}
-    >
+    <div className={"timeline"} style={{ maxWidth: "100rem", height: "auto" }}>
       <Chrono
         items={data}
-        mode="VERTICAL"
-        useReadMore={true}
+        mode="HORIZONTAL"
+        useReadMore={false}
+        cardPositionHorizontal="TOP"
+        disableNavOnKey={false}
+        hideControls={true}
+        disableAutoScrollOnClick={false}
         cardHeight={100}
+        cardWidth={800}
         fontSizes={{
           cardSubtitle: "0.8rem",
           cardText: "0.8rem",
