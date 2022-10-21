@@ -137,10 +137,10 @@ footer {
   }
 
   .upButton {
-    border-radius: 5px;
-    color: white;
+    border: none;
+    background-color: transparent;
     font-family: $defaultFont;
-    background-color: #000000;
+    font-size: xx-large;
   }
 }
 
