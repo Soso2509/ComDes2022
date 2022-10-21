@@ -1,5 +1,6 @@
 import React from "react";
-import { FaArrowAltCircleUp } from 'react-icons/fa';
+import { FaAngleUp } from 'react-icons/fa';
+
 
 
 export default function Footer() {
@@ -12,8 +13,8 @@ export default function Footer() {
   };
   return (
     <footer>
-      <button onClick={goToTop} className={"upButton"}><FaArrowAltCircleUp /></button>
-      <h3>Newsroom 3 Team 4, Ivo Eilertsen, Joachim Fjell, Sofie Karlsen</h3><button onClick={goToTop} className={"upButton"}><FaArrowAltCircleUp /></button>
+      <button onClick={goToTop} className={"upButton"}><FaAngleUp /><p className={"upButtonText"}>Til toppen</p></button>
+      <h3>Newsroom 3 Team 4, Ivo Eilertsen, Joachim Fjell, Sofie Karlsen</h3>
     </footer>
   );
 }

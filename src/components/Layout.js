@@ -1,5 +1,6 @@
 import React from "react";
 
+import { FaHome } from 'react-icons/fa';
 import { Outlet, Link } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -10,8 +11,8 @@ export default function Layout() {
       <Header />
       <nav className={"navigation"}>
         <ul>
-          <li>
-            <Link to="/">Home</Link>
+          <li className={"homeButton"}>
+            <Link to="/"><FaHome /></Link>
           </li>
           <li>
             <Link to="/sjokkbeskjed-for-torvbyens-ansatte">Sjokkbeskjed for Torvbyens ansatte</Link>

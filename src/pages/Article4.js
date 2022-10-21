@@ -4,10 +4,8 @@ import Timeline from "../components/Timeline";
 export default function Article4() {
   return (
     <div className={"article"}>
-      <section className={"article4Area"}>
-        <section className={"tengs"}></section>
         <section className={"articleContent"}>
-          <h1 className={"article4Title"}>tengs-drapet</h1>
+          <h1 className={"articleTitle"}>Artikkel 4</h1>
           <span className={"articleUnderTitle"}>Lorem ipsum dolor sit amet</span>
           <section className={"articleIntro"}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -37,7 +35,6 @@ export default function Article4() {
             Condimentum mattis pellentesque id nibh tortor.
           </p>
         </section>
-      </section>
       <Timeline  />
     </div>
   );

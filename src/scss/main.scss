@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "homePage.scss";
 @import "article1.scss";
 @import "article2.scss";
 @import "article3.scss";
@@ -16,12 +17,13 @@ header {
 }
 
 .headerTekst {
-  @include adobeFontDidoni;
+  @include adobeFontBroadacre;
   color: #200f00;
   display: flex;
   padding: 1rem;
   margin: auto;
   font-size: 1rem;
+  letter-spacing: 0.3rem;
 }
 
 .navigation {
@@ -40,7 +42,6 @@ nav {
   li {
     padding-bottom: 20px;
     display: flex;
-    justify-content: center;
   }
 
   a {
@@ -51,6 +52,7 @@ nav {
     letter-spacing: 0.1rem;
   }
 }
+
 /*  */
 
 /* Selve artikkelområdet */
@@ -124,16 +126,23 @@ p {
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.13);
-  margin: 0px;
-  padding: 1rem 0 1rem 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 20%, rgba(221,221,221,1) 50%, rgba(149,149,149,1) 100%); 
+  margin: 0 auto;
+  padding: 3rem 0 1rem 0;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-areas: " text .  . button";
 
   h3 {
     font-family: $defaultFont;
-    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: small;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     padding: 1rem;
+    grid-area: text;
+
   }
 
   .upButton {
@@ -141,6 +150,15 @@ footer {
     background-color: transparent;
     font-family: $defaultFont;
     font-size: xx-large;
+    grid-area: button;
+    display: inline;
+
+    .upButtonText {
+      font-size: small;
+      margin: 0 auto;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -181,13 +199,18 @@ figcaption {
   }
 
   nav {
+
+    ul {
+      padding: 16px;
+    }
+
     li {
       display: inline;
       padding-right: 20px;
-      width: 94%;
       max-width: 30rem;
       margin: 2rem auto;
       font-size: 1rem;
+      justify-content: space-between;
 
       :hover {
         color: #7f6e8d;

@@ -1,0 +1,17 @@
+@import "variables.scss";
+
+.homePage {
+    display: grid;
+}
+
+.item1 {
+    max-width: 50%;
+}  
+
+
+@media screen and (min-width: 1000px) {
+    .homePage {
+        display: flex;
+        flex-direction: column;
+    }
+}
