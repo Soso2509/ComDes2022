@@ -7,20 +7,12 @@ export default function Article4() {
   return (
     <div className={"article"}>
         <h1 className={"articleTitle"}>Planeten koker, er det for sent?</h1>
-        <span className={"articleUnderTitle"}>Lorem ipsum dolor sit amet</span>
+        <span className={"articleUnderTitle"}>Tekst av Joachim Fjell</span>
         <section className={"articleIntro"}>
-          lorem
+          - En grei analogi er jo folk som røyker, man vet at det er skadelig. En person begynner å røyke ti
+            sigaretter per dag i en alder av 20, får beskjed av legen at de må slutte før de er 30 år gammel, eller
+            så kan det ha dramatiske konsekvenser [...]
         </section>
-      <section className={"articleContent"}>
-        <p className={"questionText"}>
-          {" "}
-          - Hva tenker du er hovedårsaken til den globale oppvarmingen?{" "}
-        </p>
-        <p>
-        - Hoveddriveren er drivhusgassutslipp, gasser som CO2 og metan er de viktigste årsakene til
-          endring. Samfunnet vårt bruker teknologi som krever store klimagassutslipp, fossilt brennstoff og
-          areal endringer, sier Adrian Kristiansønn Jacobsen (36).
-        </p>
         <figure>
           <img className={"portrait"} src={Adrian} alt="" />
           <figcaption>
@@ -30,15 +22,25 @@ export default function Article4() {
             </a>
           </figcaption>
         </figure> 
-        <br></br>
-        <h3>Overskrift</h3>
+        <section className={"articleContent"}>
+        <p className={"questionText"}>
+          {" "}
+          - Hva tenker du er hovedårsaken til den globale oppvarmingen?{" "}
+        </p>
+        <p>
+        - Hoveddriveren er drivhusgassutslipp, gasser som CO2 og metan er de viktigste årsakene til
+          endring. Samfunnet vårt bruker teknologi som krever store klimagassutslipp, fossilt brennstoff og
+          areal endringer, sier Adrian Kristiansønn Jacobsen (36).
+        </p>
         <p>
           Jacobsen er foreleser i natur, helse og bevegelse innen barnehagelærerutdanningen ved HIOF
           avdeling Halden.
+        </p>
+        <p>
           Jacobsen sier videre at vi ikke skal undervurdere risikoen ved globaloppvarming. Han viser til
           hetebølgen i England i sommer, og konsekvensene denne ene hetebølgen hadde for et samfunn. 
-        </p>
-        <p>Det er noen modeller som spår at f.eks England kan få slike hetebølger annethvert år. </p> 
+          Det er noen modeller som spår at f.eks England kan få slike hetebølger annethvert år. 
+        </p> 
       </section>
       <section className={"articleContent"}>
         <article>
@@ -63,8 +65,6 @@ export default function Article4() {
           - En grei analogi er jo folk som røyker, man vet at det er skadelig. En person begynner å røyke ti
           sigaretter per dag i en alder av 20, får beskjed av legen at de må slutte før de er 30 år gammel, eller
           så kan det ha dramatiske konsekvenser. 
-          <br></br>
-          <br></br>
           Så fortsetter denne personen å røyke, kanskje de røyker mer
           til og med, da vil den personen ha passert en såkalt milepæl, hvor det er mye større sjanse for å få
           kreft, men det betyr ikke da at den personen bare kan ignorere problemet, så hvis denne personen
@@ -89,7 +89,8 @@ export default function Article4() {
           </p>
           <p>
           - Som for eksempel om miljøvennlig mat skulle bli billigere.
-          <br></br>
+          </p>
+          <p>
           Dette mener Jacobsen er en bedre vei å gå, enn at den enkelte i samfunnet har ansvaret. Det leder
           heller til at man kan ende opp med å gå rundt med dårlig samvittighet, fordi utviklingen går som den
           går og man tenker at det er fordi en ikke har nådd målet sitt med å kutte ned. 
@@ -100,10 +101,9 @@ export default function Article4() {
       <section className={"articleContent"}>
         <Timeline />
       </section>
-      <br></br>
       <section className={"articleContent"}>
         <article>
-          <h3>Overskrift</h3>
+          <h3>Hetebølger, ny norm?</h3>
           <p>
             Jordens overflatetemperatur har blitt målt systematisk siden 1850. Disse tallene viser at
             gjennomsnittstemperaturen har økt med 1,25°C sammenlignet med gjennomsnittet for førindustriell
@@ -111,37 +111,30 @@ export default function Article4() {
           </p>
           <p>
             Denne temperaturøkningen resulterer i, blant annet, flere og mer intense hetebølger, med færre
-            dager hvor det er ekstrem kulde. Dette tror forskerne vil fortsette å utvikle seg, som vi skulle nådd
+            dager hvor det er ekstrem kulde. Dette tror forskerne vil fortsette å utvikle seg, selv som vi skulle nådd
             målet om å stabilisere økningen på 1,5°C. <a href="https://energiogklima.no/klimavakten/heteboelger/">Hetebølgene har flere konsekvenser, < FaExternalLinkAlt className="linkIcon"/></a>både for samfunn,
             natur, folkehelse, landbruk og økosystemer
           </p>
           <p>
             Flere land ble rammet av hetebølger i sommer, flere av disse hetebølgene knuste tidligere
             varmerekorder verden over. Et av de landene som ble rammet hardest er Kina, som ble rammet av
-            den verste hetebølgen i historien. Den varte i over 70 dager, som strakk seg over 1372693 km2
-            , det er
+            den verste hetebølgen i historien. Den varte i over 70 dager, som strakk seg over 1372693 km2, det er
             et område på størrelse med Texas. Colorado og California til sammen. 
             <a href="https://www.axios.com/2022/08/22/china-heat-wave-drought-unprecedented">Mer enn 100 millioner
-            mennesker ble påvirket av denne hetebølgen< FaExternalLinkAlt className="linkIcon"/></a>
-          </p>
-          <p>
-            Dette har ført til at Kinas største ferskvanns elv, Poyang, har  <a href="https://www.nrk.no/urix/tidenes-hetebolge-rammer-kina-1.16078235">tørket opp og
+            mennesker ble påvirket av denne hetebølgen< FaExternalLinkAlt className="linkIcon"/></a> Dette har ført til at Kinas største ferskvanns elv, Poyang, har  <a href="https://www.nrk.no/urix/tidenes-hetebolge-rammer-kina-1.16078235">tørket opp og
             blitt redusert med 75%< FaExternalLinkAlt className="linkIcon"/></a>. 
             Dette kan resultere i en mulig matkrise, lite vann fører til dårlig avling
           </p>
         </article>
       </section>
-      <br></br>
       <section className={"articleContent"}>
         <article>
-          <h3>Overskrift</h3>
+          <h3>Breene smelter</h3>
           <p>
             Isbreer verden over smelter raskere. 270 milliarder tonn is har smeltet fra verdens isbreer de siste 20
             årene. I Norge har 20 isbreer smeltet bort siden 2006, det tilsvarer et område på 364
             kvadratkilometer. Norges isbreer har blitt 14% mindre. Isbreen i Hordaland, <a href="https://www.nrk.no/norge/20-isbreer-i-norge-er-na-borte-1.15846004">Gråfjellsbrea, har trukket
-            seg 979 meter tilbake de siste 20 årene< FaExternalLinkAlt className="linkIcon"/></a>
-          </p>
-          <p>
+            seg 979 meter tilbake de siste 20 årene< FaExternalLinkAlt className="linkIcon"/></a>.
             Nigardsbreen, en brearm av Jostedalsbreen, har trukket seg 618 meter i <a href="https://www.nettavisen.no/nyheter/innenriks/norske-isbreer-fortsetter-a-trekke-seg-tilbake/s/12-95-3424188331"> perioden 2001-
             2021< FaExternalLinkAlt className="linkIcon"/></a>, hvor 480 av de var de siste 10 årene.
           </p>
@@ -153,12 +146,11 @@ export default function Article4() {
           </p>
         </article>
       </section>
-      <br></br>
       <section className={"articleContent"}>
         <article>
-          <h3>Overskrift</h3>
+          <h3>Nordens varmeovn i fare</h3>
           <p>
-            Vi i Nord-Europa har et varmere klima enn vi egentlig burde hatt, dette er på grunn av
+            Vi i Nord-Europa har et varmere klima enn vi egentlig burde hatt så langt nord, dette er på grunn av
             Golfstrømmen. Grønlands innlandsis er i ferd med å smelte, og det kalde smeltevannet kan svekke
             Golfstrømmen, og uten den vil det bli opptil 10 grader kaldere i denne delen av verden. <a href="https://illvit.no/naturen/klimaendringer/smeltevann-kan-slukke-nord-europas-radiator">Dette kan ha
             store konsekvenser for våre liv, < FaExternalLinkAlt className="linkIcon"/></a> det vil påvirke landbruk, dyreliv og strømregning.
