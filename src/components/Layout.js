@@ -24,7 +24,7 @@ export default function Layout() {
             <Link to="/et-hav-av-plast">Et hav av plast</Link>
           </li>
           <li>
-            <Link to="/article4">Article 4</Link>
+            <Link to="/planeten-koker-er-det-for-sent">Planeten koker, er det for sent?</Link>
           </li>
           <li>
             <Link to="/article-long">Article-Long</Link>
