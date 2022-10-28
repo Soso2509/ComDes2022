@@ -2,14 +2,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url("https://use.typekit.net/dwu3cwm.css");
 
 $defaultFont: "Roboto", sans-serif;
 $headerfont: 'Montserrat Subrayada', sans-serif;
 
+@mixin adobeFontErnestine {
+    font-family: ff-ernestine-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin adobeFontDidoni {
+    font-family: didoni-urw, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin adobeFontBroadacre {
+    font-family: broadacre-thin-3,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
 @mixin defaultValues {
     box-sizing: border-box;
     scroll-behavior: smooth;
-     max-width: 2400px;
+    max-width: 2400px;
+}
+
+@mixin articleTitle {
+    color: #d1bab4;
+    font-family: $defaultFont;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 2rem auto 0.5rem;
 }
 
 @mixin parallax {

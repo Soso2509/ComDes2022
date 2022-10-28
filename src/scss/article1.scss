@@ -1,0 +1,32 @@
+@import "variables.scss";
+
+.textBox {
+    @include textboxes;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  .parallax1 {
+    @include parallax;
+    background-image: url("../images/IMG_0789.png");
+  }
+  
+  .parallax2 {
+    @include parallax;
+    background-image: url("../images/IMG_0788.png");
+  }
+  
+  .parallax3 {
+    @include parallax;
+    background-image: url("../images/IMG_0786.png");
+  }
+
+  @media screen and (min-width: 1000px) {
+    .textBox {
+        padding: 0.5rem;
+        margin: 50vh auto;
+        max-width: 40%;
+      }
+  }

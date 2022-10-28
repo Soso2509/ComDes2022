@@ -1,6 +1,7 @@
 import React from "react";
 import { ChartSRenteMnd } from "../components/ChartSRenteMnd";
 import { ChartSRenteÅr } from "../components/ChartSRenteÅr";
+import { FaExternalLinkAlt } from 'react-icons/fa';
 import InfographDesktop from "../images/infographic1.png";
 import InfographMobile from "../images/infographMobile.png";
 import Erlend from "../images/erlend.png";
@@ -31,7 +32,7 @@ export default function Article2() {
           dag den er på 2.25%. Det har vært en historisk stor renteøkning det
           siste året hvor styringsrenten har økt med hele 2%, på{" "}
           <a href="https://www.norges-bank.no/tema/pengepolitikk/Styringsrenten/Styringsrenten-Oversikt-over-rentemoter-og-endringer-i-styringsrenten-/">
-            Norges bank sine sider
+            Norges bank sine sider < FaExternalLinkAlt className="linkIcon"/>
           </a>{" "}
           kan man se hvordan renten har forandret seg gjennom tidene.{" "}
         </p>
@@ -62,7 +63,7 @@ export default function Article2() {
         <p>
           <a href="https://www.ungokonomi.no/inflasjon/">
             Med økt rente blir lån dyrere, man sparer mer ved å ha penger i
-            bank.
+            bank.< FaExternalLinkAlt className="linkIcon"/>
           </a>{" "}
           Folk har litt dårligere råd og handler dermed mindre, da blir prisene
           lavere og lønninger reduseres. Dermed blir inflasjon dempet.
@@ -74,7 +75,7 @@ export default function Article2() {
         <figure>
           <img className={"portrait"} src={Erlend} alt="" />
           <figcaption>
-            Bilde fra{"    "}
+            Foto: {"    "}
             <a href="https://www.hiof.no/iio/ois/personer/tekn-adm-ansatte/erlendsa/index.html">
               Høgskolen i Østfold
             </a>

@@ -1,4 +1,10 @@
 @import "variables.scss";
+@import "homePage.scss";
+@import "article1.scss";
+@import "article2.scss";
+@import "article3.scss";
+@import "article4.scss";
+@import "article5.scss";
 
 * {
   @include defaultValues;
@@ -11,12 +17,13 @@ header {
 }
 
 .headerTekst {
+  @include adobeFontBroadacre;
   color: #200f00;
-  font-family: "Hammersmith One", sans-serif;
   display: flex;
   padding: 1rem;
   margin: auto;
   font-size: 1rem;
+  letter-spacing: 0.3rem;
 }
 
 .navigation {
@@ -35,7 +42,6 @@ nav {
   li {
     padding-bottom: 20px;
     display: flex;
-    justify-content: center;
   }
 
   a {
@@ -46,35 +52,26 @@ nav {
     letter-spacing: 0.1rem;
   }
 }
+
 /*  */
 
 /* Selve artikkelområdet */
 
-.article1 {
+/* .article1 {
   width: 100%;
   max-width: 2400px;
   margin: 0 auto;
-}
-
-/* Artikkeloverskrift */
+} */
 
 .articleTitle {
-  color: #d1bab4;
+  color: #000000;
   font-family: $defaultFont;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   font-size: 40px;
-  margin: 2rem auto 0.5rem;
 }
 
-.article3Title {
-  color: rgb(88, 128, 142);
-  font-family: $defaultFont;
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
-  margin: 2rem auto 0.5rem;
-}
 
 /* Liten bit tekst under title, f.eks hvem som har tatt bilder osv*/
 .articleUnderTitle {
@@ -114,42 +111,6 @@ nav {
   font-size: 1rem;
 }
 
-/* Parallax-effekt */
-
-.textBox {
-  @include textboxes;
-}
-
-a {
-  color: black;
-}
-
-.parallax1 {
-  @include parallax;
-  background-image: url("../images/IMG_0789.png");
-}
-
-.parallax2 {
-  @include parallax;
-  background-image: url("../images/IMG_0788.png");
-}
-
-.parallax3 {
-  @include parallax;
-  background-image: url("../images/IMG_0786.png");
-}
-
-/*  */
-
-/* bildet er hentet fra https://static.vecteezy.com/system/resources/previews/002/869/960/original/plastic-garbage-impact-in-ocean-free-vector.jpg */
-
-.plasticBottle {
-  @include parallax;
-  background-image: url("../images/oceanMan.jpeg");
-  background-color: white;
-  height: 60vh;
-}
-
 p {
   line-height: 1.5;
 }
@@ -164,31 +125,51 @@ p {
   font-style: italic;
 }
 
+.linkIcon {
+  margin: 0 5px 0px 5px;
+  font-size: x-small;
+}
+
 footer {
-  background-color: rgba(0, 0, 0, 0.37);
-  margin: 0px;
-  padding: 5rem 0 5rem 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 20%, rgba(221,221,221,1) 50%, rgba(149,149,149,1) 100%); 
+  margin: 0 auto;
+  padding: 3rem 0 1rem 0;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-areas: " text .  . button";
 
   h3 {
     font-family: $defaultFont;
-    color: white;
+    font-weight: normal;
+    font-size: small;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     padding: 1rem;
+    grid-area: text;
+
+  }
+
+  .upButton {
+    border: none;
+    background-color: transparent;
+    font-family: $defaultFont;
+    font-size: xx-large;
+    grid-area: button;
+    display: inline;
+
+    .upButtonText {
+      font-size: small;
+      margin: 0 auto;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
   }
 }
 
 .image {
   width: 30rem;
   height: 30rem;
-}
-
-.infographDesktop {
-  display: none;
-}
-
-.infograpMobile {
-  width: 100%;
 }
 
 figure {
@@ -213,28 +194,28 @@ figcaption {
   }
 }
 
-.MapText {
-  font-family: $defaultFont;
-  font-size: x-large;
-}
-
 /* PC-modus */
 
 @media screen and (min-width: 1000px) {
   .headerTekst {
+    @include adobeFontBroadacre;
     font-size: 3rem;
-    font-family: $headerfont;
-    color: #4a687e;
+    color: #000000;
   }
 
   nav {
+
+    ul {
+      padding: 16px;
+    }
+
     li {
       display: inline;
       padding-right: 20px;
-      width: 94%;
       max-width: 30rem;
       margin: 2rem auto;
       font-size: 1rem;
+      justify-content: space-between;
 
       :hover {
         color: #7f6e8d;
@@ -243,8 +224,9 @@ figcaption {
   }
 
   .articleTitle {
-    color: #d1bab4;
+    color: #000000;
     font-family: $defaultFont;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     font-size: 40px;
@@ -257,25 +239,5 @@ figcaption {
     max-width: 60rem;
     margin: 2rem auto;
     font-size: 1rem;
-  }
-
-  .infographMobile {
-    display: none;
-  }
-
-  .infographDesktop {
-    display: block;
-    width: 100%;
-    max-width: 60rem;
-  }
-
-  .textBox {
-    padding: 0.5rem;
-    margin: 50vh auto;
-    max-width: 40%;
-  }
-
-  .MapText {
-    font-size: xx-small;
   }
 }
