@@ -13,6 +13,7 @@ export default function Article4() {
             sigaretter per dag i en alder av 20, får beskjed av legen at de må slutte før de er 30 år gammel, eller
             så kan det ha dramatiske konsekvenser [...]
         </section>
+        <section className={"articleContent"}>
         <figure>
           <img className={"portrait"} src={Adrian} alt="" />
           <figcaption>
@@ -21,8 +22,7 @@ export default function Article4() {
               Høgskolen i Østfold
             </a>
           </figcaption>
-        </figure> 
-        <section className={"articleContent"}>
+        </figure>
         <p className={"questionText"}>
           {" "}
           - Hva tenker du er hovedårsaken til den globale oppvarmingen?{" "}

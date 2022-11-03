@@ -12,7 +12,7 @@ export default function Layout() {
       <nav className={"navigation"}>
         <ul>
           <li className={"homeButton"}>
-            <Link to="/"><FaHome /></Link>
+            <Link to="/"><FaHome /> Hjem</Link>
           </li>
           <li>
             <Link to="/sjokkbeskjed-for-torvbyens-ansatte">Sjokkbeskjed for Torvbyens ansatte</Link>
