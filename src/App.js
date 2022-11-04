@@ -2,7 +2,7 @@ import React from "react";
 
 import "./scss/main.scss";
 
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Article1 from "./pages/Article1";
@@ -14,16 +14,21 @@ import NoPage from "./pages/NoPage";
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="sjokkbeskjed-for-torvbyens-ansatte" element={<Article1 />} />
-        <Route path="renteokning" element={<Article2 />} />
-        <Route path="et-hav-av-plast" element={<Article3 />} />
-        <Route path="planeten-koker-er-det-for-sent" element={<Article4 />} />
-        <Route path="article-long" element={<ArticleLong />} />
-        <Route path="*" element={<NoPage />} />
-      </Route>
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route
+            path="sjokkbeskjed-for-torvbyens-ansatte"
+            element={<Article1 />}
+          />
+          <Route path="renteokning" element={<Article2 />} />
+          <Route path="et-hav-av-plast" element={<Article3 />} />
+          <Route path="planeten-koker-er-det-for-sent" element={<Article4 />} />
+          <Route path="article-long" element={<ArticleLong />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }

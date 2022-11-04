@@ -10,6 +10,74 @@
   @include defaultValues;
 }
 
+/*Nav*/
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
 /* Header og global-navigasjon */
 
 header {
@@ -72,7 +140,6 @@ nav {
   font-size: 40px;
 }
 
-
 /* Liten bit tekst under title, f.eks hvem som har tatt bilder osv*/
 .articleUnderTitle {
   display: flex;
@@ -131,8 +198,13 @@ p {
 }
 
 footer {
-  background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,0) 20%, rgba(221,221,221,1) 50%, rgba(149,149,149,1) 100%); 
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(221, 221, 221, 1) 50%,
+    rgba(149, 149, 149, 1) 100%
+  );
   margin: 0 auto;
   padding: 3rem 0 1rem 0;
   text-transform: uppercase;
@@ -147,7 +219,6 @@ footer {
     justify-content: baseline;
     padding: 1rem;
     grid-area: text;
-
   }
 
   .upButton {
@@ -201,26 +272,6 @@ figcaption {
     @include adobeFontUtopian;
     font-size: 3rem;
     color: #000000;
-  }
-
-  nav {
-
-    ul {
-      padding: 16px;
-    }
-
-    li {
-      display: inline;
-      padding-right: 20px;
-      max-width: 30rem;
-      margin: 2rem auto;
-      font-size: 1rem;
-      justify-content: space-between;
-
-      :hover {
-        color: #7f6e8d;
-      }
-    }
   }
 
   .portrait {
