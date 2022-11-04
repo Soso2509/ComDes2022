@@ -1,12 +1,17 @@
 import React from "react";
 import Map from "../components/Map";
 import Alming from "../images/intervjuPerson.jpg";
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import Video from "../images/movingWater.mp4";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Article3() {
   return (
     <div className={"article3"}>
-      <section className={"plasticBottle"}></section>
+      <section>
+        <video loop autoPlay muted className={"plasticBottle"}>
+          <source src={Video} type="video/mp4" />
+        </video>
+      </section>
       <h1 className={"article3Title"}>Et hav av plast</h1>
       <span className={"articleUnderTitle"}>Tekst av Joachim Fjell</span>
       <section className={"articleIntro"}>
@@ -192,7 +197,7 @@ export default function Article3() {
           Et av de største klimautfordringene ved i dag er plastforsøpling, og
           spesielt fordi mye av forsøplingen før eller senere havner på havet.{" "}
           <a href="https://naturvernforbundet.no/plast/">
-            Ifølge naturvernombudet{" "}< FaExternalLinkAlt className="linkIcon"/>
+            Ifølge naturvernombudet <FaExternalLinkAlt className="linkIcon" />
           </a>
           så kaster vi, globalt, ca 6.4 millioner tonn søppel som finner veien
           til havet hvert år, det meste av dette er plastikk. Det har havnet så
@@ -200,7 +205,8 @@ export default function Article3() {
           spredt på de ulike havene. Den største av de finner man i Stillehavet,
           den er{" "}
           <a href="https://www.nettavisen.no/artikkel/sopleoya-i-stillehavet/s/12-95-1623901">
-            dobbelt så stor som Texas.< FaExternalLinkAlt className="linkIcon"/>
+            dobbelt så stor som Texas.
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
           Plastikk bruker mange år, opp til flere hundre år, på å brytes ned, og
           selv om de til slutt brytes ned så er de ikke ufarlig, snarere tvert
@@ -223,7 +229,8 @@ export default function Article3() {
           at de er plankton, det er ikke bare de store plastikkbitene som er
           farlig for dyrelivet. I følge{" "}
           <a href="https://forskning.no/forurensning-hav-og-fiske-niva/hvor-farlig-er-egentlig-mikroplast/322061">
-            forskning.no< FaExternalLinkAlt className="linkIcon"/>
+            forskning.no
+            <FaExternalLinkAlt className="linkIcon" />
           </a>{" "}
           så er partiklene så små at de kan gå gjennom cellemembraner, dette kan
           ha uante og skumle konsekvenser for dyrelivet i havet. Plastikk i
@@ -234,7 +241,8 @@ export default function Article3() {
           har gitt dyr store mengder plastpartikler, viser at det har ført til{" "}
           <a href="https://forskning.no/forurensning-hav-og-fiske-niva/hvor-farlig-er-egentlig-mikroplast/322061">
             hormonforstyrrelser, kreftdannelser slapphet og nedsatt
-            reproduksjonsevne< FaExternalLinkAlt className="linkIcon"/>
+            reproduksjonsevne
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
         </p>
       </section>
@@ -249,7 +257,8 @@ export default function Article3() {
           også gå utover oss mennesker. Korallrevene beskytter kystbyer mot
           erosjon og stormer, det er en kilde til mat og medisin.
           <a href="https://www.noaa.gov/education/resource-collections/marine-life/coral-reef-ecosystems">
-            Over 500 millioner mennesker er avhengig av korallrev, verden over.< FaExternalLinkAlt className="linkIcon"/>
+            Over 500 millioner mennesker er avhengig av korallrev, verden over.
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
         </p>
         <p>
@@ -258,7 +267,8 @@ export default function Article3() {
           kan bli syke.{" "}
           <a href="https://forskning.no/forurensning-havforskning-plast/koraller-blir-lettere-syke-i-naerheten-av-plast/293531">
             Samtidig så kan plastikk være skarpt så det kan såre korallene og
-            dermed gjøre de sårbare for sykdom< FaExternalLinkAlt className="linkIcon"/>
+            dermed gjøre de sårbare for sykdom
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
         </p>
       </section>
@@ -273,14 +283,16 @@ export default function Article3() {
           bryter ned plastikk til bygningsblokker, som man kan bruke igjen til å
           lage ny plast.{" "}
           <a href="https://verdensbestenyheter.no/nyheter/forskere-skaper-superenzym-som-spiser-plast/">
-            Dette kan sterkt redusere plastavfallet< FaExternalLinkAlt className="linkIcon"/>
+            Dette kan sterkt redusere plastavfallet
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
           . Flere selskaper har begynt arbeidet med å samle inn den allerede
           eksisterende plasten fra verdens hav.
         </p>
         <p>
           <a href="https://www.nettavisen.no/nyheter/denne-skal-kunne-rydde-havet-for-tonnevis-med-plast/s/12-95-3423857420">
-            The Ocean Cleanup< FaExternalLinkAlt className="linkIcon"/>
+            The Ocean Cleanup
+            <FaExternalLinkAlt className="linkIcon" />
           </a>{" "}
           er ett av dem, de har satt seg mål at de skulle rydde opp i verdens
           største samling av plast, «The Great Pacific garbage patch». De har

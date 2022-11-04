@@ -1,33 +1,32 @@
 @import "variables.scss";
 
 .article3Title {
-    @include articleTitle;
-    color: rgb(88, 128, 142);
-    font-family: $defaultFont;
-    
-  }
+  @include articleTitle;
+  color: rgb(88, 128, 142);
+  font-family: $defaultFont;
+}
 
 /* bildet er hentet fra https://static.vecteezy.com/system/resources/previews/002/869/960/original/plastic-garbage-impact-in-ocean-free-vector.jpg */
 
-.plasticBottle {    
-    @include parallax;
-    background-image: url("../images/movingWater.mp4");
-    background-color: white;
-    height: 25vh;
-    min-height: 20vh;
+.plasticBottle {
+  @include parallax;
+  background-color: white;
+  object-fit: cover;
+  height: 25vh;
+  min-height: 20vh;
 }
 
 .MapText {
-    font-family: $defaultFont;
-    font-size: x-large;
+  font-family: $defaultFont;
+  font-size: x-large;
+}
+
+@media screen and (min-width: 1000px) {
+  .MapText {
+    font-size: xx-small;
   }
 
-  @media screen and (min-width: 1000px) {
-    .MapText {
-        font-size: xx-small;
-      }
-
-    .plasticBottle {
-       height: 60vh;
-    }
+  .plasticBottle {
+    height: 60vh;
   }
+}
