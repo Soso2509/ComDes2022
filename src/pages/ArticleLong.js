@@ -6,7 +6,7 @@ export default function ArticleLong() {
       <section className={"article5Area"}>
         <section className={"tengs"}></section>
         <section className={"articleContent"}>
-          <h1 className={"article5Title"}>tengs-drapet</h1>
+          <h1 className={"article5Title"}>Miljø</h1>
           <span className={"articleUnderTitle"}>Lorem ipsum dolor sit amet</span>
           <section className={"articleIntro"}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

@@ -8,12 +8,20 @@
 
 /* bildet er hentet fra https://static.vecteezy.com/system/resources/previews/002/869/960/original/plastic-garbage-impact-in-ocean-free-vector.jpg */
 
-.plasticBottle {
+/* .plasticBottle {
   @include parallax;
   background-color: white;
   object-fit: cover;
   height: 25vh;
   min-height: 20vh;
+} */
+
+.plasticBottle {
+  @include parallax;
+  background-color: white;
+  height: 25vh;
+  min-height: 20vh;
+  background-image: url("../images/movingWater.mp4");
 }
 
 .MapText {

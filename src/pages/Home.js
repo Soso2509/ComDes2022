@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import placeHolder300 from "../images/placeHolder-300x300.svg";
 import { FaArrowRight } from "react-icons/fa";
 import TorvbyenPhoto from "../images/IMG_0787.png";
@@ -19,7 +20,7 @@ export default function Home() {
             for å undersøke bygningsmassen nærmere. Resulterte i at 5 butikker og
             en hovedinngang måtte stenge 
           </p>
-          <p>Les <FaArrowRight/></p>
+          <Link to="/sjokkbeskjed-for-torvbyens-ansatte"><p>Les <FaArrowRight/></p></Link>
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={InfographDesktop} alt="" />
@@ -29,7 +30,7 @@ export default function Home() {
             man da ender opp med å betale mer for lån, og dermed blir lommeboken
             trangere, men det er ikke uten grunn at renten økes og senkes.
           </p>
-          <p>Les <FaArrowRight/></p>
+          <Link to="/renteokning"><p>Les <FaArrowRight/></p></Link>
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={PlasticInOcean} alt="" />
@@ -39,7 +40,7 @@ export default function Home() {
             miljøgifter, og man er bekymret for at de som får i plast også får i seg
             disse miljøgiftene
           </p>
-          <p>Les <FaArrowRight/></p>
+          <Link to="/et-hav-av-plast"><p>Les <FaArrowRight/></p></Link>
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={GlobalWarming} alt="" />
@@ -49,7 +50,7 @@ export default function Home() {
             sigaretter per dag i en alder av 20, får beskjed av legen at de må slutte før de er 30 år gammel, eller
             så kan det ha dramatiske konsekvenser [...]
           </p>
-          <p>Les <FaArrowRight/></p>
+          <Link to="/planeten-koker-er-det-for-sent"><p>Les <FaArrowRight/></p></Link>
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={placeHolder300} alt="" />

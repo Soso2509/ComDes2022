@@ -1,34 +1,33 @@
 import React from "react";
 import Map from "../components/Map";
 import Alming from "../images/intervjuPerson.jpg";
-import Video from "../images/movingWater.mp4";
+/* import Video from "../images/movingWater.mp4"; */
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Article3() {
   return (
     <div className={"article3"}>
-      <section>
-        <video loop autoPlay muted className={"plasticBottle"}>
+      <section className={"plasticBottle"}>
+        {/* <video loop autoPlay muted className={"plasticBottle"}>
           <source src={Video} type="video/mp4" />
-        </video>
+        </video> */}
       </section>
       <h1 className={"article3Title"}>Et hav av plast</h1>
       <span className={"articleUnderTitle"}>Tekst av Joachim Fjell</span>
       <section className={"articleIntro"}>
         - Plastikk har også endel egenskaper når det kommer til å trekke til seg
         miljøgifter, og man er bekymret for at de som får i plast også får i seg
-        disse miljøgiftene
+        disse miljøgiftene. Terje Franklin-Alming (33)
       </section>
       <br></br>
       <section className={"articleContent"}>
-        <h3>Tanker fra en marinebiolog</h3>
+        <h3>Marinebiologen svarer</h3>
         <figure>
           <img className={"portrait"} src={Alming} alt="" />
           <figcaption>Foto : Privat{"    "}</figcaption>
         </figure>
         <p>
-          Vi har intervjuet Terje Franklin-Alming (33), som er utdannet
-          marinbiolog.
+          Terje Franklin-Alming (33) er utdannet marinbiolog. 
         </p>
         <p className={"questionText"}>
           {" "}
@@ -39,35 +38,33 @@ export default function Article3() {
           - Den største bekymringen er at det skal komme inn i diverse dyr, vi
           har sett effekten av det på hval og særlig sjøfugl. Hvor det har ført
           til blokkeringer i tarmsystemer og de ikke kan få i seg næring og dør,
-          det er det som kanskje syns best og gjør mest inntrykk på folk.{" "}
+          det er det som kanskje synes best og gjør mest inntrykk på folk.{" "}
         </p>
-        <section className={"articleContent"}>
-          <p>
-            {" "}
-            Franklin-Alming sier videre at skulle zooplankton spise mikroplast,
-            og bli mette av dette så kan de dø av mangel på næring. Zooplankton
-            er grunnlaget for liv i havet, uten de kan hele systemet kollapse.{" "}
-          </p>
-        </section>
         <p>
           {" "}
-          - Plastikk har også endel egenskaper når det kommer til å trekke til
+          Franklin-Alming sier videre at skulle zooplankton spise mikroplast,
+          og bli mette av dette så kan de dø av mangel på næring. Zooplankton
+          er grunnlaget for liv i havet, uten de kan hele systemet kollapse.{" "}
+        </p>
+        <p>
+          {" "}
+          - Plastikk har også en del egenskaper når det kommer til å trekke til
           seg miljøgifter, og man er bekymret for at de som får i plast også får
           i seg disse miljøgiftene. Selv om da plasten kanskje ikke er farlig
           for dem, så kan miljøutgiftene være skadelig.
         </p>
-        <p className={"questionText"}>
+        {/* <p className={"questionText"}>
           {" "}
           - Hvordan tror du at mikroplast kan påvirke cellene til levende
           organismer?{" "}
-        </p>
+        </p> */}
         <p>
           {" "}
-          - Jeg har ikke hørt at det er dette man er mest bekymret for. Det er
-          mer bekymring rundt det jeg nevnte tidligere. Når det kommer til dette
-          med miljøgifter så vil det da ende opp i cellene. Vil ikke tro at
-          dette er det største problemet, men kan ikke si det med sikkerhet, jeg
-          er ikke godt nok belest i dette feltet.{" "}
+          Han har ikke hørt at det er hvordan mikroplast kan påvirke celler til 
+          levende organismer man er mest bekymret for. Når det kommer til 
+          miljøgifter så vil det ende opp i cellene. Han tror ikke dette er det største problemet, 
+          men kan ikke si det med sikkerhet. 
+          Han sier også at han ikke er godt nok belest i dette feltet.{" "}
         </p>
         <p className={"questionText"}>
           {" "}
@@ -78,28 +75,25 @@ export default function Article3() {
           - Vi spiser en del ting som lever i havet. Fisk ligger høyt oppe i
           næringsnettet, så alt akkumulerer seg i fisken.{" "}
         </p>
-        <section className={"articleContent"}>
-          <p>
-            {" "}
-            Franklin-Alming forklarer det slik, den plasten som zooplanktonen
-            har fått i seg får fisken også i seg når den spiser den, denne
-            plasten får også vi i oss når vi spiser fisken. Så om plasten har
-            hatt en negativ effekt på fisken, er det mulig den har samme effekt
-            på oss.{" "}
-          </p>
-        </section>
         <p>
           {" "}
-          - Det er igjen dette med miljøgifter, hvis mengden plasten som fisken
-          har fått i seg har hatt store mengder miljøgifter, så vil vi også få i
+          Han forklarer det slik, plasten zooplanktonen
+          har fått i seg får fisken også i seg når den spiser zooplanktonen, denne
+          plasten får også vi i oss når vi til slutt spiser fisken. Så om plasten har
+          hatt en negativ effekt på fisken, er det mulig den har samme effekt
+          på oss.{" "}
+        </p>
+        <p>
+          {" "}
+          Hvis plasten fisken har fått i seg har hatt store mengder miljøgifter, 
+          så vil vi også få i
           oss disse miljøgiftene. Konsekvensene avhenger av hvilke miljøutgifter
           det er snakk om, men det kan være alt fra sykdom til i verste fall
-          død.{" "}
+          død, sier Franklin-Alming.{" "}
         </p>
         <p className={"questionText"}>
           {" "}
-          - For det er ikke plastikken i seg selv som er hovedproblemet tenker
-          du?
+          - Så det er ikke plastikken i seg selv som er hovedproblemet?
         </p>
         <p>
           {" "}
@@ -107,43 +101,39 @@ export default function Article3() {
           vil jeg tro at det er den større risikoen, vi spiser jo ikke
           innvollene til fisken.{" "}
         </p>
-        <section className={"articleContent"}>
-          <p>
-            {" "}
-            Franklin-Alming sier at via andre dyr, dyr som filtrerer vannet for
-            å få i seg mat, som for eksempel blåskjell, de får i seg de minste
-            partiklene. Mulige partikler er da mikroplastikk, da har dette blitt
-            tatt opp av dyret, dette er en del av utfordringen.
-          </p>
-        </section>
         <p>
           {" "}
-          - Jeg har lest at vi får i oss et kredittkort vært av plast i året.
+          Franklin-Alming sier at via andre dyr, dyr som filtrerer vannet for
+          å få i seg mat, som for eksempel blåskjell, de får i seg de minste
+          partiklene. Mulige partikler er da mikroplastikk, da har dette blitt
+          tatt opp av dyret, dette er en del av utfordringen.
+        </p>
+        <p>
+          {" "}
+          Vi får i oss et kredittkort vært av plast i året.
           Det virker ikke som om dette har noen korttidseffekt på menneskers
           helse, men langtidseffekten, hvordan dette vil utarte seg om 20-30 år
-          det vet man ikke.{" "}
+          det vet man ikke, sier han.{" "}
         </p>
-        <p className={"questionText"}>
+        {/* <p className={"questionText"}>
           {" "}
           - Mulige tiltak for å redusere, evnt rydde opp i havet?
-        </p>
+        </p> */}
         <p>
           {" "}
-          - Det er mange forskjellige tiltak som har blitt forsøkt gjennomført
-          med varierende grad av suksess og andre konsekvenser. Det ene av
+          Det er mange forskjellige tiltak som har blitt forsøkt gjennomført
+          med varierende grad av suksess og andre konsekvenser. Ett av
           tiltakene vi vet har positiv effekt med veldig få negative bi-effekter
           er strandrydding.{" "}
         </p>
-        <section className={"articleContent"}>
           <p>
             {" "}
             For å understreke hvor viktig det er å stoppe tilførselen av plast
-            til havet er sier Franklin-Alming «Hvis du kommer inn på badet og
-            kranen står på og badekaret er tett, og det renner over. Det første
-            du gjør er ikke å begynne å spå vann, det første du gjør er å lukke
+            til havet er sier han «Hvis du kommer inn på badet og
+            kranen står på og badekaret er tett, og det renner over, er ikke det første
+            du gjør å spå vann, det første du gjør er å lukke
             krana».{" "}
           </p>
-        </section>
         <p>
           {" "}
           - Det er mange land som ikke har infrastrukturen til å håndtere
@@ -151,15 +141,13 @@ export default function Article3() {
           regnvann og havner til slutt på havet hvor nedbrytingen til mikroplast
           begynner
         </p>
-        <section className={"articleContent"}>
-          <p>
-            {" "}
-            Franklin-Alming sier videre at plast har sin rolle, det har sine
-            fordeler, det holder mat fersk lengre og dermed reduserer mat
-            avfallet for eksempel. Problemet er hvordan det blir kastet og
-            hvordan plasten blir laget.{" "}
-          </p>
-        </section>
+        <p>
+          {" "}
+          Han påpeker at plast har sin rolle, det har sine
+          fordeler, det holder mat fersk lengre og dermed reduserer mat
+          avfallet for eksempel. Problemet er hvordan det blir kastet og
+          hvordan plasten blir laget.{" "}
+        </p>
         <p>
           - Det er viktig å ha gode systemer på plass for å håndtere og
           resirkulere denne plasten. Vi må bli flinkere til å bruke plast som
@@ -167,17 +155,18 @@ export default function Article3() {
           resirkulere på grunn av måten det er konstruert, det kan være bygd opp
           av flere typer plast.{" "}
         </p>
-        <p className={"questionText"}>
+        {/* <p className={"questionText"}>
           {" "}
           - Jeg har hørt at forskere har kommet med en blanding av enzymer som
           kan bryte ned plast til sine byggeklosser, hva tenker du om det?
-        </p>
+        </p> */}
         <p>
           {" "}
-          - NMU jobber også med dette, de jobber med å bruke et enzym fra en
-          type møll som kan bryte ned plast. Plast er hydrogen og karbonatomer i
-          lange kjeder, men fordi disse kjedene er så lange er de vanskelige@ å
-          bryte det ned.{" "}
+          NMU er en av de som jobber også med enzymer som
+          kan bryte ned plast, de jobber med å bruke et enzym fra en
+          type møll som kan bryte ned plast. Plast er hydrogen- og karbonatomer i
+          lange kjeder, men siden disse kjedene er så lange er de vanskelige å
+          bryte ned.{" "}
         </p>
         <p>
           {" "}
@@ -195,9 +184,15 @@ export default function Article3() {
         <h3>De store plastøyene</h3>
         <p>
           Et av de største klimautfordringene ved i dag er plastforsøpling, og
-          spesielt fordi mye av forsøplingen før eller senere havner på havet.{" "}
+          spesielt fordi mye av forsøplingen før eller senere havner på havet. 
+          Plastikk bruker mange år, opp til flere hundre år, på å brytes ned, og
+          selv om de til slutt brytes ned så er de ikke ufarlig, snarere tvert
+          imot.
+          {" "}
+        </p>
+        <p>
           <a href="https://naturvernforbundet.no/plast/">
-            Ifølge naturvernombudet <FaExternalLinkAlt className="linkIcon" />
+            I følge naturvernombudet <FaExternalLinkAlt className="linkIcon" />
           </a>
           så kaster vi, globalt, ca 6.4 millioner tonn søppel som finner veien
           til havet hvert år, det meste av dette er plastikk. Det har havnet så
@@ -208,9 +203,10 @@ export default function Article3() {
             dobbelt så stor som Texas.
             <FaExternalLinkAlt className="linkIcon" />
           </a>
-          Plastikk bruker mange år, opp til flere hundre år, på å brytes ned, og
-          selv om de til slutt brytes ned så er de ikke ufarlig, snarere tvert
-          imot.
+        </p>
+        <p>
+          Disse øyene er store nok til at de kan vises på et kart. 
+          Kartet under viser hvor de største "øyene" befinner seg.
         </p>
       </section>
       <Map />
@@ -222,7 +218,6 @@ export default function Article3() {
           være større plastikkbiter som har blitt brutt ned over tid, de kan
           brytes ned i enda mindre partikler, nanoplast.
         </p>
-        <br></br>
         <p>
           Disse plastikkpartiklene er vanskelig om ikke umulig å rydde opp, og
           små fisk og andre dyr i havet spiser disse partiklene når de i den tro
