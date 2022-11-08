@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { FaHome } from "react-icons/fa";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
-import Footer from "./Footer";
-import Header from "./Header";
 
-export default function Layout() {
+export default function Layout(outerContainerId, pageWrapId) {
+  const [open, setOpen] = useState(false)
   return (
     <>
-      <Header />
       <nav className={"navigation"}>
-        <Menu>
+        <Menu
+          noOverlay
+          pageWrapId={pageWrapId}
+          outerContainerId={outerContainerId}
+        >
           <ul>
             <li className={"homeButton"}>
               <Link to="/">
@@ -40,9 +42,6 @@ export default function Layout() {
           </ul>
         </Menu>
       </nav>
-
-      <Outlet />
-      <Footer />
     </>
   );
 }

@@ -16,9 +16,8 @@ export default function Home() {
           <img className={"itemPic"} src={TorvbyenPhoto} alt="" />
           <h2 className={"itemTitle"}>Sjokkbeskjed for Torvbyens ansatte</h2>
           <p>
-            Den 24 mai så eksperter seg nødt til å stenge den delen av senteret
-            for å undersøke bygningsmassen nærmere. Resulterte i at 5 butikker
-            og en hovedinngang måtte stenge
+            Nordmandseth jobber for Eurosko i Torvbyen Fredrikstad. Den 24 mai fikk hun beskjed om at de skulle jobbe ut dagen,
+            men at de måtte stenge for en periode mens det ble gjort undersøkelser i Torvbyens bygningmasse.
           </p>
           <Link to="/sjokkbeskjed-for-torvbyens-ansatte">
             <p>
