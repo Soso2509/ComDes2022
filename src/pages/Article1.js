@@ -1,5 +1,5 @@
 import React from "react";
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Article1() {
   return (
@@ -16,7 +16,8 @@ export default function Article1() {
           for å undersøke bygningsmassen nærmere. Resulterte i at 5 butikker og
           en hovedinngang måtte stenge. Fredrikstadblad skrev{" "}
           <a href="https://www.f-b.no/venter-pa-risikoanalyse-i-torvbyen/s/5-59-2611139">
-            mer< FaExternalLinkAlt className="linkIcon"/>
+            mer
+            <FaExternalLinkAlt className="linkIcon" />
           </a>{" "}
           om dette.
         </p>
@@ -33,7 +34,8 @@ export default function Article1() {
           senteret, Junkyard, Clas Ohlson, BikBok og En inngang, som man kan
           lese mer om{" "}
           <a href="https://www.f-b.no/venter-pa-risikoanalyse-i-torvbyen/s/5-59-2611139">
-            her< FaExternalLinkAlt className="linkIcon"/>
+            her
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
           . Senere måtte Narvesen, Vita og Touch stenge.
         </div>
@@ -43,13 +45,15 @@ export default function Article1() {
           <h3>Nye lokaler</h3>
           Fredrikstad blad{" "}
           <a href="https://www.f-b.no/dette-er-status-pa-de-stengte-butik-kene-i-torv-byen/s/5-59-2641486">
-            rapporterte< FaExternalLinkAlt className="linkIcon"/>{" "}
+            rapporterte
+            <FaExternalLinkAlt className="linkIcon" />{" "}
           </a>{" "}
           den 23 juni, at BikBok har fått et helt nytt lokale på Store torv, og
           Junkyard tok over de gamle lokalene til Gamestop. Den 17 august kunne
           man se på Torvbyen sin,{" "}
           <a href="https://m.facebook.com/story.php?story_fbid=pfbid02bQcKzqrZYGR69f2dx2C7U7pfFJxBrg94RTHKHXv6vYseiyQSNRin3Pq7EnSKjLU2l&id=145215378951">
-            Facebook side< FaExternalLinkAlt className="linkIcon"/>
+            Facebook side
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
           , at Eurosko har åpnet i nytt lokale i tredje etasje, mellom
           Intersport og Kitchen.
@@ -90,9 +94,7 @@ export default function Article1() {
         </p>
       </section>
       <section className={"parallax3"}>
-        <p className={"textBox"}>
-          "Det har vært tungt både psykisk og fysisk"
-        </p>
+        <p className={"textBox"}>"Det har vært tungt både psykisk og fysisk"</p>
       </section>
       <section className={"articleContent"}>
         <h3>Hvordan har dette påvirket dere?</h3>

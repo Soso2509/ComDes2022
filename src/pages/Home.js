@@ -17,48 +17,66 @@ export default function Home() {
           <h2 className={"itemTitle"}>Sjokkbeskjed for Torvbyens ansatte</h2>
           <p>
             Den 24 mai så eksperter seg nødt til å stenge den delen av senteret
-            for å undersøke bygningsmassen nærmere. Resulterte i at 5 butikker og
-            en hovedinngang måtte stenge 
+            for å undersøke bygningsmassen nærmere. Resulterte i at 5 butikker
+            og en hovedinngang måtte stenge
           </p>
-          <Link to="/sjokkbeskjed-for-torvbyens-ansatte"><p>Les <FaArrowRight/></p></Link>
+          <Link to="/sjokkbeskjed-for-torvbyens-ansatte">
+            <p>
+              Les <FaArrowRight />
+            </p>
+          </Link>
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={InfographDesktop} alt="" />
           <h2 className={"itemTitle"}>Kort forklart: Renteøkningen</h2>
           <p>
-            Folk flest ser kanskje på renteøkning som et rent negativt tema, hvor
-            man da ender opp med å betale mer for lån, og dermed blir lommeboken
-            trangere, men det er ikke uten grunn at renten økes og senkes.
+            Folk flest ser kanskje på renteøkning som et rent negativt tema,
+            hvor man da ender opp med å betale mer for lån, og dermed blir
+            lommeboken trangere, men det er ikke uten grunn at renten økes og
+            senkes.
           </p>
-          <Link to="/renteokning"><p>Les <FaArrowRight/></p></Link>
+          <Link to="/renteokning">
+            <p>
+              Les <FaArrowRight />
+            </p>
+          </Link>
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={PlasticInOcean} alt="" />
           <h2 className={"itemTitle"}>Et hav av plast</h2>
           <p>
-            Plastikk har også endel egenskaper når det kommer til å trekke til seg
-            miljøgifter, og man er bekymret for at de som får i plast også får i seg
-            disse miljøgiftene
+            Plastikk har også endel egenskaper når det kommer til å trekke til
+            seg miljøgifter, og man er bekymret for at de som får i plast også
+            får i seg disse miljøgiftene
           </p>
-          <Link to="/et-hav-av-plast"><p>Les <FaArrowRight/></p></Link>
+          <Link to="/et-hav-av-plast">
+            <p>
+              Les <FaArrowRight />
+            </p>
+          </Link>
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={GlobalWarming} alt="" />
           <h2 className={"itemTitle"}>Planeten koker, er det for sent?</h2>
           <p>
-            En grei analogi er jo folk som røyker, man vet at det er skadelig. En person begynner å røyke ti
-            sigaretter per dag i en alder av 20, får beskjed av legen at de må slutte før de er 30 år gammel, eller
+            En grei analogi er jo folk som røyker, man vet at det er skadelig.
+            En person begynner å røyke ti sigaretter per dag i en alder av 20,
+            får beskjed av legen at de må slutte før de er 30 år gammel, eller
             så kan det ha dramatiske konsekvenser [...]
           </p>
-          <Link to="/planeten-koker-er-det-for-sent"><p>Les <FaArrowRight/></p></Link>
+          <Link to="/planeten-koker-er-det-for-sent">
+            <p>
+              Les <FaArrowRight />
+            </p>
+          </Link>
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={placeHolder300} alt="" />
           <h2 className={"itemTitle"}>Artikkel 5</h2>
+          <p></p>
           <p>
-
+            Les <FaArrowRight />
           </p>
-          <p>Les <FaArrowRight/></p>
         </section>
       </div>
     </div>
