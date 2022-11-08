@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 
 export default function Layout() {
+  // hentet fra https://stackoverflow.com/questions/64438927/how-to-close-react-burger-menu-when-link-click-in-a-component
   const [isOpen, setOpen] = useState(false);
 
   const handleIsOpen = () => {
