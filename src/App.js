@@ -19,28 +19,24 @@ export default function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <div id="outer-container">
-        <Header />
-        <Nav outerContainerId={"outer-container"} pageWrapId={"page-wrap"} />
-        <div id="page-wrap">
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route
-              path="sjokkbeskjed-for-torvbyens-ansatte"
-              element={<Article1 />}
-            />
-            <Route path="renteokning" element={<Article2 />} />
-            <Route path="et-hav-av-plast" element={<Article3 />} />
-            <Route
-              path="planeten-koker-er-det-for-sent"
-              element={<Article4 />}
-            />
-            <Route path="article-long" element={<ArticleLong />} />
-            <Route path="*" element={<NoPage />} />
-          </Routes>
-        </div>
-        <Footer />
-      </div>
+
+      <Header />
+      <Nav />
+
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route
+          path="sjokkbeskjed-for-torvbyens-ansatte"
+          element={<Article1 />}
+        />
+        <Route path="renteokning" element={<Article2 />} />
+        <Route path="et-hav-av-plast" element={<Article3 />} />
+        <Route path="planeten-koker-er-det-for-sent" element={<Article4 />} />
+        <Route path="article-long" element={<ArticleLong />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }

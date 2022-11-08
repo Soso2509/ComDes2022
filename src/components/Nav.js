@@ -4,15 +4,14 @@ import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 
-export default function Layout(outerContainerId, pageWrapId) {
+export default function Layout() {
   const [open, setOpen] = useState(false)
   return (
     <>
       <nav className={"navigation"}>
         <Menu
           noOverlay
-          pageWrapId={pageWrapId}
-          outerContainerId={outerContainerId}
+
         >
           <ul>
             <li className={"homeButton"}>
