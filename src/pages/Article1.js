@@ -7,6 +7,9 @@ export default function Article1() {
       <h1 className={"articleTitle"}>Sjokkbeskjed for Torvbyens ansatte</h1>
       <span className={"articleUnderTitle"}>Foto av Joachim Fjell</span>
       <section className={"articleIntro"}>
+        <p>- Det har vært tungt både psykisk og fysisk, sier Stine Nordmandseth (47)</p>
+      </section>
+      <section className={"articleContent"}>
         <p>
           Nordmandseth jobber for Eurosko i Torvbyen Fredrikstad. Den 24 mai fikk hun beskjed om at de skulle jobbe ut dagen, 
           men at de måtte stenge for en periode mens det ble gjort undersøkelser i Torvbyens bygningmasse. 
@@ -34,7 +37,7 @@ export default function Article1() {
       </section>
       <section className={"parallax2"}>
         <div className={"textBox"}>
-          <p>- Det har vært tungt både psykisk og fysisk. Nordmandseth (47)</p>
+          <p>- Det har vært tungt både psykisk og fysisk.</p>
         </div>
       </section>
       <section className={"articleContent"}>
