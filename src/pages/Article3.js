@@ -1,16 +1,16 @@
 import React from "react";
 import Map from "../components/Map";
 import Alming from "../images/intervjuPerson.jpg";
-/* import Video from "../images/movingWater.mp4"; */
+import Video from "../images/movingWater.mp4";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Article3() {
   return (
     <div className={"article3"}>
       <section className={"plasticBottle"}>
-        {/* <video loop autoPlay muted className={"plasticBottle"}>
+        <video loop autoPlay muted className={"plasticBottle"}>
           <source src={Video} type="video/mp4" />
-        </video> */}
+        </video>
       </section>
       <h1 className={"article3Title"}>Et hav av plast</h1>
       <span className={"articleUnderTitle"}>Tekst av Joachim Fjell</span>
