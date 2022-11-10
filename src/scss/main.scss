@@ -177,11 +177,7 @@ nav {
 /* Skriftlig innhold i artikkelen */
 
 .articleContent {
-  font-family: $defaultFont;
-  width: 94%;
-  max-width: 30rem;
-  margin: 2rem auto;
-  font-size: 1rem;
+  @include articleContent;
 }
 
 p {

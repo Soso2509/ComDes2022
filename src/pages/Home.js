@@ -46,7 +46,7 @@ export default function Home() {
           <p>
             Plastikk har også endel egenskaper når det kommer til å trekke til
             seg miljøgifter, og man er bekymret for at de som får i plast også
-            får i seg disse miljøgiftene
+            får i seg disse miljøgiftene.
           </p>
           <Link to="/et-hav-av-plast">
             <p>
