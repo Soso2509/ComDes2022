@@ -47,7 +47,7 @@
 
 .parallax5 {
     @include parallax;
-    background-image: url("../images/movingWater.mp4");
+    background-image: url("../images/stormVideo.mp4");
     
     .textBox {
         @include textboxes;
@@ -57,13 +57,6 @@
     .textBox2 {
         @include textboxes;
         max-width: 60%;
-        float: right;
-    }
-
-    .textBox3 {
-        @include textboxes;
-        max-width: 60%;
-        float: left;
     }
 }
 

@@ -1,5 +1,7 @@
 import React from "react";
 import { Timeline } from "../components/Timeline";
+import isBjorn2 from "../images/isBjorn2.jpg";
+import Video from "../images/stormVideo.mp4";
 import Map from "../components/Map";
 
 export default function ArticleLong() {
@@ -14,6 +16,9 @@ export default function ArticleLong() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua
           </section>
+          <figure>
+            <img className={"portrait"} src={isBjorn2} alt="" />
+          </figure>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitasse
@@ -42,26 +47,7 @@ export default function ArticleLong() {
         </section>
         <section className={"parallax5"}>
             <div className={"textBox"}>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitasse
-                platea dictumst vestibulum rhoncus est. In massa tempor nec feugiat
-                nisl pretium. Adipiscing enim eu turpis egestas pretium aenean
-                pharetra magna ac. Scelerisque felis imperdiet proin fermentum. Duis
-                at tellus at urna condimentum mattis.
-              </p>
-            </div>
-            <div className={"textBox2"}>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitasse
-                platea dictumst vestibulum rhoncus est. In massa tempor nec feugiat
-                nisl pretium. Adipiscing enim eu turpis egestas pretium aenean
-                pharetra magna ac. Scelerisque felis imperdiet proin fermentum. Duis
-                at tellus at urna condimentum mattis.
-              </p>
-            </div>
-            <div className={"textBox3"}>
+              <h2>Overskrift</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitasse
@@ -72,7 +58,20 @@ export default function ArticleLong() {
               </p>
             </div>
         </section>
-        
+        <section className={"articleContent"}>
+          <h2>Overskrift</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitasse
+            platea dictumst vestibulum rhoncus est. In massa tempor nec feugiat
+            nisl pretium. Adipiscing enim eu turpis egestas pretium aenean
+            pharetra magna ac. Scelerisque felis imperdiet proin fermentum. Duis
+            at tellus at urna condimentum mattis.
+          </p>
+          <video loop autoPlay muted className={"plasticBottle"}>
+          <source src={Video} type="video/mp4" />
+        </video>
+        </section>
       </section>
     </div>
   );
