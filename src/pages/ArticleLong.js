@@ -1,6 +1,7 @@
 import React from "react";
 import { Timeline } from "../components/Timeline";
 import isBjorn2 from "../images/isBjorn2.jpg";
+import test from "../images/testOversikt.png";
 import Video from "../images/stormVideo.mp4";
 import Map from "../components/Map";
 import Accordion from "../components/Accordion";
@@ -73,6 +74,7 @@ export default function ArticleLong() {
           </div>
         </section>
         <section className={"articleContent"}>
+          <img className={"testBilde"}src={test} alt="" />
           <h2>Overskrift</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
