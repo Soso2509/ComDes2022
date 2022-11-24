@@ -1,4 +1,4 @@
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FaExternalLinkAlt } from "react-icons/fa";
 import React, { useState } from "react";
 import { TimelineWorld } from "../components/TimelineWorld";
 
@@ -41,13 +41,17 @@ export default function ArticleLong() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </section>
-          <img className={"geoImage"}src={arktis} alt="" />
+          <img className={"geoImage"} src={arktis} alt="" />
           <figure>
-            <img className={"portrait"} src={polarBear} alt="Maleri av en isbjørn" />
+            <img
+              className={"portrait"}
+              src={polarBear}
+              alt="Maleri av en isbjørn"
+            />
             <figcaption>
               Illustrasjon: {"    "}
               <a href="https://pngimg.com/download/23503">
-                pngimg.com < FaExternalLinkAlt className="linkIcon"/>
+                pngimg.com <FaExternalLinkAlt className="linkIcon" />
               </a>
             </figcaption>
           </figure>
@@ -102,8 +106,16 @@ export default function ArticleLong() {
             non diam phasellus. Condimentum mattis pellentesque id nibh tortor.
           </p>
           <br></br>
-          <img className={"infographMobile"} src={iG1M} alt="Infografikk som viser farene med at isbreene smelter" />
-          <img className={"infographDesktop"} src={iG1D} alt="Infografikk som viser farene med at isbreene smelter" />
+          <img
+            className={"infographMobile"}
+            src={iG1M}
+            alt="Infografikk som viser farene med at isbreene smelter"
+          />
+          <img
+            className={"infographDesktop"}
+            src={iG1D}
+            alt="Infografikk som viser farene med at isbreene smelter"
+          />
           <br></br>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -146,7 +158,7 @@ export default function ArticleLong() {
           </div>
         </section>
         <section className={"articleContent"}>
-          <img className={"geoImage"}src={verdenshavene} alt="" />
+          <img className={"geoImage"} src={verdenshavene} alt="" />
           <h2>Overskrift</h2>
           {/* <figure>
             <img className={"portrait"} src={whale} alt="" />
@@ -170,7 +182,7 @@ export default function ArticleLong() {
             <figcaption>
               Illustrasjon: {"    "}
               <a href="https://theartsherpa.com/videos/1362/clownfish-easy-how-to-paint-watercolor-step-by-step-the-art-sherpa">
-                The Art Sherpa < FaExternalLinkAlt className="linkIcon"/>
+                The Art Sherpa <FaExternalLinkAlt className="linkIcon" />
               </a>
             </figcaption>
           </figure>
@@ -196,24 +208,28 @@ export default function ArticleLong() {
             Habitasse platea dictumst vestibulum rhoncus est. In massa tempor
             nec feugiat nisl pretium. Adipiscing enim eu turpis egestas pretium
             aenean pharetra magna ac. Scelerisque felis imperdiet proin
-            fermentum. Duis at tellus at urna condimentum mattis.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Habitasse platea dictumst vestibulum rhoncus est. In massa tempor
-            nec feugiat nisl pretium. Adipiscing enim eu turpis egestas pretium
-            aenean pharetra magna ac. Scelerisque felis imperdiet proin
-            fermentum. Duis at tellus at urna condimentum mattis.
+            fermentum. Duis at tellus at urna condimentum mattis. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Habitasse platea
+            dictumst vestibulum rhoncus est. In massa tempor nec feugiat nisl
+            pretium. Adipiscing enim eu turpis egestas pretium aenean pharetra
+            magna ac. Scelerisque felis imperdiet proin fermentum. Duis at
+            tellus at urna condimentum mattis.
           </p>
         </section>
         <section className={"articleContent"}>
           <img className={"geoImage"} src={australia} alt="" />
           <h2>Overskrift</h2>
           <figure>
-            <img className={"portrait"} src={seaTurtle} alt="Maleri av en skilpadde" />
+            <img
+              className={"portrait"}
+              src={seaTurtle}
+              alt="Maleri av en skilpadde"
+            />
             <figcaption>
               Illustrasjon: {"    "}
               <a href="https://fineartamerica.com/profiles/irina-sztukowski">
-                Irina Sztukowski < FaExternalLinkAlt className="linkIcon"/>
+                Irina Sztukowski <FaExternalLinkAlt className="linkIcon" />
               </a>
             </figcaption>
           </figure>
@@ -241,17 +257,25 @@ export default function ArticleLong() {
             aenean pharetra magna ac. Scelerisque felis imperdiet proin
             fermentum. Duis at tellus at urna condimentum mattis.
           </p>
-          <img className={"infographMobile"} src={iG2M} alt="Infografikk som viser hvordan klimagassutslipp fører til temperaturøkning" />
-          <img className={"infographDesktop"} src={iG2D} alt="Infografikk som viser hvordan klimagassutslipp fører til temperaturøkning" />
+          <img
+            className={"infographMobile"}
+            src={iG2M}
+            alt="Infografikk som viser hvordan klimagassutslipp fører til temperaturøkning"
+          />
+          <img
+            className={"infographDesktop"}
+            src={iG2D}
+            alt="Infografikk som viser hvordan klimagassutslipp fører til temperaturøkning"
+          />
           <br></br>
           <figure>
-              <img className={"portrait"} src={coral} alt="Maleri av koraller" />
-              <figcaption>
-                Illustrasjon: {"    "}
-                <a href="https://chloez-battle.blogspot.com/2021/06/coral-reef-painting-watercolor-coral.html">
-                  Ukjent < FaExternalLinkAlt className="linkIcon"/>
-                </a>
-              </figcaption>
+            <img className={"portrait"} src={coral} alt="Maleri av koraller" />
+            <figcaption>
+              Illustrasjon: {"    "}
+              <a href="https://chloez-battle.blogspot.com/2021/06/coral-reef-painting-watercolor-coral.html">
+                Ukjent <FaExternalLinkAlt className="linkIcon" />
+              </a>
+            </figcaption>
           </figure>
           <br></br>
           <p>
