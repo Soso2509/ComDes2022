@@ -1,6 +1,6 @@
-import React from "react";
-import { Timeline } from "../components/Timeline";
 import { FaExternalLinkAlt } from 'react-icons/fa';
+import React, { useState } from "react";
+import { TimelineWorld } from "../components/TimelineWorld";
 
 import polarBear from "../images/polarBear.jpg";
 import seaTurtle from "../images/seaTurtle.jpg";
@@ -18,14 +18,16 @@ import iG2M from "../images/stralerMobile.png";
 import iG2D from "../images/stralerDesktop.png";
 
 import Map from "../components/Map";
-import Accordion from "../components/Accordion";
+
+import Modal, {
+  ModalBody,
+  ModalFooter,
+  ModalHeader,
+} from "../components/Modal";
+import ModalButton from "../components/ModalButton";
 
 export default function ArticleLong() {
-  const aTitle1 = "Isbjørn (trykk) ";
-  const aContent1 = "lorem";
-
-  const aTitle2 = "I ";
-  const aContent2 = "cursed";
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className={"article"}>
       <section className={"article5Area"}>
@@ -50,6 +52,35 @@ export default function ArticleLong() {
             </figcaption>
           </figure>
           <h2>Overskrift</h2>
+
+          <div>
+            {/* Modal-kode hentet fra https://github.com/trananhtuat/react-modal */}
+            <ModalButton onClick={() => setShowModal(true)}>Hei</ModalButton>
+            <Modal
+              show={showModal}
+              setShow={setShowModal}
+              // hideCloseButton
+            >
+              <ModalHeader>
+                <h2>Modal header</h2>
+              </ModalHeader>
+              <ModalBody>
+                <p style={{ textAlign: "justify" }}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deserunt maxime dolorem asperiores laboriosam ad delectus ea.
+                  Tempora tempore repellendus laudantium fugiat saepe mollitia
+                  eius illo possimus laborum consequuntur, tenetur neque.
+                </p>
+              </ModalBody>
+              <ModalFooter>
+                <ModalButton onClick={() => setShowModal(false)}>
+                  {" "}
+                  Close{" "}
+                </ModalButton>
+              </ModalFooter>
+            </Modal>
+          </div>
+
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -87,7 +118,11 @@ export default function ArticleLong() {
             sapien nec sagittis aliquam malesuada. Magna fermentum iaculis eu
             non diam phasellus. Condimentum mattis pellentesque id nibh tortor.
           </p>
-          <Timeline />
+          <img className={"infographMobile"} src={iG2M} alt="" />
+          <img className={"infographDesktop"} src={iG2D} alt="" />
+          <TimelineWorld />
+          <Map />
+          <img className={"testBilde"} src={kina} alt="" />
         </section>
         <section className={"parallax5"}>
           <div className={"textBox"}>

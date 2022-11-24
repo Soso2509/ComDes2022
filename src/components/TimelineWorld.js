@@ -203,6 +203,6 @@ export const data = {
   ],
 };
 
-export function Timeline() {
+export function TimelineWorld() {
   return <Bar options={options} data={data} />;
 }

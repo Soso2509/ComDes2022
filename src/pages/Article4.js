@@ -1,7 +1,7 @@
 import React from "react";
 import Adrian from "../images/adrianKJ.jpg";
 import { FaExternalLinkAlt } from 'react-icons/fa';
-import { Timeline } from "../components/Timeline";
+import { TimelineWorld } from "../components/TimelineWorld";
 
 export default function Article4() {
   return (
@@ -38,9 +38,9 @@ export default function Article4() {
         </p>
         <p>
           Jacobsen sier videre at vi ikke skal undervurdere risikoen ved globaloppvarming. Han viser til
-          hetebølgen i England i sommer, og konsekvensene denne ene hetebølgen hadde for et samfunn. 
-          Det er noen modeller som spår at f.eks England kan få slike hetebølger annethvert år. 
-        </p> 
+          hetebølgen i England i sommer, og konsekvensene denne ene hetebølgen hadde for et samfunn.
+          Det er noen modeller som spår at f.eks England kan få slike hetebølger annethvert år.
+        </p>
       </section>
       <section className={"articleContent"}>
         <article>
@@ -64,7 +64,7 @@ export default function Article4() {
           <p>
           - En grei analogi er jo folk som røyker, man vet at det er skadelig. En person begynner å røyke ti
           sigaretter per dag i en alder av 20, får beskjed av legen at de må slutte før de er 30 år gammel, eller
-          så kan det ha dramatiske konsekvenser. 
+          så kan det ha dramatiske konsekvenser.
           Så fortsetter denne personen å røyke, kanskje de røyker mer
           til og med, da vil den personen ha passert en såkalt milepæl, hvor det er mye større sjanse for å få
           kreft, men det betyr ikke da at den personen bare kan ignorere problemet, så hvis denne personen
@@ -93,13 +93,13 @@ export default function Article4() {
           <p>
           Dette mener Jacobsen er en bedre vei å gå, enn at den enkelte i samfunnet har ansvaret. Det leder
           heller til at man kan ende opp med å gå rundt med dårlig samvittighet, fordi utviklingen går som den
-          går og man tenker at det er fordi en ikke har nådd målet sitt med å kutte ned. 
+          går og man tenker at det er fordi en ikke har nådd målet sitt med å kutte ned.
           </p>
         </article>
       </section>
       <br></br>
       <section className={"articleContent"}>
-        <Timeline />
+        <TimelineWorld />
       </section>
       <section className={"articleContent"}>
         <article>
@@ -119,10 +119,10 @@ export default function Article4() {
             Flere land ble rammet av hetebølger i sommer, flere av disse hetebølgene knuste tidligere
             varmerekorder verden over. Et av de landene som ble rammet hardest er Kina, som ble rammet av
             den verste hetebølgen i historien. Den varte i over 70 dager, som strakk seg over 1372693 km2, det er
-            et område på størrelse med Texas. Colorado og California til sammen. 
+            et område på størrelse med Texas. Colorado og California til sammen.
             <a href="https://www.axios.com/2022/08/22/china-heat-wave-drought-unprecedented">Mer enn 100 millioner
             mennesker ble påvirket av denne hetebølgen< FaExternalLinkAlt className="linkIcon"/></a> Dette har ført til at Kinas største ferskvanns elv, Poyang, har  <a href="https://www.nrk.no/urix/tidenes-hetebolge-rammer-kina-1.16078235">tørket opp og
-            blitt redusert med 75%< FaExternalLinkAlt className="linkIcon"/></a>. 
+            blitt redusert med 75%< FaExternalLinkAlt className="linkIcon"/></a>.
             Dette kan resultere i en mulig matkrise, lite vann fører til dårlig avling
           </p>
         </article>
@@ -141,7 +141,7 @@ export default function Article4() {
           <p>
             <a href="https://forskning.no/klima-ntb/tyskland-har-mistet-en-av-sine-fem-isbreer/2084603">Forskning.no< FaExternalLinkAlt className="linkIcon"/></a> rapporterte i september
             at Søndre Schneeferner, en av Tysklands fem isbreer, har smeltet så mye at den har mistet sin
-            brestatus. Den har smeltet fra 10 meter på det tykkeste, i 2018, til mindre enn 6 meter. 
+            brestatus. Den har smeltet fra 10 meter på det tykkeste, i 2018, til mindre enn 6 meter.
             Denne smeltetrenden kan ha store konsekvenser, spesielt for vi som bor i Nord-europa.
           </p>
         </article>
