@@ -1,5 +1,5 @@
-import React from "react";
-import { Timeline } from "../components/Timeline";
+import React, { useState } from "react";
+import { Timeline } from "../components/TimelineWorld";
 
 import polarBear from "../images/polarBear.jpg";
 import seaTurtle from "../images/seaTurtle.jpg";
@@ -18,14 +18,16 @@ import iG2D from "../images/stralerDesktop.png";
 
 import Video from "../images/stormVideo.mp4";
 import Map from "../components/Map";
-import Accordion from "../components/Accordion";
+
+import Modal, {
+  ModalBody,
+  ModalFooter,
+  ModalHeader,
+} from "../components/Modal";
+import ModalButton from "../components/ModalButton";
 
 export default function ArticleLong() {
-  const aTitle1 = "Isbjørn (trykk) ";
-  const aContent1 = "lorem";
-
-  const aTitle2 = "I ";
-  const aContent2 = "cursed";
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className={"article"}>
       <section className={"article5Area"}>
@@ -42,9 +44,34 @@ export default function ArticleLong() {
           <figure>
             <img className={"portrait"} src={polarBear} alt="" />
           </figure>
-          <div className="accordion">
-            <Accordion title={aTitle1} content={aContent1} />
+
+          <div>
+            <ModalButton onClick={() => setShowModal(true)}>Hei</ModalButton>
+            <Modal
+              show={showModal}
+              setShow={setShowModal}
+              // hideCloseButton
+            >
+              <ModalHeader>
+                <h2>Modal header</h2>
+              </ModalHeader>
+              <ModalBody>
+                <p style={{ textAlign: "justify" }}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deserunt maxime dolorem asperiores laboriosam ad delectus ea.
+                  Tempora tempore repellendus laudantium fugiat saepe mollitia
+                  eius illo possimus laborum consequuntur, tenetur neque.
+                </p>
+              </ModalBody>
+              <ModalFooter>
+                <ModalButton onClick={() => setShowModal(false)}>
+                  {" "}
+                  Close{" "}
+                </ModalButton>
+              </ModalFooter>
+            </Modal>
           </div>
+
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -56,9 +83,7 @@ export default function ArticleLong() {
             sapien nec sagittis aliquam malesuada. Magna fermentum iaculis eu
             non diam phasellus. Condimentum mattis pellentesque id nibh tortor.
           </p>
-          <div className="accordion">
-            <Accordion title={aTitle2} content={aContent2} />
-          </div>
+
           <img className={"infographMobile"} src={iG1M} alt="" />
           <img className={"infographDesktop"} src={iG1D} alt="" />
           <br></br>
@@ -77,7 +102,7 @@ export default function ArticleLong() {
           <img className={"infographDesktop"} src={iG2D} alt="" />
           <Timeline />
           <Map />
-          <img className={"testBilde"}src={kina} alt="" />
+          <img className={"testBilde"} src={kina} alt="" />
         </section>
         <section className={"parallax5"}>
           <div className={"textBox"}>
@@ -96,7 +121,7 @@ export default function ArticleLong() {
           </div>
         </section>
         <section className={"articleContent"}>
-          <img className={"testBilde"}src={arktis} alt="" />
+          <img className={"testBilde"} src={arktis} alt="" />
           <h2>Overskrift</h2>
           <figure>
             <img className={"portrait"} src={babyPanda} alt="" />
@@ -127,7 +152,7 @@ export default function ArticleLong() {
           </p>
         </section>
         <section className={"articleContent"}>
-          <img className={"testBilde"}src={australia} alt="" />
+          <img className={"testBilde"} src={australia} alt="" />
           <h2>Overskrift</h2>
           <figure>
             <img className={"portrait"} src={seaTurtle} alt="" />
