@@ -1,5 +1,7 @@
 import { useEffect, useRef } from "react";
 
+// Kode hentet fra https://github.com/trananhtuat/react-modal
+
 const Modal = (props) => {
   const modalRef = useRef();
 

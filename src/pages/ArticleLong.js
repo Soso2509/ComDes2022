@@ -46,6 +46,7 @@ export default function ArticleLong() {
           </figure>
 
           <div>
+            {/* Modal-kode hentet fra https://github.com/trananhtuat/react-modal */}
             <ModalButton onClick={() => setShowModal(true)}>Hei</ModalButton>
             <Modal
               show={showModal}
