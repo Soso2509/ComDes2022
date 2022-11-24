@@ -17,8 +17,6 @@ import iG1D from "../images/refleksjonDesktop.png";
 import iG2M from "../images/stralerMobile.png";
 import iG2D from "../images/stralerDesktop.png";
 
-import Map from "../components/Map";
-
 import Modal, {
   ModalBody,
   ModalFooter,
@@ -35,10 +33,12 @@ export default function ArticleLong() {
         <section className={"articleContent"}>
           <h1 className={"article5Title"}>Miljø</h1>
           <span className={"articleUnderTitle"}>
-            Lorem ipsum dolor sit amet
+            Tekst av Joachim Fjell
           </span>
           <section className={"articleIntro"}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </section>
           <img className={"geoImage"}src={arktis} alt="" />
@@ -52,10 +52,8 @@ export default function ArticleLong() {
             </figcaption>
           </figure>
           <h2>Overskrift</h2>
-
           <div>
             {/* Modal-kode hentet fra https://github.com/trananhtuat/react-modal */}
-            <ModalButton onClick={() => setShowModal(true)}>Hei</ModalButton>
             <Modal
               show={showModal}
               setShow={setShowModal}
@@ -71,6 +69,7 @@ export default function ArticleLong() {
                   Tempora tempore repellendus laudantium fugiat saepe mollitia
                   eius illo possimus laborum consequuntur, tenetur neque.
                 </p>
+                <img className={"geoImage"}src={arktis} alt="" />
               </ModalBody>
               <ModalFooter>
                 <ModalButton onClick={() => setShowModal(false)}>
@@ -80,13 +79,12 @@ export default function ArticleLong() {
               </ModalFooter>
             </Modal>
           </div>
-
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Habitasse platea dictumst vestibulum rhoncus est. In massa tempor
             nec feugiat nisl pretium. Adipiscing enim eu turpis egestas pretium
-            aenean pharetra magna ac. Scelerisque felis imperdiet proin
+            aenean pharetra magna ac. Scelerisque felis <ModalButton onClick={() => setShowModal(true)}>Trykk</ModalButton> imperdiet proin
             fermentum. Duis at tellus at urna condimentum mattis. Nunc sed augue
             lacus viverra vitae congue eu consequat. Donec pretium vulputate
             sapien nec sagittis aliquam malesuada. Magna fermentum iaculis eu
@@ -118,11 +116,8 @@ export default function ArticleLong() {
             sapien nec sagittis aliquam malesuada. Magna fermentum iaculis eu
             non diam phasellus. Condimentum mattis pellentesque id nibh tortor.
           </p>
-          <img className={"infographMobile"} src={iG2M} alt="" />
-          <img className={"infographDesktop"} src={iG2D} alt="" />
           <TimelineWorld />
-          <Map />
-          <img className={"testBilde"} src={kina} alt="" />
+          {/* <Map /> */}
         </section>
         <section className={"parallax5"}>
           <div className={"textBox"}>
@@ -209,7 +204,6 @@ export default function ArticleLong() {
             aenean pharetra magna ac. Scelerisque felis imperdiet proin
             fermentum. Duis at tellus at urna condimentum mattis.
           </p>
-          {/* <Map /> */}
         </section>
         <section className={"articleContent"}>
           <img className={"geoImage"} src={australia} alt="" />
@@ -277,9 +271,6 @@ export default function ArticleLong() {
             fermentum. Duis at tellus at urna condimentum mattis.
           </p>
           <br></br>
-          {/* <video loop autoPlay muted className={"plasticBottle"}>
-            <source src={Video} type="video/mp4" />
-          </video> */}
         </section>
       </section>
     </div>
