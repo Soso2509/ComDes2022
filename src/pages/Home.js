@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import placeHolder300 from "../images/placeHolder-300x300.svg";
 import { FaArrowRight } from "react-icons/fa";
 import TorvbyenPhoto from "../images/IMG_0787.png";
 import InfographDesktop from "../images/infographic1.png";
 import PlasticInOcean from "../images/oceanMan.jpeg";
 import GlobalWarming from "../images/globalWarming.webp";
+import ClimateImage from "../images/refleksjonDesktop.png"
 
 export default function Home() {
   return (
@@ -70,12 +70,14 @@ export default function Home() {
           </Link>
         </section>
         <section className={"item"}>
-          <img className={"itemPic"} src={placeHolder300} alt="" />
+          <img className={"itemPic"} src={ClimateImage} alt="" />
           <h2 className={"itemTitle"}>Artikkel 5</h2>
           <p></p>
-          <p>
-            Les <FaArrowRight />
-          </p>
+          <Link to="/article-long">
+            <p>
+              Les <FaArrowRight />
+            </p>
+          </Link>
         </section>
       </div>
     </div>

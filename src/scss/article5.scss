@@ -47,20 +47,23 @@
 
 .parallax5 {
     @include parallax;
-    background-image: url("../images/stormVideo.mp4");
     
     .textBox {
         @include textboxes;
         max-width: 60%;
     }
+}
 
-    .textBox2 {
+.parallax6 {
+    @include parallax;
+
+    .textBox {
         @include textboxes;
         max-width: 60%;
     }
 }
 
-.testBilde {
+.geoImage {
     max-width: 100%;
     margin: 0px auto;
 }

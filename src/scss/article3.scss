@@ -11,18 +11,10 @@
 .plasticBottle {
   @include parallax;
   background-color: white;
-  object-fit: cover;
   height: 25vh;
   min-height: 20vh;
+  background-image: url("../images/oceanMan.jpeg");
 }
-
-/* .plasticBottle {
-  @include parallax;
-  background-color: white;
-  height: 25vh;
-  min-height: 20vh;
-  background-image: url("../images/movingWater.mp4");
-} */
 
 .MapText {
   font-family: $defaultFont;

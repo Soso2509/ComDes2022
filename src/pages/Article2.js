@@ -26,7 +26,7 @@ export default function Article2() {
         </p>
         <h2>Dette sier eksperten</h2>
         <figure>
-          <img className={"portrait"} src={Erlend} alt="" />
+          <img className={"portrait"} src={Erlend} alt="Bilde av Erlend Sand Aas, tatt fra Høgskolen i Østfold" />
           <figcaption>
             Foto: {"    "}
             <a href="https://www.hiof.no/iio/ois/personer/tekn-adm-ansatte/erlendsa/index.html">
@@ -160,8 +160,8 @@ export default function Article2() {
           Folk har litt dårligere råd og handler dermed mindre, da blir prisene
           lavere og lønninger reduseres. Dermed blir inflasjon dempet.
         </p>
-        <img className={"infographMobile"} src={InfographMobile} alt="" />
-        <img className={"infographDesktop"} src={InfographDesktop} alt="" />
+        <img className={"infographMobile"} src={InfographMobile} alt="Visuell fremstilling av artikkelens innhold" />
+        <img className={"infographDesktop"} src={InfographDesktop} alt="Visuell fremstilling av artikkelens innhold" />
       </section>
     </div>
   );

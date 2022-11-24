@@ -1,14 +1,15 @@
 import React from "react";
 import { Timeline } from "../components/Timeline";
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 import polarBear from "../images/polarBear.jpg";
 import seaTurtle from "../images/seaTurtle.jpg";
-import babyPanda from "../images/babyPanda.jpg";
 import coral from "../images/coralReef.jpg";
 import whale from "../images/whale.jpg";
+import fish from "../images/fish.jpg";
 
 import arktis from "../images/arktis.png";
-import kina from "../images/kina.png";
+import verdenshavene from "../images/verdenshavene.png";
 import australia from "../images/australia.png";
 
 import iG1M from "../images/refleksjonMobile.png";
@@ -16,7 +17,6 @@ import iG1D from "../images/refleksjonDesktop.png";
 import iG2M from "../images/stralerMobile.png";
 import iG2D from "../images/stralerDesktop.png";
 
-import Video from "../images/stormVideo.mp4";
 import Map from "../components/Map";
 import Accordion from "../components/Accordion";
 
@@ -39,12 +39,17 @@ export default function ArticleLong() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </section>
+          <img className={"geoImage"}src={arktis} alt="" />
           <figure>
-            <img className={"portrait"} src={polarBear} alt="" />
+            <img className={"portrait"} src={polarBear} alt="Maleri av en isbjørn" />
+            <figcaption>
+              Illustrasjon: {"    "}
+              <a href="https://pngimg.com/download/23503">
+                pngimg.com < FaExternalLinkAlt className="linkIcon"/>
+              </a>
+            </figcaption>
           </figure>
-          <div className="accordion">
-            <Accordion title={aTitle1} content={aContent1} />
-          </div>
+          <h2>Overskrift</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -56,11 +61,20 @@ export default function ArticleLong() {
             sapien nec sagittis aliquam malesuada. Magna fermentum iaculis eu
             non diam phasellus. Condimentum mattis pellentesque id nibh tortor.
           </p>
-          <div className="accordion">
-            <Accordion title={aTitle2} content={aContent2} />
-          </div>
-          <img className={"infographMobile"} src={iG1M} alt="" />
-          <img className={"infographDesktop"} src={iG1D} alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Habitasse platea dictumst vestibulum rhoncus est. In massa tempor
+            nec feugiat nisl pretium. Adipiscing enim eu turpis egestas pretium
+            aenean pharetra magna ac. Scelerisque felis imperdiet proin
+            fermentum. Duis at tellus at urna condimentum mattis. Nunc sed augue
+            lacus viverra vitae congue eu consequat. Donec pretium vulputate
+            sapien nec sagittis aliquam malesuada. Magna fermentum iaculis eu
+            non diam phasellus. Condimentum mattis pellentesque id nibh tortor.
+          </p>
+          <br></br>
+          <img className={"infographMobile"} src={iG1M} alt="Infografikk som viser farene med at isbreene smelter" />
+          <img className={"infographDesktop"} src={iG1D} alt="Infografikk som viser farene med at isbreene smelter" />
           <br></br>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -73,18 +87,24 @@ export default function ArticleLong() {
             sapien nec sagittis aliquam malesuada. Magna fermentum iaculis eu
             non diam phasellus. Condimentum mattis pellentesque id nibh tortor.
           </p>
-          <img className={"infographMobile"} src={iG2M} alt="" />
-          <img className={"infographDesktop"} src={iG2D} alt="" />
           <Timeline />
-          <Map />
-          <img className={"testBilde"}src={kina} alt="" />
         </section>
         <section className={"parallax5"}>
           <div className={"textBox"}>
             <h2>Overskrift</h2>
-            <figure>
-              <img className={"portrait"} src={coral} alt="" />
-            </figure>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Habitasse platea dictumst vestibulum rhoncus est. In massa tempor
+              nec feugiat nisl pretium. Adipiscing enim eu turpis egestas
+              pretium aenean pharetra magna ac. Scelerisque felis imperdiet
+              proin fermentum. Duis at tellus at urna condimentum mattis.
+            </p>
+          </div>
+        </section>
+        <section className={"parallax6"}>
+          <div className={"textBox"}>
+            <h2>Overskrift</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -96,10 +116,33 @@ export default function ArticleLong() {
           </div>
         </section>
         <section className={"articleContent"}>
-          <img className={"testBilde"}src={arktis} alt="" />
+          <img className={"geoImage"}src={verdenshavene} alt="" />
           <h2>Overskrift</h2>
+          {/* <figure>
+            <img className={"portrait"} src={whale} alt="" />
+            <figcaption>
+              Illustrasjon: {"    "}
+              <a href="https://fineartamerica.com/profiles/olechka-design">
+                Olga Shvartsur < FaExternalLinkAlt className="linkIcon"/>
+              </a>
+            </figcaption>
+          </figure> */}
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Habitasse platea dictumst vestibulum rhoncus est. In massa tempor
+            nec feugiat nisl pretium. Adipiscing enim eu turpis egestas pretium
+            aenean pharetra magna ac. Scelerisque felis imperdiet proin
+            fermentum. Duis at tellus at urna condimentum mattis.
+          </p>
           <figure>
-            <img className={"portrait"} src={babyPanda} alt="" />
+            <img className={"portrait"} src={fish} alt="Maleri av to fisker" />
+            <figcaption>
+              Illustrasjon: {"    "}
+              <a href="https://theartsherpa.com/videos/1362/clownfish-easy-how-to-paint-watercolor-step-by-step-the-art-sherpa">
+                The Art Sherpa < FaExternalLinkAlt className="linkIcon"/>
+              </a>
+            </figcaption>
           </figure>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -124,13 +167,26 @@ export default function ArticleLong() {
             nec feugiat nisl pretium. Adipiscing enim eu turpis egestas pretium
             aenean pharetra magna ac. Scelerisque felis imperdiet proin
             fermentum. Duis at tellus at urna condimentum mattis.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Habitasse platea dictumst vestibulum rhoncus est. In massa tempor
+            nec feugiat nisl pretium. Adipiscing enim eu turpis egestas pretium
+            aenean pharetra magna ac. Scelerisque felis imperdiet proin
+            fermentum. Duis at tellus at urna condimentum mattis.
           </p>
+          {/* <Map /> */}
         </section>
         <section className={"articleContent"}>
-          <img className={"testBilde"}src={australia} alt="" />
+          <img className={"geoImage"} src={australia} alt="" />
           <h2>Overskrift</h2>
           <figure>
-            <img className={"portrait"} src={seaTurtle} alt="" />
+            <img className={"portrait"} src={seaTurtle} alt="Maleri av en skilpadde" />
+            <figcaption>
+              Illustrasjon: {"    "}
+              <a href="https://fineartamerica.com/profiles/irina-sztukowski">
+                Irina Sztukowski < FaExternalLinkAlt className="linkIcon"/>
+              </a>
+            </figcaption>
           </figure>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -156,9 +212,39 @@ export default function ArticleLong() {
             aenean pharetra magna ac. Scelerisque felis imperdiet proin
             fermentum. Duis at tellus at urna condimentum mattis.
           </p>
-          <video loop autoPlay muted className={"plasticBottle"}>
+          <img className={"infographMobile"} src={iG2M} alt="Infografikk som viser hvordan klimagassutslipp fører til temperaturøkning" />
+          <img className={"infographDesktop"} src={iG2D} alt="Infografikk som viser hvordan klimagassutslipp fører til temperaturøkning" />
+          <br></br>
+          <figure>
+              <img className={"portrait"} src={coral} alt="Maleri av koraller" />
+              <figcaption>
+                Illustrasjon: {"    "}
+                <a href="https://chloez-battle.blogspot.com/2021/06/coral-reef-painting-watercolor-coral.html">
+                  Ukjent < FaExternalLinkAlt className="linkIcon"/>
+                </a>
+              </figcaption>
+          </figure>
+          <br></br>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Habitasse platea dictumst vestibulum rhoncus est. In massa tempor
+            nec feugiat nisl pretium. Adipiscing enim eu turpis egestas pretium
+            aenean pharetra magna ac. Scelerisque felis imperdiet proin
+            fermentum. Duis at tellus at urna condimentum mattis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Habitasse platea dictumst vestibulum rhoncus est. In massa tempor
+            nec feugiat nisl pretium. Adipiscing enim eu turpis egestas pretium
+            aenean pharetra magna ac. Scelerisque felis imperdiet proin
+            fermentum. Duis at tellus at urna condimentum mattis.
+          </p>
+          <br></br>
+          {/* <video loop autoPlay muted className={"plasticBottle"}>
             <source src={Video} type="video/mp4" />
-          </video>
+          </video> */}
         </section>
       </section>
     </div>

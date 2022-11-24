@@ -15,7 +15,7 @@ export default function Article4() {
         </section>
         <section className={"articleContent"}>
         <figure>
-          <img className={"portrait"} src={Adrian} alt="" />
+          <img className={"portrait"} src={Adrian} alt="Bilde av Adrian Kristiansønn Jacobsen, hentet fra Høgskolen i Østfold" />
           <figcaption>
             Foto: {"    "}
             <a href="https://www.hiof.no/iio/ois/personer/tekn-adm-ansatte/erlendsa/index.html">
