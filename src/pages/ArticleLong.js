@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Timeline } from "../components/TimelineWorld";
+import { TimelineWorld } from "../components/TimelineWorld";
 
 import polarBear from "../images/polarBear.jpg";
 import seaTurtle from "../images/seaTurtle.jpg";
@@ -100,7 +100,7 @@ export default function ArticleLong() {
           </p>
           <img className={"infographMobile"} src={iG2M} alt="" />
           <img className={"infographDesktop"} src={iG2D} alt="" />
-          <Timeline />
+          <TimelineWorld />
           <Map />
           <img className={"testBilde"} src={kina} alt="" />
         </section>
