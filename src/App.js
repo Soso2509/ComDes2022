@@ -32,7 +32,7 @@ export default function App() {
         <Route path="renteokning" element={<Article2 />} />
         <Route path="et-hav-av-plast" element={<Article3 />} />
         <Route path="planeten-koker-er-det-for-sent" element={<Article4 />} />
-        <Route path="article-long" element={<ArticleLong />} />
+        <Route path="en-moderne-dyrevise" element={<ArticleLong />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
 

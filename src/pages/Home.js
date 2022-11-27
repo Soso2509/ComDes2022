@@ -71,9 +71,11 @@ export default function Home() {
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={ClimateImage} alt="" />
-          <h2 className={"itemTitle"}>Artikkel 5</h2>
-          <p></p>
-          <Link to="/article-long">
+          <h2 className={"itemTitle"}>En moderne dyrevise</h2>
+          <p>
+            Det er ei lita dyrevise som du nå får høre, om dyrene i verden og hvor lite de kan gjøre ...            
+          </p>
+          <Link to="/en-moderne-dyrevise">
             <p>
               Les <FaArrowRight />
             </p>

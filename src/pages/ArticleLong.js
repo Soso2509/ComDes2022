@@ -10,7 +10,6 @@ import amundsen from "../images/amundsen.jpg"
 
 import arktis from "../images/arktis.png";
 import verdenshavene from "../images/verdenshavene.png";
-import australia from "../images/australia.png";
 
 import iG1M from "../images/refleksjonMobile.png";
 import iG1D from "../images/refleksjonDesktop.png";
@@ -36,12 +35,11 @@ export default function ArticleLong() {
         <section className={"articleContent"}>
           <h1 className={"article5Title"}>En moderne dyrevise</h1>
           <span className={"articleUnderTitle"}>
-            Tekst av Joachim Fjell, Funksjonalitet og design av Ivo Eilertsen og Sofie Karlsen
+            Tekst av Joachim Fjell, Funksjonalitet og design av Sofie Karlsen og Ivo Eilertsen
           </span>
           <section className={"articleIntro"}>
             <p>
-              - Hvis du tar en bit av et korallrev på størrelse med en fotballbane, 
-              så er det flere fiskearter der enn det er dyrearter i en bit av Amazonas på tilsvarende fotballbane Trond Amundsen (65)
+              Det er ei lita dyrevise som du nå får høre, om dyrene i verden og hvor lite de kan gjøre ...            
             </p>
           </section>
           <article>
@@ -59,7 +57,7 @@ export default function ArticleLong() {
                 </a>
               </figcaption>
             </figure>
-            <h2>Bjørnen sover, bjørnen sover, i sitt bare hi</h2>
+            <h2>I sitt lune hi?</h2>
             <div>
               {/* Modal-kode hentet fra https://github.com/trananhtuat/react-modal */}
               <Modal
@@ -73,10 +71,10 @@ export default function ArticleLong() {
                 <ModalBody>
                   <ul style={{ textAlign: "justify"}}>
                     <li style={{padding:"0.5rem"}}>Isbjørnen er det største land-rovdyret i verden. </li>
-                    <li style={{padding:"0.5rem"}}>De kan bli opptil 260cm lange og 170cm høy, hvor hannen kan veie så mye som 800kg og hunner kan veie opp 350kg.</li>
-                    <li style={{padding:"0.5rem"}}>I motsetning til andre bjørner så spiser isbjørner nesten utelukkende bare kjøtt.</li>
-                    <li style={{padding:"0.5rem"}}>De holder til stort sett nord for den Nordlige polarsirkelen, i områdene i Arktis hvor det er havis, på Svalbard, Alaska, Canada, Russland og Grønland.</li>
-                    <li style={{padding:"0.5rem"}}>De er ikke regnet som utrydningstruet, ikke enda, men de er regnet som sårbare. Det er antatt å være rundt <a href="https://snl.no/isbj%C3%B8rn">25 000 isbjørner i verden < FaExternalLinkAlt className="linkIcon"/></a></li>
+                    <li style={{padding:"0.5rem"}}>De kan bli opptil 260cm lange og 170cm høye, hvor hannen kan veie så mye som 800kg og hunner opp mot 350kg.</li>
+                    <li style={{padding:"0.5rem"}}>I motsetning til andre bjørner, spiser isbjørner nesten utelukkende bare kjøtt.</li>
+                    <li style={{padding:"0.5rem"}}>De holder stort sett til nord for den Nordlige polarsirkelen, i områdene i Arktis hvor det er havis, på Svalbard, Alaska, Canada, Russland og Grønland.</li>
+                    <li style={{padding:"0.5rem"}}>De er ikke regnet som utrydningstruet, ikke enda, men de er regnet som sårbare. Det er antatt å være rundt <a href="https://snl.no/isbj%C3%B8rn">25 000 isbjørner i verden. < FaExternalLinkAlt className="linkIcon"/></a></li>
                   </ul>
                 </ModalBody>
                 <ModalFooter>
@@ -89,9 +87,10 @@ export default function ArticleLong() {
             </div>
             <p>
               De siste årene har isbjørnen Asbjørn merket store endringer i hjemområdet sitt, på havisen i Arktis. Han har tilbrakt hele livet sitt i dette området, fra han var en liten bjørnunge i hiet til moren til han våget seg ut på egenhånd.
-              Han har alltid hatt store områder å boltre seg på, med lett tilgang på god sel når han ble sulten. Men det siste årene har han hatt betydelig mindre område å gå på, og han får tak i betydelig mindre mat enn før.
-              Det har blitt så ille at Asbjørn ikke har spist ordentlig på flere uker, han kjenner ikke lenger igjen sitt eget speilbilde. Hva kommer denne endringen av? Og er Asbjørn den eneste som sliter?
+              Han har alltid hatt store områder å boltre seg på, med lett tilgang på god sel da han ble sulten. I de siste årene har han hatt betydelig mindre område å gå på, og han får tak i mindre mat enn før.
+              Det har blitt så ille at Asbjørn ikke har spist ordentlig på flere uker, han kjenner ikke lenger igjen sitt eget speilbilde. Hva kommer denne endringen av? Er Asbjørn den eneste som sliter?
             </p>
+            <br></br>
             <h2>Tempraturøkning i Arktis</h2>
             <p>
               Trond Amundsen (65) påpeker at temperaturøkningen på Arktis er større enn stort sett resten av planeten. 
@@ -101,10 +100,10 @@ export default function ArticleLong() {
               Nå er mye av sjøisen borte og isbjørnene er nå tvunget til å jakte mer på land. 
             </p>
             <p>
-              Amundsen er professor i biologi ved NTNU, han jobber med atferd og økologi, akkurat nå jobber han med klimaeffekt og småfisk.
+              Amundsen er professor i biologi ved NTNU, han jobber med atferd og økologi, per dags dato jobber han med klimaeffekt og småfisk.
             </p>
             <p>
-              Amundsen sier videre at isbjørnen er sterkt knyttet til isen, og er derfor spesielt utsatt for temperatur økningen, sier Amundsen videre. De kan ikke jakte på isen som før, med mindre og mindre sjøis,
+              Amundsen sier videre at isbjørnen er sterkt knyttet til isen, og er derfor spesielt utsatt for temperaturøkningen, sier Amundsen videre. De kan ikke jakte på isen som før, med mindre og mindre sjøis,
               så må isbjørnen i større grad gå på land.
             </p>
             <figure>
@@ -193,7 +192,7 @@ export default function ArticleLong() {
         <section className={"articleContent"}>
           <article>
             <img className={"geoImage"} src={verdenshavene} alt="" />
-            <h2>Havets regnskog trues</h2>
+            <h2>Det nye nærmiljøet</h2>
             <figure>
               <img
                 className={"portrait"}
@@ -209,15 +208,15 @@ export default function ArticleLong() {
             </figure>
             <p>
               Frank har levd i «The Great Barrier Reef» hele livet. Han har svømt, lekt og gjemt seg i korallene med vennene sine og søsknene sine siden han ble klekt.
-              Han fylte nylig 45 og kan se hvordan korallrevet har forandret seg siden han var ung. Når han var ung så kunne han ikke se enden på revet, i dag så er den et steinkast unna.
-              Den har blitt mye mindre og mistet mye av fargen, det ser ut som det visner bort, han er bekymret for sin familie og barn om hvordan de vil klare seg om dette fortsetter.
+              Han fylte nylig 45 og kan se hvordan korallrevet har forandret seg siden han var ung. Da han var ung kunne han ikke se enden på revet, i dag er den et steinkast unna.
+              Det har blitt mye mindre og mistet mye av fargen, det ser ut som det visner bort, han er bekymret for sin familie og barn om hvordan de vil klare seg om dette fortsetter.
             </p>
           </article>
         </section>
         <section className={"parallax4"}>
           <div className={"textBox"}>
             <p>
-              Korallrevet spiller en viktigrolle for dyreartene i havet, sier Amundsen, med et biologisk mangfold som er større enn en regnskog.
+              Korallrevet spiller en viktig rolle for dyreartene i havet, sier Amundsen, med et biologisk mangfold som er større enn en regnskog.
             </p>
           </div>
         </section>
@@ -232,6 +231,7 @@ export default function ArticleLong() {
                 </a>
               </figcaption>
             </figure>
+            <h2>Havets regnskog trues</h2>
             <p>
               -	Hvis du tar en bit av et korallrev på størrelse med en fotballbane, så er det flere fiskearter der enn det er dyrearter i en bit av Amazonas på tilsvarende fotballbane, sier Amundsen
             </p>
@@ -254,7 +254,7 @@ export default function ArticleLong() {
                       som en direkte konsekvens av varmere havtemperatur og <a href="https://snl.no/havforsuring">havforsuring. <FaExternalLinkAlt className="linkIcon" /></a> (vannet blir surere på grunn av mer CO2 i atmosfæren).
                     </p>
                     <p>
-                      Algene gjør at korallene har farge, så uten de vil de miste fargen sin, der av <a href="https://snl.no/korallbleking">korallbleking <FaExternalLinkAlt className="linkIcon" /></a>
+                      Algene gjør at korallene har farge, uten de vil de miste fargen sin, der av <a href="https://snl.no/korallbleking">korallbleking. <FaExternalLinkAlt className="linkIcon" /></a>
                     </p>
                   </ModalBody>
                   <ModalFooter>
@@ -276,7 +276,7 @@ export default function ArticleLong() {
               <p>
                 -	Jeg har forsket på korallrev som har vært utrolig rike, også har jeg sett hva som har skjedd etter en hetebølge, som vi ser i dag, og som det blir flere og flere av,
                 plutselig så er 80-90% av korallrevet døde året etter, da tar det lang tid før det kommer tilbake.
-                Kommer det en ny hetebølge tilbake så kan de som evnt ikke døde under forrige stå i fare for å dø, sier Amundsen
+                Kommer det en ny hetebølge tilbake så kan de som ikke døde under forrige stå i fare for å dø, sier Amundsen
               </p>
               <p>
                 Ifølge Amundsen så er korallene ikke så gode til å tilpasse seg den nye temperaturen. Det er forsøk på å utvikle nye koraller sier han, koraller som skal tåle varmere vann,
@@ -295,7 +295,7 @@ export default function ArticleLong() {
                 />
               <br></br>
               <p>
-                Selv om vi skulle greie å stoppe temperaturøkningen i dag, så sier han, at det vil ta flere tiår før temperaturen har stabilisert seg, så vi vil fortsatt føle på følgene de første par tiårene.
+                Selv om vi skulle greie å stoppe temperaturøkningen i dag, så sier han, at det vil ta flere tiår før temperaturen har stabilisert seg, vi vil fortsatt føle på følgene de første par tiårene.
               </p>
               <p>
                 Amundsen sier at det helt klart største problemet for korallrevene i dag, er temperaturøkningene.
@@ -305,7 +305,7 @@ export default function ArticleLong() {
         <section className={"parallax5"}>
           <div className={"textBox"}>
             <p>
-              -	Det forventes at den skal over det vi kaller blekningsterskelen. Hvor vi får det som en del forskere kaller «annual sever bleaching», det betyr årlig kritisk blekning, ofte med korall død som følge,
+              -	Det forventes at den skal over det vi kaller blekningsterskelen. Hvor vi får det som en del forskere kaller «annual sever bleaching», det betyr årlig kritisk blekning, ofte med korall-død som følge,
               og hvis det skjer for ofte så får det ikke tid til å reetablere seg, sier Amundsen
             </p>
           </div>
@@ -327,10 +327,10 @@ export default function ArticleLong() {
               eller kan bli ødelagt ved 1.5 - 2 graders oppvarming, dette kan gå fort sier Amundsen, noen få tiår spår han.
             </p>
             <p>
-              Han tror ikke at alle rev vil bli borte, men han mener korallene kan være den naturtypen som er mest truet, også viser han til temperatur målene som forskerne har satt, 1.5 grader, 2 grader.
+              Han tror ikke at alle rev vil bli borte, men han mener korallene kan være den naturtypen som er mest truet, så viser han til temperaturmålene som forskerne har satt, 1.5 grader og 2 grader.
             </p>
             <p>
-              -	Nå snakker forskerne om 2.5 grader, og hvis de har rett så kommer de fleste korallrevene til å være enten helt ødelagt eller veldig ødelagt, sier Amundsen
+              -	Nå snakker forskerne om 2.5 grader, og hvis de har rett kommer de fleste korallrevene til å være enten helt ødelagt eller veldig ødelagt, sier Amundsen
             </p>
             <p>
               Amundsen påpeker at dette vil ha store konsekvenser for dyrelivet i havet.
@@ -338,7 +338,7 @@ export default function ArticleLong() {
             <p>
               -	Som jeg fortalte så har revene ca 1 million arter, som er ca 10% av alle artene på kloden.
               Av fisk så har revene ca 25% av alle marine fiskearter.
-              Jeg tror ikke noen kan si sikkert hvor stor andel av disse artene som vil klare seg uten korallrev, men veldig mange er tilpasset lit på revet og vil slite,
+              Jeg tror ikke noen kan si sikkert hvor stor andel av disse artene som vil klare seg uten korallrev, men veldig mange er tilpasset liv på revet og vil slite,
               mange vil dø ut, andre vil bli mye mindre tallrike, sier Amundsen
             </p>
           </article>
@@ -356,7 +356,7 @@ export default function ArticleLong() {
                 </ModalHeader>
                 <ModalBody>
                   <p style={{ textAlign: "justify"}}>
-                    Avhenger av fotosyntese, gror bare grunt og klart vann. Er å finne mellom overflaten og 60 meter under vann. Sterkt påvirket av temperatur, gror oftest i områder hvor vannet er 20-28 grader
+                    Avhenger av fotosyntese, gror bare grunt og klart vann. Er å finne mellom overflaten og 60 meter under vann. Sterkt påvirket av temperatur, gror oftest i områder hvor vannet er 20-28 grader.
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -380,7 +380,7 @@ export default function ArticleLong() {
                 </ModalHeader>
                 <ModalBody>
                   <p style={{ textAlign: "justify"}}>
-                    oftest å finne på strømrike deler mellom 100 og 500 meter under overflaten. Får næringsstoffer fra havstrømmene. Tåler bedre kjøligere vann, mellom 4 - 14 grader, liker best mellom 6 – 9 grader
+                    oftest å finne på strømrike deler mellom 100 og 500 meter under overflaten. Får næringsstoffer fra havstrømmene. Tåler bedre kjøligere vann, mellom 4 - 14 grader, liker best mellom 6 - 9 grader.
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -394,7 +394,7 @@ export default function ArticleLong() {
 
         <section className={"articleContent"}>
           <article>
-            <h2>Visste du dette om korallrevet?</h2>
+            <h2>Kort om korallrevet</h2>
             <p>
               Korallrevene blir ofte omtalt som havets regnskog, grunnet sitt biologiske mangfold er de uvurderlige for biomangfoldet på kloden.
               Vi antar hvor mange forskjellige arter som er å finne i korallrevene, forskerne ved ikke, det blir hele tiden oppdaget nye arter.
@@ -402,7 +402,7 @@ export default function ArticleLong() {
               Gjennom fotosyntese <a href="https://education.nationalgeographic.org/resource/coral-reefs"> produserer algene mat til korallene.<FaExternalLinkAlt className="linkIcon" /></a>
             </p>
             <p>
-              Korallene består av kalkskjelleter, som kommer fra koralldyr og andre organismer som har kalkalger. Korallene sitter oppå gamle koraller sine kalkskall, det er slik de vokser.
+              Korallene består av kalkskjelleter, som kommer fra koralldyr og andre organismer som har kalkalger. Korallene sitter oppå gamle korallers kalkskall, det er slik de vokser.
               Korallrevene kan deles inn i to hovedgrupper, <ModalButton onClick={() => setShowModal3(true)}>Tropisk korallrev (trykk for å lese)</ModalButton> og
               <ModalButton onClick={() => setShowModal4(true)}>Kaldtvannskorallrev (trykk for å lese)</ModalButton>
             </p>
@@ -410,7 +410,7 @@ export default function ArticleLong() {
         </section>
         <section className={"articleContent"}>
           <article>
-            <h2>Den ensome fisken</h2>
+            <h2>Har du hørt historien om en ensom fisk?</h2>
             <figure>
               <img className={"portrait"} src={fish} alt="Maleri av to fisker" />
               <figcaption>
@@ -422,14 +422,14 @@ export default function ArticleLong() {
             </figure>
             <p>
               Sam fortalte at hun hadde vært ute og utforsket og svømt bort fra stimen sin, hun var, etter noen minutter så ser hun noe stort som farer over hodet hennes som beveger seg i retning stimen hennes.
-              Hun svømmer så raskt hun kan tilbake, men rekker ikke fram i tide, hun ser hele stimen hennes, alle hun kjenner, bli fanget og blir dratt vekk.
+              Hun svømmer så raskt hun kan tilbake, men rekker ikke fram i tide, hun ser hele stimen hennes, alle hun kjenner, bli fanget og dratt vekk.
               Ensom, alene og redd har hun svømt rundt, i villrede på hva hun skal gjøre nå.
             </p>
             <p>
               Amundsen forteller at en av de største miljøutfordringene for dyrene i havet er overfiske. Han sier at fiskebestanden er enten overbeskattet, eller beskattet på ikke bærekraftige måter.
             </p>
             <p>
-              -	Klassiske eksempler er hai fiske, med haifinne industri, veldig mange haiarter er sterkt truet på verdensbasis i dag.
+              -	Klassiske eksempler er haifiske, med haifinne-industri, veldig mange haiarter er sterkt truet på verdensbasis i dag.
             </p>
             <p>
               Han informerer om at det er veldig mange fiskearter som er sterkt nedfisket i dag.
@@ -441,7 +441,7 @@ export default function ArticleLong() {
               -	Havet er et felles matfat på en måte, sånn at på mange steder på kloden så er det villvest og fritt frem for å fiske, med lite regulering, sier Amundsen.
             </p>
             <br></br>
-            <h2>Fisking, for mye av det gode?</h2>
+            <h2>Ro, ro til fiskeskjær</h2>
             <p>
               Det er ikke nødvendigvis negativt med fisking, det er en viktig matkilde for mange, problemet kommer når vi fisker for mye og for ofte slik at bestanden ikke rekker å bygge seg opp igjen.
               Problemet er spesielt stort når det kommer til alle <a href="https://www.worldwildlife.org/threats/overfishing">de ekstra havdyrene som fiskerne plukker opp mens de er på leting etter en type fisk. <FaExternalLinkAlt className="linkIcon" /> </a>
@@ -451,17 +451,17 @@ export default function ArticleLong() {
             </p>
             <p>
               Man kan spore overfisking tilbake til 1800 tallet. Det startet med hvalfiske for olje, som førte til at de nesten ble totalt utryddet i noen deler av verden.
-              På 1900 tallet økte etterspørselen etter noen fiskearter i Amerika som førte til at de nesten ble utryddet, dette var blant annet sardiner.
-              Fisk er en billig, sunt og lett tilgjengelig kilde på mat, derfor ble dette mye av søkelyset på 1900 tallet. Innen 2003 så er det rapportert at det bare var rundt 10% av de store fiskene igjen i verdens havene,
-              sammenlignet med så mange det var før industrialiseringen. Siden det nå var langt mindre av de store fiskene i havene så fokuserte fiskeriene på de mindre fiskene, som var katastrofalt for den biologiske balansen.
+              På 1900-tallet økte etterspørselen etter noen fiskearter i Amerika som førte til at de nesten ble utryddet, dette var blant annet sardiner.
+              Fisk er en billig, sunt og lett tilgjengelig kilde på mat, derfor ble dette mye av søkelyset på 1900-tallet. Innen 2003 så er det rapportert at det bare var rundt 10% av de store fiskene igjen i verdenshavene,
+              sammenlignet med så mange det var før industrialiseringen. Siden det nå var langt mindre av de store fiskene i havene fokuserte fiskeriene på de mindre fiskene, som var katastrofalt for den biologiske balansen.
             </p>
             <p>
-              Som et eksempel så kan man se på hvordan det påvirket korallrevet, det er fisk bland korallene som spiser alger og dermed hjelper til med å holde korallene sunne.
+              Som et eksempel så kan man se på hvordan det påvirket korallrevet, det er fisk blant korallene som spiser alger og dermed hjelper til med å holde korallene sunne.
               Ved å fiske for mange av disse så kan det virkelig svekke korallene og gjøre de skjøre.
               Samtidig så kan <a href="https://www.nationalgeographic.com/environment/article/critical-issues-overfishing">utstyret fiskerne bruker skade korallene. <FaExternalLinkAlt className="linkIcon" /></a>
             </p>
             <br></br>
-            <h2>En uforutsigbar fremtid</h2>
+            <h2>Enda er det mange vers, og jeg kan enda flere</h2>
             <p>
               Asbjørn, Frank og Sam sine liv er vanskelige, og de møter en mørk framtid. Det er vanskelig å si hvordan det skal gå med dem i fremtiden, 
               det er det ingen som vet helt sikkert. Det vi vet er at det blir veldig vanskelig om utviklingen fortsetter som den har gjort de siste årene.

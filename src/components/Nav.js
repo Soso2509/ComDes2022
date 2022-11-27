@@ -54,8 +54,8 @@ export default function Layout() {
               </Link>
             </li>
             <li className="menu-item">
-              <Link to="/article-long" onClick={closeSideBar}>
-                Article-Long
+              <Link to="/en-moderne-dyrevise" onClick={closeSideBar}>
+                En moderne dyrevise
               </Link>
             </li>
           </ul>
