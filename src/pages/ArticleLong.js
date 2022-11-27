@@ -6,6 +6,7 @@ import polarBear from "../images/polarBear.jpg";
 import seaTurtle from "../images/seaTurtle.jpg";
 import coral from "../images/coralReef.jpg";
 import fish from "../images/fish.jpg";
+import amundsen from "../images/amundsen.jpg"
 
 import arktis from "../images/arktis.png";
 import verdenshavene from "../images/verdenshavene.png";
@@ -33,15 +34,15 @@ export default function ArticleLong() {
       <section className={"article5Area"}>
         <section className={"isbjorn"}></section>
         <section className={"articleContent"}>
-          <h1 className={"article5Title"}>Miljø</h1>
+          <h1 className={"article5Title"}>En moderne dyrevise</h1>
           <span className={"articleUnderTitle"}>
-            Tekst av Joachim Fjell
+            Tekst av Joachim Fjell, Funksjonalitet og design av Ivo Eilertsen og Sofie Karlsen
           </span>
           <section className={"articleIntro"}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+            <p>
+              - Hvis du tar en bit av et korallrev på størrelse med en fotballbane, 
+              så er det flere fiskearter der enn det er dyrearter i en bit av Amazonas på tilsvarende fotballbane Trond Amundsen (65)
+            </p>
           </section>
           <article>
             <img className={"geoImage"} src={arktis} alt="" />
@@ -58,7 +59,7 @@ export default function ArticleLong() {
                 </a>
               </figcaption>
             </figure>
-            <h2>Overskrift</h2>
+            <h2>Bjørnen sover, bjørnen sover, i sitt bare hi</h2>
             <div>
               {/* Modal-kode hentet fra https://github.com/trananhtuat/react-modal */}
               <Modal
@@ -91,6 +92,14 @@ export default function ArticleLong() {
               Han har alltid hatt store områder å boltre seg på, med lett tilgang på god sel når han ble sulten. Men det siste årene har han hatt betydelig mindre område å gå på, og han får tak i betydelig mindre mat enn før.
               Det har blitt så ille at Asbjørn ikke har spist ordentlig på flere uker, han kjenner ikke lenger igjen sitt eget speilbilde. Hva kommer denne endringen av? Og er Asbjørn den eneste som sliter?
             </p>
+            <h2>Tempraturøkning i Arktis</h2>
+            <p>
+              Trond Amundsen (65) påpeker at temperaturøkningen på Arktis er større enn stort sett resten av planeten. 
+              Han sier videre at der vi merker det mest er reduksjonen av sjøisen. 
+              Hvordan dette har påvirket isbjørnen er veldig tydelig sier Amundsen, siden isbjørnens byttedyr og jaktområde er på sjøisen. 
+              Selen kommer opp gjennom hull av isen hvor de blitt slått av isbjørnen. 
+              Nå er mye av sjøisen borte og isbjørnene er nå tvunget til å jakte mer på land. 
+            </p>
             <p>
               Amundsen er professor i biologi ved NTNU, han jobber med atferd og økologi, akkurat nå jobber han med klimaeffekt og småfisk.
             </p>
@@ -98,6 +107,19 @@ export default function ArticleLong() {
               Amundsen sier videre at isbjørnen er sterkt knyttet til isen, og er derfor spesielt utsatt for temperatur økningen, sier Amundsen videre. De kan ikke jakte på isen som før, med mindre og mindre sjøis,
               så må isbjørnen i større grad gå på land.
             </p>
+            <figure>
+              <img
+                className={"portrait"}
+                src={amundsen}
+                alt="Bilde av Trond Amundsen"
+              />
+              <figcaption>
+                Professor Trond Amundsen, Foto: {"    "}
+                <a href="https://www.ntnu.no/ansatte/trond.amundsen">
+                  NTNU <FaExternalLinkAlt className="linkIcon" />
+                </a>
+              </figcaption>
+            </figure>
             <p>
               Reinsdyrene på Svalbard er et annet Arktisk dyr som har blitt påvirket av temperaturøkningen, og på en overraskende måte sier han.
               Forskere har oppdaget at med perioder med mildvær om vinteren kan føre til at snøen smelter og igjen fryser så det blir et hardt dekke oppå vegetasjonen.
@@ -115,7 +137,7 @@ export default function ArticleLong() {
               Han viser også til hypoteser at isbjørnen vil trekke lenger og lenger på land, nærmere folk og andre bjørnearter, som grizzlybjørn. Som følge av det er en det bekymring for hybridisering mellom grizzlybjørn og isbjørn sier Amundsen.
             </p>
             <br></br>
-            <h2>Overskrift</h2>
+            <h2>Arktis smelter</h2>
             <p>
               Om isen smelter som den har gjort de siste årene, tror man at isbjørnbestanden vil bli redusert med
               <a href="https://www.regjeringen.no/no/tema/svalbard-og-polaromradene/innsiktsartikler-polaromradene/miljovern-og-miljoutfordringer-i-nordomradene/id2076662/"> to tredjedeler innen de neste 30 årene.< FaExternalLinkAlt className="linkIcon"/></a>
@@ -171,7 +193,7 @@ export default function ArticleLong() {
         <section className={"articleContent"}>
           <article>
             <img className={"geoImage"} src={verdenshavene} alt="" />
-            <h2>Overskrift</h2>
+            <h2>Havets regnskog trues</h2>
             <figure>
               <img
                 className={"portrait"}
@@ -190,7 +212,18 @@ export default function ArticleLong() {
               Han fylte nylig 45 og kan se hvordan korallrevet har forandret seg siden han var ung. Når han var ung så kunne han ikke se enden på revet, i dag så er den et steinkast unna.
               Den har blitt mye mindre og mistet mye av fargen, det ser ut som det visner bort, han er bekymret for sin familie og barn om hvordan de vil klare seg om dette fortsetter.
             </p>
-            <figure>
+          </article>
+        </section>
+        <section className={"parallax4"}>
+          <div className={"textBox"}>
+            <p>
+              Korallrevet spiller en viktigrolle for dyreartene i havet, sier Amundsen, med et biologisk mangfold som er større enn en regnskog.
+            </p>
+          </div>
+        </section>
+        <section className="articleContent">
+          <article>
+          <figure>
               <img className={"portrait"} src={coral} alt="Maleri av koraller" />
               <figcaption>
                 Illustrasjon: {"    "}
@@ -199,9 +232,6 @@ export default function ArticleLong() {
                 </a>
               </figcaption>
             </figure>
-            <p>
-              Korallrevet spiller en viktigrolle for dyreartene i havet, sier Amundsen, med et biologisk mangfold som er større enn en regnskog.
-            </p>
             <p>
               -	Hvis du tar en bit av et korallrev på størrelse med en fotballbane, så er det flere fiskearter der enn det er dyrearter i en bit av Amazonas på tilsvarende fotballbane, sier Amundsen
             </p>
@@ -216,16 +246,16 @@ export default function ArticleLong() {
                   // hideCloseButton
                 >
                   <ModalHeader>
-                    <h2>Fakta om isbjørn</h2>
+                    <h2>Korallbleking</h2>
                   </ModalHeader>
                   <ModalBody>
-                    <ul style={{ textAlign: "justify"}}>
-                      <li style={{padding:"0.5rem"}}>Isbjørnen er det største land-rovdyret i verden. </li>
-                      <li style={{padding:"0.5rem"}}>De kan bli opptil 260cm lange og 170cm høy, hvor hannen kan veie så mye som 800kg og hunner kan veie opp 350kg.</li>
-                      <li style={{padding:"0.5rem"}}>I motsetning til andre bjørner så spiser isbjørner nesten utelukkende bare kjøtt.</li>
-                      <li style={{padding:"0.5rem"}}>De holder til stort sett nord for den Nordlige polarsirkelen, i områdene i Arktis hvor det er havis, på Svalbard, Alaska, Canada, Russland og Grønland.</li>
-                      <li style={{padding:"0.5rem"}}>De er ikke regnet som utrydningstruet, ikke enda, men de er regnet som sårbare. Det er antatt å være rundt <a href="https://snl.no/isbj%C3%B8rn">25 000 isbjørner i verden < FaExternalLinkAlt className="linkIcon"/></a></li>
-                    </ul>
+                    <p style={{ textAlign: "justify"}}>
+                      Korallene kvitter seg med algene, som de lever i symbiose med (er via denne symbiosen korallene får næringen sin), 
+                      som en direkte konsekvens av varmere havtemperatur og <a href="https://snl.no/havforsuring">havforsuring. <FaExternalLinkAlt className="linkIcon" /></a> (vannet blir surere på grunn av mer CO2 i atmosfæren).
+                    </p>
+                    <p>
+                      Algene gjør at korallene har farge, så uten de vil de miste fargen sin, der av <a href="https://snl.no/korallbleking">korallbleking <FaExternalLinkAlt className="linkIcon" /></a>
+                    </p>
                   </ModalBody>
                   <ModalFooter>
                     <ModalButton onClick={() => setShowModal2(false)}>
@@ -276,7 +306,7 @@ export default function ArticleLong() {
           <div className={"textBox"}>
             <p>
               -	Det forventes at den skal over det vi kaller blekningsterskelen. Hvor vi får det som en del forskere kaller «annual sever bleaching», det betyr årlig kritisk blekning, ofte med korall død som følge,
-              og hvis det skjer for ofte så får det ikke tid til å reetablere seg.
+              og hvis det skjer for ofte så får det ikke tid til å reetablere seg, sier Amundsen
             </p>
           </div>
         </section>
@@ -305,19 +335,15 @@ export default function ArticleLong() {
             <p>
               Amundsen påpeker at dette vil ha store konsekvenser for dyrelivet i havet.
             </p>
-          </article>
-        </section>
-        <section className={"parallax5"}>
-          <div className={"textBox"}>
             <p>
               -	Som jeg fortalte så har revene ca 1 million arter, som er ca 10% av alle artene på kloden.
               Av fisk så har revene ca 25% av alle marine fiskearter.
               Jeg tror ikke noen kan si sikkert hvor stor andel av disse artene som vil klare seg uten korallrev, men veldig mange er tilpasset lit på revet og vil slite,
-              mange vil dø ut, andre vil bli mye mindre tallrike.
+              mange vil dø ut, andre vil bli mye mindre tallrike, sier Amundsen
             </p>
-          </div>
+          </article>
         </section>
-
+            
             <div>
               {/* Modal-kode hentet fra https://github.com/trananhtuat/react-modal */}
               <Modal
@@ -326,16 +352,12 @@ export default function ArticleLong() {
                 // hideCloseButton
               >
                 <ModalHeader>
-                  <h2>Fakta om isbjørn</h2>
+                  <h2>Tropiske korallrev</h2>
                 </ModalHeader>
                 <ModalBody>
-                  <ul style={{ textAlign: "justify"}}>
-                    <li style={{padding:"0.5rem"}}>Isbjørnen er det største land-rovdyret i verden. </li>
-                    <li style={{padding:"0.5rem"}}>De kan bli opptil 260cm lange og 170cm høy, hvor hannen kan veie så mye som 800kg og hunner kan veie opp 350kg.</li>
-                    <li style={{padding:"0.5rem"}}>I motsetning til andre bjørner så spiser isbjørner nesten utelukkende bare kjøtt.</li>
-                    <li style={{padding:"0.5rem"}}>De holder til stort sett nord for den Nordlige polarsirkelen, i områdene i Arktis hvor det er havis, på Svalbard, Alaska, Canada, Russland og Grønland.</li>
-                    <li style={{padding:"0.5rem"}}>De er ikke regnet som utrydningstruet, ikke enda, men de er regnet som sårbare. Det er antatt å være rundt <a href="https://snl.no/isbj%C3%B8rn">25 000 isbjørner i verden < FaExternalLinkAlt className="linkIcon"/></a></li>
-                  </ul>
+                  <p style={{ textAlign: "justify"}}>
+                    Avhenger av fotosyntese, gror bare grunt og klart vann. Er å finne mellom overflaten og 60 meter under vann. Sterkt påvirket av temperatur, gror oftest i områder hvor vannet er 20-28 grader
+                  </p>
                 </ModalBody>
                 <ModalFooter>
                   <ModalButton onClick={() => setShowModal3(false)}>
@@ -354,16 +376,12 @@ export default function ArticleLong() {
                 // hideCloseButton
               >
                 <ModalHeader>
-                  <h2>Fakta om isbjørn</h2>
+                  <h2>Kaldtsvannskorallrev</h2>
                 </ModalHeader>
                 <ModalBody>
-                  <ul style={{ textAlign: "justify"}}>
-                    <li style={{padding:"0.5rem"}}>Isbjørnen er det største land-rovdyret i verden. </li>
-                    <li style={{padding:"0.5rem"}}>De kan bli opptil 260cm lange og 170cm høy, hvor hannen kan veie så mye som 800kg og hunner kan veie opp 350kg.</li>
-                    <li style={{padding:"0.5rem"}}>I motsetning til andre bjørner så spiser isbjørner nesten utelukkende bare kjøtt.</li>
-                    <li style={{padding:"0.5rem"}}>De holder til stort sett nord for den Nordlige polarsirkelen, i områdene i Arktis hvor det er havis, på Svalbard, Alaska, Canada, Russland og Grønland.</li>
-                    <li style={{padding:"0.5rem"}}>De er ikke regnet som utrydningstruet, ikke enda, men de er regnet som sårbare. Det er antatt å være rundt <a href="https://snl.no/isbj%C3%B8rn">25 000 isbjørner i verden < FaExternalLinkAlt className="linkIcon"/></a></li>
-                  </ul>
+                  <p style={{ textAlign: "justify"}}>
+                    oftest å finne på strømrike deler mellom 100 og 500 meter under overflaten. Får næringsstoffer fra havstrømmene. Tåler bedre kjøligere vann, mellom 4 - 14 grader, liker best mellom 6 – 9 grader
+                  </p>
                 </ModalBody>
                 <ModalFooter>
                   <ModalButton onClick={() => setShowModal4(false)}>
@@ -376,16 +394,15 @@ export default function ArticleLong() {
 
         <section className={"articleContent"}>
           <article>
-            <img className={"geoImage"} src={verdenshavene} alt="" />
-            <h2>Overskrift</h2>
+            <h2>Visste du dette om korallrevet?</h2>
             <p>
               Korallrevene blir ofte omtalt som havets regnskog, grunnet sitt biologiske mangfold er de uvurderlige for biomangfoldet på kloden.
               Vi antar hvor mange forskjellige arter som er å finne i korallrevene, forskerne ved ikke, det blir hele tiden oppdaget nye arter.
-              Som nevnt tidligere i artikkelen så lever korallene i en symbiose med visse alger, disse algene lever inni, og blir beskyttet av korallene,
-              og via fotosyntese så blir det <a href="https://education.nationalgeographic.org/resource/coral-reefs"> produserer algene mat til korallene.<FaExternalLinkAlt className="linkIcon" /></a>
+              Som nevnt tidligere i artikkelen så lever korallene i en symbiose med visse alger. Disse algene lever inni og blir beskyttet av korallene.
+              Gjennom fotosyntese <a href="https://education.nationalgeographic.org/resource/coral-reefs"> produserer algene mat til korallene.<FaExternalLinkAlt className="linkIcon" /></a>
             </p>
             <p>
-              Korallene består av kalkskjelleter, som kommer fra koralldyr og andre organismer som har kalkalger. Korallene sitter oppå gamle alger sine kalkskall, det er slik de vokser.
+              Korallene består av kalkskjelleter, som kommer fra koralldyr og andre organismer som har kalkalger. Korallene sitter oppå gamle koraller sine kalkskall, det er slik de vokser.
               Korallrevene kan deles inn i to hovedgrupper, <ModalButton onClick={() => setShowModal3(true)}>Tropisk korallrev (trykk for å lese)</ModalButton> og
               <ModalButton onClick={() => setShowModal4(true)}>Kaldtvannskorallrev (trykk for å lese)</ModalButton>
             </p>
@@ -393,7 +410,7 @@ export default function ArticleLong() {
         </section>
         <section className={"articleContent"}>
           <article>
-            <h2>Havdyr</h2>
+            <h2>Den ensome fisken</h2>
             <figure>
               <img className={"portrait"} src={fish} alt="Maleri av to fisker" />
               <figcaption>
@@ -424,7 +441,7 @@ export default function ArticleLong() {
               -	Havet er et felles matfat på en måte, sånn at på mange steder på kloden så er det villvest og fritt frem for å fiske, med lite regulering, sier Amundsen.
             </p>
             <br></br>
-            <h2>Overskrift</h2>
+            <h2>Fisking, for mye av det gode?</h2>
             <p>
               Det er ikke nødvendigvis negativt med fisking, det er en viktig matkilde for mange, problemet kommer når vi fisker for mye og for ofte slik at bestanden ikke rekker å bygge seg opp igjen.
               Problemet er spesielt stort når det kommer til alle <a href="https://www.worldwildlife.org/threats/overfishing">de ekstra havdyrene som fiskerne plukker opp mens de er på leting etter en type fisk. <FaExternalLinkAlt className="linkIcon" /> </a>
@@ -442,6 +459,12 @@ export default function ArticleLong() {
               Som et eksempel så kan man se på hvordan det påvirket korallrevet, det er fisk bland korallene som spiser alger og dermed hjelper til med å holde korallene sunne.
               Ved å fiske for mange av disse så kan det virkelig svekke korallene og gjøre de skjøre.
               Samtidig så kan <a href="https://www.nationalgeographic.com/environment/article/critical-issues-overfishing">utstyret fiskerne bruker skade korallene. <FaExternalLinkAlt className="linkIcon" /></a>
+            </p>
+            <br></br>
+            <h2>En uforutsigbar fremtid</h2>
+            <p>
+              Asbjørn, Frank og Sam sine liv er vanskelige, og de møter en mørk framtid. Det er vanskelig å si hvordan det skal gå med dem i fremtiden, 
+              det er det ingen som vet helt sikkert. Det vi vet er at det blir veldig vanskelig om utviklingen fortsetter som den har gjort de siste årene.
             </p>
           </article>
         </section>

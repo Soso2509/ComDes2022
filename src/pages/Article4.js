@@ -11,7 +11,7 @@ export default function Article4() {
         <section className={"articleIntro"}>
           - En grei analogi er jo folk som røyker, man vet at det er skadelig. En person begynner å røyke ti
             sigaretter per dag i en alder av 20, får beskjed av legen at de må slutte før de er 30 år gammel, eller
-            så kan det ha dramatiske konsekvenser [...]
+            så kan det ha dramatiske konsekvenser [...] Adrian Kristiansønn Jacobsen (36)
         </section>
         <section className={"articleContent"}>
         <figure>

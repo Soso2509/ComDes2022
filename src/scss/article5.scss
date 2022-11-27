@@ -45,8 +45,9 @@
     float: left;
 }
 
-.parallax5 {
+.parallax4 {
     @include parallax;
+    background-image: url("../images/levendeKorall.jpg");
     
     .textBox {
         @include textboxes;
@@ -54,12 +55,14 @@
     }
 }
 
-.parallax6 {
+.parallax5 {
     @include parallax;
+    background-image: url("../images/dodKorall.jpg");
 
     .textBox {
         @include textboxes;
         max-width: 60%;
+        
     }
 }
 
