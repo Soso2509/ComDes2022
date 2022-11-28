@@ -5,7 +5,7 @@ import TorvbyenPhoto from "../images/IMG_0787.png";
 import InfographDesktop from "../images/infographic1.png";
 import PlasticInOcean from "../images/oceanMan.jpeg";
 import GlobalWarming from "../images/globalWarming.webp";
-import ClimateImage from "../images/refleksjonDesktop.png"
+import ClimateImage from "../images/Isbjorn.png"
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <div className={"homeGrid"}>
         <section className={"item"}>
           <img className={"itemPic"} src={TorvbyenPhoto} alt="" />
-          <h2 className={"itemTitle"}>Sjokkbeskjed for Torvbyens ansatte</h2>
+          <Link to="/sjokkbeskjed-for-torvbyens-ansatte"><h2 className={"itemTitle"}>Sjokkbeskjed for Torvbyens ansatte</h2></Link>
           <p>
             Nordmandseth jobber for Eurosko i Torvbyen Fredrikstad. Den 24 mai fikk hun beskjed om at de skulle jobbe ut dagen,
             men at de måtte stenge for en periode mens det ble gjort undersøkelser i Torvbyens bygningmasse.
@@ -27,7 +27,7 @@ export default function Home() {
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={InfographDesktop} alt="" />
-          <h2 className={"itemTitle"}>Kort forklart: Renteøkningen</h2>
+          <Link to="/renteokning"><h2 className={"itemTitle"}>Kort forklart: Renteøkningen</h2></Link>
           <p>
             Folk flest ser kanskje på renteøkning som et rent negativt tema,
             hvor man da ender opp med å betale mer for lån, og dermed blir
@@ -42,7 +42,7 @@ export default function Home() {
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={PlasticInOcean} alt="" />
-          <h2 className={"itemTitle"}>Et hav av plast</h2>
+          <Link to="/et-hav-av-plast"><h2 className={"itemTitle"}>Et hav av plast</h2></Link>
           <p>
             Plastikk har også endel egenskaper når det kommer til å trekke til
             seg miljøgifter, og man er bekymret for at de som får i plast også
@@ -56,7 +56,7 @@ export default function Home() {
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={GlobalWarming} alt="" />
-          <h2 className={"itemTitle"}>Planeten koker, er det for sent?</h2>
+          <Link to="/planeten-koker-er-det-for-sent"><h2 className={"itemTitle"}>Planeten koker, er det for sent?</h2></Link>
           <p>
             En grei analogi er jo folk som røyker, man vet at det er skadelig.
             En person begynner å røyke ti sigaretter per dag i en alder av 20,
@@ -71,7 +71,7 @@ export default function Home() {
         </section>
         <section className={"item"}>
           <img className={"itemPic"} src={ClimateImage} alt="" />
-          <h2 className={"itemTitle"}>En moderne dyrevise</h2>
+          <Link to="/en-moderne-dyrevise"><h2 className={"itemTitle"}>En moderne dyrevise</h2></Link>
           <p>
             Det er ei lita dyrevise som du nå får høre, om dyrene i verden og hvor lite de kan gjøre ...            
           </p>

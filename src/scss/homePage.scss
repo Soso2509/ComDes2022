@@ -29,6 +29,10 @@
     padding: 1rem;
     margin: auto;
     max-width: 70vw;
+    
+    a {
+        text-decoration: none;
+    }
 }
 
 p {
@@ -54,6 +58,7 @@ p {
     .itemTitle {
         color: #000000;
         @include adobeFontOskarTL;
+        text-decoration: none;
     }
     
     .item {
@@ -61,5 +66,6 @@ p {
         flex-direction: column;
         padding: 1rem;
         max-width: 30vw;
+        
     }
 }
