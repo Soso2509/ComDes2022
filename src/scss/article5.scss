@@ -75,6 +75,14 @@
     border: 1px solid black;
 }
 
+.infographDesktop {
+    display: none;
+  }
+  
+.infograpMobile {
+    width: 100%;
+}
+
 @media screen and (min-width: 1000px) {
     
     .article5Area {
@@ -89,4 +97,14 @@
     .isbjorn {
         padding: 20rem;
     }
+
+    .infographMobile {
+        display: none;
+      }
+    
+      .infographDesktop {
+        display: block;
+        width: 100%;
+        max-width: 60rem;
+      }
 }
