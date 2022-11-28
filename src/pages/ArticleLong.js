@@ -1,6 +1,5 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 import React, { useState } from "react";
-import { TimelineWorld } from "../components/TimelineWorld";
 
 import polarBear from "../images/polarBear.jpg";
 import seaTurtle from "../images/seaTurtle.jpg";
@@ -35,7 +34,7 @@ export default function ArticleLong() {
         <section className={"articleContent"}>
           <h1 className={"article5Title"}>En moderne dyrevise</h1>
           <span className={"articleUnderTitle"}>
-            Tekst av Joachim Fjell, Funksjonalitet og design av Sofie Karlsen og Ivo Eilertsen
+            Tekst av Joachim Fjell, funksjonalitet og design av Sofie Karlsen og Ivo Eilertsen
           </span>
           <section className={"articleIntro"}>
             <p>
@@ -86,24 +85,24 @@ export default function ArticleLong() {
               </Modal>
             </div>
             <p>
-              De siste årene har isbjørnen Asbjørn merket store endringer i hjemområdet sitt, på havisen i Arktis. Han har tilbrakt hele livet sitt i dette området, fra han var en liten bjørnunge i hiet til moren til han våget seg ut på egenhånd.
+              De siste årene har isbjørnen Asbjørn merket store endringer i hjemområdet sitt på havisen i Arktis. Der har han tilbrakt hele livet, fra han var en liten bjørnunge i hiet til moren til han våget seg ut på egenhånd.
               Han har alltid hatt store områder å boltre seg på, med lett tilgang på god sel da han ble sulten. I de siste årene har han hatt betydelig mindre område å gå på, og han får tak i mindre mat enn før.
-              Det har blitt så ille at Asbjørn ikke har spist ordentlig på flere uker, han kjenner ikke lenger igjen sitt eget speilbilde. Hva kommer denne endringen av? Er Asbjørn den eneste som sliter?
+              Det har blitt så ille at Asbjørn ikke har spist ordentlig på flere uker. Hva kommer denne endringen av? Er Asbjørn den eneste som sliter?
             </p>
             <br></br>
-            <h2>Tempraturøkning i Arktis</h2>
+            <h2>Temperaturøkning i Arktis</h2>
             <p>
-              Trond Amundsen (65) påpeker at temperaturøkningen på Arktis er større enn stort sett resten av planeten. 
+              Trond Amundsen (65) påpeker at temperaturøkningen på Arktis er større enn stort sett resten av verden. 
               Han sier videre at der vi merker det mest er reduksjonen av sjøisen. 
               Hvordan dette har påvirket isbjørnen er veldig tydelig sier Amundsen, siden isbjørnens byttedyr og jaktområde er på sjøisen. 
-              Selen kommer opp gjennom hull av isen hvor de blitt slått av isbjørnen. 
+              Selen kommer opp gjennom hull i isen hvor de blitt slått av isbjørnen. 
               Nå er mye av sjøisen borte og isbjørnene er nå tvunget til å jakte mer på land. 
             </p>
             <p>
-              Amundsen er professor i biologi ved NTNU, han jobber med atferd og økologi, per dags dato jobber han med klimaeffekt og småfisk.
+              Amundsen er professor i biologi ved NTNU, han jobber med atferd og økologi, i dag jobber han med klimaeffekt og småfisk.
             </p>
             <p>
-              Amundsen sier videre at isbjørnen er sterkt knyttet til isen, og er derfor spesielt utsatt for temperaturøkningen, sier Amundsen videre. De kan ikke jakte på isen som før, med mindre og mindre sjøis,
+              Amundsen sier videre at isbjørnen er sterkt knyttet til isen og er derfor spesielt utsatt for temperaturøkningen, sier Amundsen videre. Nå kan de ikke jakte på isen som før, med mindre og mindre sjøis,
               så må isbjørnen i større grad gå på land.
             </p>
             <figure>
@@ -133,7 +132,7 @@ export default function ArticleLong() {
             </p>
             <p>
               Videre ser han at isbjørner vil nok trekke mer mot bebodde områder på leting etter mat.
-              Han viser også til hypoteser at isbjørnen vil trekke lenger og lenger på land, nærmere folk og andre bjørnearter, som grizzlybjørn. Som følge av det er en det bekymring for hybridisering mellom grizzlybjørn og isbjørn sier Amundsen.
+              Han viser også til hypoteser at isbjørnen vil trekke lenger og lenger inn på land, nærmere folk og andre bjørnearter, som grizzlybjørn. Som følge av det er en det bekymring for hybridisering mellom grizzlybjørn og isbjørn sier Amundsen.
             </p>
             <br></br>
             <h2>Arktis smelter</h2>
@@ -154,10 +153,6 @@ export default function ArticleLong() {
             <p>
               Dette betyr at verdens største land-rovdyr er svært utsatt for temperaturøkningene. De er en av dyrerasene som kan dø ut som et er resultat av klimaendringene, i dette tilfellet, global oppvarming.
             </p>
-            <TimelineWorld />
-            <p>
-              Det er tydelig at planeten stadig blir varmere, siden 1850 har gjennomsnittstemperaturen <a href="https://energiogklima.no/klimavakten/global-temperatur/"> økt med 1,25°C grader. < FaExternalLinkAlt className="linkIcon"/></a>
-            </p>
             <p>
               Temperaturen på Arktis øker raskere enn resten av verden. Hvordan dette vil påvirke Arktis i framtiden er tydelig og skremmende, for hvert tiår smelter omtrent 13% av isen,
               hvor den tykkeste og eldste isen har smeltet med nesten 95% de siste 30 årene. Isen på Arktis, og alle andre store områder med is, som isbreer, har en viktig rolle når det kommer til å kjøle ned planeten,
@@ -177,12 +172,11 @@ export default function ArticleLong() {
             />
             <br></br>
             <p>
-              Ifølge forskning så er det forventet at Arktis vil være helt fri for is om sommeren i 2050, selv om vi skulle greie redusere våre utslipp av drivhusgassene.
-              Den samme forskningen viser at om vi skulle fortsetter med høye utslipp av drivhusgasser er det fullt mulig at <a href="https://climate.esa.int/en/projects/sea-ice/news-and-events/news/simulations-suggest-ice-free-arctic-summers-2050/">Arktis vil få isfrie vintere også. < FaExternalLinkAlt className="linkIcon"/></a>
-              Artikkelen er basert på <a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019GL086749"> denne forskningsartikkelen. < FaExternalLinkAlt className="linkIcon"/></a>
+              Ifølge forskning så er det forventet at Arktis vil være helt isfri om sommeren i 2050, selv om vi skulle greie redusere våre utslipp av drivhusgassene.
+              Den samme forskningen viser at om vi skulle fortsette med høye utslipp av drivhusgasser er det fullt mulig at <a href="https://climate.esa.int/en/projects/sea-ice/news-and-events/news/simulations-suggest-ice-free-arctic-summers-2050/">Arktis vil få isfrie vintere også. < FaExternalLinkAlt className="linkIcon"/></a>
             </p>
             <p>
-              Blant klimaendringene så er det mest fokus på globaloppvarming, men det er ikke den eneste, og isbjørnen er ikke de eneste som sliter.
+              Blant klimaendringene så er det mest fokus på global oppvarming, men det er ikke den eneste, og isbjørnen er ikke de eneste som sliter.
             </p>
             <p>
               Asbjørn har venner verden over som sliter som følge av klimaendringene, en av de er skilpadden Frank som holder til like utenfor Australia, i «The Great Barrier Reef».
@@ -268,7 +262,7 @@ export default function ArticleLong() {
               <p>
                 Amundsen har forsket på korallrev og har sett hvordan de blir påvirket. Han sier hvis temperaturen øker med flere grader på land så vil det skje en endring, men sakte og jevnt.
                 For korallrevene er det ikke slik, forteller han videre, når de blir utsatt for høyere temperaturer enn den de er tilpasset så skjer det som Amundsen kaller <ModalButton onClick={() => setShowModal2(true)}>Korallbleking (trykk for å lese)</ModalButton>.
-                De vil dø hvis det ikke blir kaldere i løpet av få måneder, sier Amundsen. Det tar tid før de kommer tilbake, det kan ta opp til 15 år.
+                De vil dø hvis det ikke blir kaldere i løpet av noen få måneder, sier Amundsen. Det tar tid før de kommer tilbake, det kan ta flere tiår.
               </p>
               <p>
                 Gjennom sin egen forskning så har han sett hvor fort korallrev kan forandre seg.
@@ -276,10 +270,10 @@ export default function ArticleLong() {
               <p>
                 -	Jeg har forsket på korallrev som har vært utrolig rike, også har jeg sett hva som har skjedd etter en hetebølge, som vi ser i dag, og som det blir flere og flere av,
                 plutselig så er 80-90% av korallrevet døde året etter, da tar det lang tid før det kommer tilbake.
-                Kommer det en ny hetebølge tilbake så kan de som ikke døde under forrige stå i fare for å dø, sier Amundsen
+                Kommer det en ny hetebølge tilbake så kan de som ikke døde under forrige stå i fare for å dø, sier Amundsen.
               </p>
               <p>
-                Ifølge Amundsen så er korallene ikke så gode til å tilpasse seg den nye temperaturen. Det er forsøk på å utvikle nye koraller sier han, koraller som skal tåle varmere vann,
+                Ifølge Amundsen så er korallene ikke så gode til å tilpasse seg de nye temperaturene. Det er forsøk på å utvikle nye koraller sier han, koraller som skal tåle varmere vann,
                 men han sier også det ikke er mye vi kan gjøre for å redde korallene i dag, annet enn å begrense temperaturøkningen.
               </p>
               <br></br>
@@ -295,10 +289,10 @@ export default function ArticleLong() {
                 />
               <br></br>
               <p>
-                Selv om vi skulle greie å stoppe temperaturøkningen i dag, så sier han, at det vil ta flere tiår før temperaturen har stabilisert seg, vi vil fortsatt føle på følgene de første par tiårene.
+                Selv om vi skulle greie å stoppe temperaturøkningen i dag, sier han at det vil ta flere tiår før temperaturen har stabilisert seg. Vi vil fortsatt føle på følgene de første par tiårene.
               </p>
               <p>
-                Amundsen sier at det helt klart største problemet for korallrevene i dag, er temperaturøkningene.
+                Amundsen sier at det helt klart største problemet for korallrevene i dag er temperaturøkningene.
               </p>
             </article>
           </section>
@@ -306,7 +300,7 @@ export default function ArticleLong() {
           <div className={"textBox"}>
             <p>
               -	Det forventes at den skal over det vi kaller blekningsterskelen. Hvor vi får det som en del forskere kaller «annual sever bleaching», det betyr årlig kritisk blekning, ofte med korall-død som følge,
-              og hvis det skjer for ofte så får det ikke tid til å reetablere seg, sier Amundsen
+              og hvis det skjer for ofte så får det ikke tid til å reetablere seg, sier Amundsen.
             </p>
           </div>
         </section>
@@ -319,7 +313,7 @@ export default function ArticleLong() {
             </p>
             <p>
               Vannet blir grumsete, det blir utviklet fint trådete alger. Han kaller det en slags gjødsling. En annen faktor er nedslam sier Amundsen, også kalt sedimentering,
-              små partikler som føres ut på havet av elver, og legger seg som et teppe oppå korallrev, og gir grobunn til annen alger som vokser over korallene. Han sier at dette har ført til korallrevene i verden har blitt ødelagt,
+              små partikler som føres ut på havet av elver, og legger seg som et teppe oppå korallrev, og gir grobunn til annen alger som vokser over korallene. Han sier at dette har ført til at noen av korallrevene i verden har blitt ødelagt,
               og i løpet av de siste 100 årene etter at Europeerne kom til Australia forteller Amundsen, så har rundt halvparten av «The Great Barrier Reef» blitt ødelagt.
             </p>
             <p>
@@ -336,10 +330,8 @@ export default function ArticleLong() {
               Amundsen påpeker at dette vil ha store konsekvenser for dyrelivet i havet.
             </p>
             <p>
-              -	Som jeg fortalte så har revene ca 1 million arter, som er ca 10% av alle artene på kloden.
-              Av fisk så har revene ca 25% av alle marine fiskearter.
-              Jeg tror ikke noen kan si sikkert hvor stor andel av disse artene som vil klare seg uten korallrev, men veldig mange er tilpasset liv på revet og vil slite,
-              mange vil dø ut, andre vil bli mye mindre tallrike, sier Amundsen
+              - Jeg tror ikke noen kan si sikkert hvor stor andel av disse artene som vil klare seg uten korallrev, men veldig mange er tilpasset liv på revet og vil slite,
+              mange vil dø ut, andre vil bli mye mindre tallrike, sier Amundsen.
             </p>
           </article>
         </section>
@@ -356,7 +348,7 @@ export default function ArticleLong() {
                 </ModalHeader>
                 <ModalBody>
                   <p style={{ textAlign: "justify"}}>
-                    Avhenger av fotosyntese, gror bare grunt og klart vann. Er å finne mellom overflaten og 60 meter under vann. Sterkt påvirket av temperatur, gror oftest i områder hvor vannet er 20-28 grader.
+                    Avhenger av fotosyntese, gror bare i grunt og klart vann. Er å finne mellom overflaten og 60 meter under vann. Sterkt påvirket av temperatur, gror oftest i områder hvor vannet er 20-28 grader.
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -380,7 +372,7 @@ export default function ArticleLong() {
                 </ModalHeader>
                 <ModalBody>
                   <p style={{ textAlign: "justify"}}>
-                    oftest å finne på strømrike deler mellom 100 og 500 meter under overflaten. Får næringsstoffer fra havstrømmene. Tåler bedre kjøligere vann, mellom 4 - 14 grader, liker best mellom 6 - 9 grader.
+                    Oftest å finne på strømrike deler mellom 100 og 500 meter under overflaten. Får næringsstoffer fra havstrømmene. De tåler kjøligere vann, mellom 4 - 14 grader, liker seg best mellom 6 - 9 grader.
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -429,13 +421,11 @@ export default function ArticleLong() {
               Amundsen forteller at en av de største miljøutfordringene for dyrene i havet er overfiske. Han sier at fiskebestanden er enten overbeskattet, eller beskattet på ikke bærekraftige måter.
             </p>
             <p>
-              -	Klassiske eksempler er haifiske, med haifinne-industri, veldig mange haiarter er sterkt truet på verdensbasis i dag.
+              -	Klassiske eksempler er haifiske, med haifinne-industri, veldig mange haiarter er sterkt truet på verdensbasis i dag, sier Amundsen.
             </p>
             <p>
-              Han informerer om at det er veldig mange fiskearter som er sterkt nedfisket i dag.
-            </p>
-            <p>
-              Når det kommer til regulering og lover om fiske så er det svært vanskelig å overholde, spesielt i internasjonalt farvann.
+              Han informerer om at det er veldig mange fiskearter som er sterkt nedfisket i dag. Når det kommer til regulering og lover om 
+              fiske så er de svært vanskelig å overholde, spesielt i internasjonalt farvann.
             </p>
             <p>
               -	Havet er et felles matfat på en måte, sånn at på mange steder på kloden så er det villvest og fritt frem for å fiske, med lite regulering, sier Amundsen.
