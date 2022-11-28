@@ -1,7 +1,7 @@
 import React from "react";
 import Map from "../components/Map";
 import Alming from "../images/intervjuPerson.jpg";
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Article3() {
   return (
@@ -10,91 +10,66 @@ export default function Article3() {
       <h1 className={"article3Title"}>Et hav av plast</h1>
       <span className={"articleUnderTitle"}>Tekst av Joachim Fjell</span>
       <section className={"articleIntro"}>
-        - Plastikk har også endel egenskaper når det kommer til å trekke til seg
-        miljøgifter, og man er bekymret for at de som får i plast også får i seg
-        disse miljøgiftene
+        - Hvis du kommer inn på badet og
+          kranen står på og badekaret er tett, og det renner over, er ikke det første
+          du gjør å spå vann, det første du gjør er å lukke
+          krana» Terje Franklin-Alming (33)
       </section>
       <br></br>
       <section className={"articleContent"}>
-        <h3>Tanker fra en marinebiolog</h3>
+        <h3>Marinebiologen svarer</h3>
         <figure>
-          <img className={"portrait"} src={Alming} alt="" />
+          <img className={"portrait"} src={Alming} alt="Bilde av Terje Franklin-Alming, privat opprinnelse" />
           <figcaption>Foto : Privat{"    "}</figcaption>
         </figure>
         <p>
-          Vi har intervjuet Terje Franklin-Alming (33), som er utdannet
-          marinbiolog.
+          Terje Franklin-Alming (33) er utdannet marinbiolog.
         </p>
-        <p className={"questionText"}>
-          {" "}
-          - Hva er farene ved at det er så mye plastikk i havet?{" "}
+        <p>
+          Han sier at den største bekymringen ved plastikk i havet, er at det skal komme inn i diverse dyr. 
+          Hvor dette kan føre til blokkering i tarmsystemer og redusere næringen de får i seg og i verste fall resultere i at de dør, 
+          sier han videre.
         </p>
         <p>
           {" "}
-          - Den største bekymringen er at det skal komme inn i diverse dyr, vi
-          har sett effekten av det på hval og særlig sjøfugl. Hvor det har ført
-          til blokkeringer i tarmsystemer og de ikke kan få i seg næring og dør,
-          det er det som kanskje syns best og gjør mest inntrykk på folk.{" "}
+          Franklin-Alming sier videre at skulle zooplankton spise mikroplast,
+          og bli mette av dette så kan de dø av mangel på næring. Zooplankton
+          er grunnlaget for liv i havet, uten de kan hele systemet kollapse.{" "}
         </p>
-        <section className={"articleContent"}>
-          <p>
-            {" "}
-            Franklin-Alming sier videre at skulle zooplankton spise mikroplast,
-            og bli mette av dette så kan de dø av mangel på næring. Zooplankton
-            er grunnlaget for liv i havet, uten de kan hele systemet kollapse.{" "}
-          </p>
-        </section>
         <p>
           {" "}
-          - Plastikk har også endel egenskaper når det kommer til å trekke til
+          - Plastikk har også en del egenskaper når det kommer til å trekke til
           seg miljøgifter, og man er bekymret for at de som får i plast også får
           i seg disse miljøgiftene. Selv om da plasten kanskje ikke er farlig
-          for dem, så kan miljøutgiftene være skadelig.
-        </p>
-        <p className={"questionText"}>
-          {" "}
-          - Hvordan tror du at mikroplast kan påvirke cellene til levende
-          organismer?{" "}
+          for dem, så kan miljøutgiftene være skadelig, sier Franklin-Alming.
         </p>
         <p>
           {" "}
-          - Jeg har ikke hørt at det er dette man er mest bekymret for. Det er
-          mer bekymring rundt det jeg nevnte tidligere. Når det kommer til dette
-          med miljøgifter så vil det da ende opp i cellene. Vil ikke tro at
-          dette er det største problemet, men kan ikke si det med sikkerhet, jeg
-          er ikke godt nok belest i dette feltet.{" "}
-        </p>
-        <p className={"questionText"}>
-          {" "}
-          - Hvordan vil plastikken i havet påvirke oss mennesker?
+          Han har ikke hørt at det er hvordan mikroplast kan påvirke celler til 
+          levende organismer man er mest bekymret for. Når det kommer til 
+          miljøgifter så vil det ende opp i cellene. Han tror ikke dette er det største problemet, 
+          men kan ikke si det med sikkerhet. 
+          Han sier også at han ikke er godt nok belest i dette feltet.{" "}
         </p>
         <p>
           {" "}
-          - Vi spiser en del ting som lever i havet. Fisk ligger høyt oppe i
-          næringsnettet, så alt akkumulerer seg i fisken.{" "}
+          Han forklarer hvordan plasten i havet kan påvirke oss mennesker på denne måten, plasten zooplanktonen
+          har fått i seg får fisken også i seg når den spiser zooplanktonen, denne
+          plasten får også vi i oss når vi til slutt spiser fisken. Han forklarer videre, om plasten har
+          hatt en negativ effekt på fisken, er det mulig den har samme effekt
+          på oss.{" "}
         </p>
-        <section className={"articleContent"}>
-          <p>
-            {" "}
-            Franklin-Alming forklarer det slik, den plasten som zooplanktonen
-            har fått i seg får fisken også i seg når den spiser den, denne
-            plasten får også vi i oss når vi spiser fisken. Så om plasten har
-            hatt en negativ effekt på fisken, er det mulig den har samme effekt
-            på oss.{" "}
-          </p>
-        </section>
         <p>
           {" "}
-          - Det er igjen dette med miljøgifter, hvis mengden plasten som fisken
-          har fått i seg har hatt store mengder miljøgifter, så vil vi også få i
+          Hvis plasten fisken har fått i seg har hatt store mengder miljøgifter, 
+          så vil vi også få i
           oss disse miljøgiftene. Konsekvensene avhenger av hvilke miljøutgifter
           det er snakk om, men det kan være alt fra sykdom til i verste fall
-          død.{" "}
+          død, sier Franklin-Alming.{" "}
         </p>
         <p className={"questionText"}>
           {" "}
-          - For det er ikke plastikken i seg selv som er hovedproblemet tenker
-          du?
+          - Så det er ikke plastikken i seg selv som er hovedproblemet?
         </p>
         <p>
           {" "}
@@ -102,77 +77,68 @@ export default function Article3() {
           vil jeg tro at det er den større risikoen, vi spiser jo ikke
           innvollene til fisken.{" "}
         </p>
-        <section className={"articleContent"}>
-          <p>
-            {" "}
-            Franklin-Alming sier at via andre dyr, dyr som filtrerer vannet for
-            å få i seg mat, som for eksempel blåskjell, de får i seg de minste
-            partiklene. Mulige partikler er da mikroplastikk, da har dette blitt
-            tatt opp av dyret, dette er en del av utfordringen.
-          </p>
-        </section>
         <p>
           {" "}
-          - Jeg har lest at vi får i oss et kredittkort vært av plast i året.
+          Franklin-Alming sier at dyr som filtrerer vannet for
+          å få i seg mat, som for eksempel blåskjell, får i seg de minste
+          partiklene. Mulige partikler er da mikroplastikk, da har dette blitt
+          tatt opp av dyret, dette er en del av utfordringen, mener han.
+        </p>
+        <p>
+          {" "}
+          - Vi får i oss et kredittkort vært av plast i året.
           Det virker ikke som om dette har noen korttidseffekt på menneskers
           helse, men langtidseffekten, hvordan dette vil utarte seg om 20-30 år
-          det vet man ikke.{" "}
-        </p>
-        <p className={"questionText"}>
-          {" "}
-          - Mulige tiltak for å redusere, evnt rydde opp i havet?
+          det vet man ikke, sier han.{" "}
         </p>
         <p>
           {" "}
-          - Det er mange forskjellige tiltak som har blitt forsøkt gjennomført
-          med varierende grad av suksess og andre konsekvenser. Det ene av
-          tiltakene vi vet har positiv effekt med veldig få negative bi-effekter
+          Det er mange forskjellige tiltak som har blitt forsøkt gjennomført
+          med varierende grad av suksess og andre konsekvenser, sier Franklin-Alming. Ett av
+          tiltakene han mener har positiv effekt med veldig få negative bi-effekter
           er strandrydding.{" "}
         </p>
-        <section className={"articleContent"}>
-          <p>
-            {" "}
-            For å understreke hvor viktig det er å stoppe tilførselen av plast
-            til havet er sier Franklin-Alming «Hvis du kommer inn på badet og
-            kranen står på og badekaret er tett, og det renner over. Det første
-            du gjør er ikke å begynne å spå vann, det første du gjør er å lukke
-            krana».{" "}
-          </p>
-        </section>
+        <p>
+          {" "}
+          For å understreke hvor viktig det er å stoppe tilførselen av plast
+          til havet sier han «Hvis du kommer inn på badet og
+          kranen står på og badekaret er tett, og det renner over, er ikke det første
+          du gjør å spå vann, det første du gjør er å lukke
+          krana».{" "}
+        </p>
         <p>
           {" "}
           - Det er mange land som ikke har infrastrukturen til å håndtere
           avfallet sitt, man kaster søppelet på gaten, da blir dette tatt med av
           regnvann og havner til slutt på havet hvor nedbrytingen til mikroplast
-          begynner
+          begynner, forteller Franklin-Alming.
         </p>
-        <section className={"articleContent"}>
-          <p>
-            {" "}
-            Franklin-Alming sier videre at plast har sin rolle, det har sine
-            fordeler, det holder mat fersk lengre og dermed reduserer mat
-            avfallet for eksempel. Problemet er hvordan det blir kastet og
-            hvordan plasten blir laget.{" "}
-          </p>
-        </section>
+        <p>
+          {" "}
+          Han påpeker at plast har sin rolle, det har sine
+          fordeler, det holder mat fersk lengre og dermed reduserer mat
+          avfallet for eksempel. Problemet er hvordan det blir kastet og
+          hvordan plasten blir laget.{" "}
+        </p>
         <p>
           - Det er viktig å ha gode systemer på plass for å håndtere og
           resirkulere denne plasten. Vi må bli flinkere til å bruke plast som
           lar seg resirkulere. Mye plast er vanskelig om ikke umulig å
           resirkulere på grunn av måten det er konstruert, det kan være bygd opp
-          av flere typer plast.{" "}
+          av flere typer plast, sier han{" "}
         </p>
-        <p className={"questionText"}>
+        {/* <p className={"questionText"}>
           {" "}
           - Jeg har hørt at forskere har kommet med en blanding av enzymer som
           kan bryte ned plast til sine byggeklosser, hva tenker du om det?
-        </p>
+        </p> */}
         <p>
           {" "}
-          - NMU jobber også med dette, de jobber med å bruke et enzym fra en
-          type møll som kan bryte ned plast. Plast er hydrogen og karbonatomer i
-          lange kjeder, men fordi disse kjedene er så lange er de vanskelige@ å
-          bryte det ned.{" "}
+          NMU er en av de som jobber med enzymer som
+          kan bryte ned plast, de jobber med å bruke et enzym fra en
+          type møll som kan bryte ned plast, sier han. Plast er hydrogen- og karbonatomer i
+          lange kjeder, men siden disse kjedene er så lange er de vanskelige å
+          bryte ned, forklarer Franklin-Alming{" "}
         </p>
         <p>
           {" "}
@@ -183,16 +149,22 @@ export default function Article3() {
           {" "}
           - Dette må da implementeres i samfunnets resirkulerings system. Mange
           av de landene hvor plast problemer er mye større enn i Norge, så er
-          hovedproblemet mangel på god infrastruktur for resirkulering.{" "}
+          hovedproblemet mangel på god infrastruktur for resirkulering, sier han.{" "}
         </p>
       </section>
       <section className={"articleContent"}>
         <h3>De store plastøyene</h3>
         <p>
-          Et av de største klimautfordringene ved i dag er plastforsøpling, og
-          spesielt fordi mye av forsøplingen før eller senere havner på havet.{" "}
+          En av de største klimautfordringene i dag er plastforsøpling, og
+          spesielt fordi mye av forsøplingen før eller senere havner på havet. 
+          Plastikk bruker opp til flere hundre år på å brytes ned og
+          selv om de til slutt brytes ned så er de ikke ufarlig, snarere tvert
+          imot.
+          {" "}
+        </p>
+        <p>
           <a href="https://naturvernforbundet.no/plast/">
-            Ifølge naturvernombudet{" "}< FaExternalLinkAlt className="linkIcon"/>
+            I følge naturvernombudet <FaExternalLinkAlt className="linkIcon" />
           </a>
           så kaster vi, globalt, ca 6.4 millioner tonn søppel som finner veien
           til havet hvert år, det meste av dette er plastikk. Det har havnet så
@@ -200,11 +172,13 @@ export default function Article3() {
           spredt på de ulike havene. Den største av de finner man i Stillehavet,
           den er{" "}
           <a href="https://www.nettavisen.no/artikkel/sopleoya-i-stillehavet/s/12-95-1623901">
-            dobbelt så stor som Texas.< FaExternalLinkAlt className="linkIcon"/>
+            dobbelt så stor som Texas.
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
-          Plastikk bruker mange år, opp til flere hundre år, på å brytes ned, og
-          selv om de til slutt brytes ned så er de ikke ufarlig, snarere tvert
-          imot.
+        </p>
+        <p>
+          Disse øyene er store nok til at de kan vises på et kart. 
+          Kartet under viser hvor de største "øyene" befinner seg.
         </p>
       </section>
       <Map />
@@ -216,14 +190,14 @@ export default function Article3() {
           være større plastikkbiter som har blitt brutt ned over tid, de kan
           brytes ned i enda mindre partikler, nanoplast.
         </p>
-        <br></br>
         <p>
           Disse plastikkpartiklene er vanskelig om ikke umulig å rydde opp, og
           små fisk og andre dyr i havet spiser disse partiklene når de i den tro
           at de er plankton, det er ikke bare de store plastikkbitene som er
           farlig for dyrelivet. I følge{" "}
           <a href="https://forskning.no/forurensning-hav-og-fiske-niva/hvor-farlig-er-egentlig-mikroplast/322061">
-            forskning.no< FaExternalLinkAlt className="linkIcon"/>
+            forskning.no
+            <FaExternalLinkAlt className="linkIcon" />
           </a>{" "}
           så er partiklene så små at de kan gå gjennom cellemembraner, dette kan
           ha uante og skumle konsekvenser for dyrelivet i havet. Plastikk i
@@ -234,7 +208,8 @@ export default function Article3() {
           har gitt dyr store mengder plastpartikler, viser at det har ført til{" "}
           <a href="https://forskning.no/forurensning-hav-og-fiske-niva/hvor-farlig-er-egentlig-mikroplast/322061">
             hormonforstyrrelser, kreftdannelser slapphet og nedsatt
-            reproduksjonsevne< FaExternalLinkAlt className="linkIcon"/>
+            reproduksjonsevne
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
         </p>
       </section>
@@ -249,7 +224,8 @@ export default function Article3() {
           også gå utover oss mennesker. Korallrevene beskytter kystbyer mot
           erosjon og stormer, det er en kilde til mat og medisin.
           <a href="https://www.noaa.gov/education/resource-collections/marine-life/coral-reef-ecosystems">
-            Over 500 millioner mennesker er avhengig av korallrev, verden over.< FaExternalLinkAlt className="linkIcon"/>
+            Over 500 millioner mennesker er avhengig av korallrev, verden over.
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
         </p>
         <p>
@@ -258,7 +234,8 @@ export default function Article3() {
           kan bli syke.{" "}
           <a href="https://forskning.no/forurensning-havforskning-plast/koraller-blir-lettere-syke-i-naerheten-av-plast/293531">
             Samtidig så kan plastikk være skarpt så det kan såre korallene og
-            dermed gjøre de sårbare for sykdom< FaExternalLinkAlt className="linkIcon"/>
+            dermed gjøre de sårbare for sykdom
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
         </p>
       </section>
@@ -273,14 +250,16 @@ export default function Article3() {
           bryter ned plastikk til bygningsblokker, som man kan bruke igjen til å
           lage ny plast.{" "}
           <a href="https://verdensbestenyheter.no/nyheter/forskere-skaper-superenzym-som-spiser-plast/">
-            Dette kan sterkt redusere plastavfallet< FaExternalLinkAlt className="linkIcon"/>
+            Dette kan sterkt redusere plastavfallet.
+            <FaExternalLinkAlt className="linkIcon" />
           </a>
-          . Flere selskaper har begynt arbeidet med å samle inn den allerede
+          Flere selskaper har begynt arbeidet med å samle inn den allerede
           eksisterende plasten fra verdens hav.
         </p>
         <p>
           <a href="https://www.nettavisen.no/nyheter/denne-skal-kunne-rydde-havet-for-tonnevis-med-plast/s/12-95-3423857420">
-            The Ocean Cleanup< FaExternalLinkAlt className="linkIcon"/>
+            The Ocean Cleanup
+            <FaExternalLinkAlt className="linkIcon" />
           </a>{" "}
           er ett av dem, de har satt seg mål at de skulle rydde opp i verdens
           største samling av plast, «The Great Pacific garbage patch». De har

@@ -1,7 +1,7 @@
 import React from "react";
 import Adrian from "../images/adrianKJ.jpg";
 import { FaExternalLinkAlt } from 'react-icons/fa';
-import { Timeline } from "../components/Timeline";
+import { TimelineWorld } from "../components/TimelineWorld";
 
 export default function Article4() {
   return (
@@ -11,26 +11,21 @@ export default function Article4() {
         <section className={"articleIntro"}>
           - En grei analogi er jo folk som røyker, man vet at det er skadelig. En person begynner å røyke ti
             sigaretter per dag i en alder av 20, får beskjed av legen at de må slutte før de er 30 år gammel, eller
-            så kan det ha dramatiske konsekvenser [...]
+            så kan det ha dramatiske konsekvenser [...] Adrian Kristiansønn Jacobsen (36)
         </section>
+        <section className={"articleContent"}>
         <figure>
-          <img className={"portrait"} src={Adrian} alt="" />
+          <img className={"portrait"} src={Adrian} alt="Bilde av Adrian Kristiansønn Jacobsen, hentet fra Høgskolen i Østfold" />
           <figcaption>
             Foto: {"    "}
             <a href="https://www.hiof.no/iio/ois/personer/tekn-adm-ansatte/erlendsa/index.html">
               Høgskolen i Østfold
             </a>
           </figcaption>
-        </figure> 
-        <section className={"articleContent"}>
-        <p className={"questionText"}>
-          {" "}
-          - Hva tenker du er hovedårsaken til den globale oppvarmingen?{" "}
-        </p>
+        </figure>
         <p>
-        - Hoveddriveren er drivhusgassutslipp, gasser som CO2 og metan er de viktigste årsakene til
-          endring. Samfunnet vårt bruker teknologi som krever store klimagassutslipp, fossilt brennstoff og
-          areal endringer, sier Adrian Kristiansønn Jacobsen (36).
+          Adrian Kristiansønn Jacobsen sier at hovedårsaken til den globale oppvarmingen er drivhusgassutslipp, som CO2 og metangass. 
+          Han sier videre at samfunnet vårt i dag bruker teknologi som krever store klimagassutslipp, fossilt brennstoff og areal endringer.
         </p>
         <p>
           Jacobsen er foreleser i natur, helse og bevegelse innen barnehagelærerutdanningen ved HIOF
@@ -38,9 +33,9 @@ export default function Article4() {
         </p>
         <p>
           Jacobsen sier videre at vi ikke skal undervurdere risikoen ved globaloppvarming. Han viser til
-          hetebølgen i England i sommer, og konsekvensene denne ene hetebølgen hadde for et samfunn. 
-          Det er noen modeller som spår at f.eks England kan få slike hetebølger annethvert år. 
-        </p> 
+          hetebølgen i England i sommer, og konsekvensene denne ene hetebølgen hadde for et samfunn.
+          Det er noen modeller som spår at f.eks England kan få slike hetebølger annethvert år.
+        </p>
       </section>
       <section className={"articleContent"}>
         <article>
@@ -64,11 +59,11 @@ export default function Article4() {
           <p>
           - En grei analogi er jo folk som røyker, man vet at det er skadelig. En person begynner å røyke ti
           sigaretter per dag i en alder av 20, får beskjed av legen at de må slutte før de er 30 år gammel, eller
-          så kan det ha dramatiske konsekvenser. 
+          så kan det ha dramatiske konsekvenser.
           Så fortsetter denne personen å røyke, kanskje de røyker mer
           til og med, da vil den personen ha passert en såkalt milepæl, hvor det er mye større sjanse for å få
           kreft, men det betyr ikke da at den personen bare kan ignorere problemet, så hvis denne personen
-          slutter innen de har nådd 40 så kan de ha unngått noen enda verre konsekvenser.
+          slutter innen de har nådd 40 så kan de ha unngått noen enda verre konsekvenser, sier Jacobsen.
           </p>
           <p>
           De klimaendringene som har kommet, har nok kommet for å bli sier Jacobsen. Når det sagt så mener
@@ -81,25 +76,25 @@ export default function Article4() {
           <p>
           - Fordi jeg føler litt det at ansvaret har blitt lagt over på den enkelte, og selv om det er viktig så syntes
           jeg det er viktig å huske at de som må løse dette problemet er statsledere og de som har mest makt i
-          samfunnet.
+          samfunnet, sier Jacobsen.
           </p>
           <p>
           Jacobsen sier videre at statslederne bør gjennomføre ambisiøse politikk som gjør det enklere å ta
           miljøvennlige valg, da har en direkte nytte av valgene en tar.
           </p>
           <p>
-          - Som for eksempel om miljøvennlig mat skulle bli billigere.
+          - Som for eksempel om miljøvennlig mat skulle bli billigere, sier Jacobsen.
           </p>
           <p>
-          Dette mener Jacobsen er en bedre vei å gå, enn at den enkelte i samfunnet har ansvaret. Det leder
+          Dette mener han er en bedre vei å gå, enn at den enkelte i samfunnet har ansvaret. Det leder
           heller til at man kan ende opp med å gå rundt med dårlig samvittighet, fordi utviklingen går som den
-          går og man tenker at det er fordi en ikke har nådd målet sitt med å kutte ned. 
+          går og man tenker at det er fordi en ikke har nådd målet sitt med å kutte ned.
           </p>
         </article>
       </section>
       <br></br>
       <section className={"articleContent"}>
-        <Timeline />
+        <TimelineWorld />
       </section>
       <section className={"articleContent"}>
         <article>
@@ -119,11 +114,11 @@ export default function Article4() {
             Flere land ble rammet av hetebølger i sommer, flere av disse hetebølgene knuste tidligere
             varmerekorder verden over. Et av de landene som ble rammet hardest er Kina, som ble rammet av
             den verste hetebølgen i historien. Den varte i over 70 dager, som strakk seg over 1372693 km2, det er
-            et område på størrelse med Texas. Colorado og California til sammen. 
+            et område på størrelse med Texas. Colorado og California til sammen.
             <a href="https://www.axios.com/2022/08/22/china-heat-wave-drought-unprecedented">Mer enn 100 millioner
             mennesker ble påvirket av denne hetebølgen< FaExternalLinkAlt className="linkIcon"/></a> Dette har ført til at Kinas største ferskvanns elv, Poyang, har  <a href="https://www.nrk.no/urix/tidenes-hetebolge-rammer-kina-1.16078235">tørket opp og
-            blitt redusert med 75%< FaExternalLinkAlt className="linkIcon"/></a>. 
-            Dette kan resultere i en mulig matkrise, lite vann fører til dårlig avling
+            blitt redusert med 75%< FaExternalLinkAlt className="linkIcon"/></a>.
+            Dette kan resultere i en mulig matkrise, for lite vann fører til dårlig avling. 
           </p>
         </article>
       </section>
@@ -141,7 +136,7 @@ export default function Article4() {
           <p>
             <a href="https://forskning.no/klima-ntb/tyskland-har-mistet-en-av-sine-fem-isbreer/2084603">Forskning.no< FaExternalLinkAlt className="linkIcon"/></a> rapporterte i september
             at Søndre Schneeferner, en av Tysklands fem isbreer, har smeltet så mye at den har mistet sin
-            brestatus. Den har smeltet fra 10 meter på det tykkeste, i 2018, til mindre enn 6 meter. 
+            brestatus. Den har smeltet fra 10 meter på det tykkeste, i 2018, til mindre enn 6 meter.
             Denne smeltetrenden kan ha store konsekvenser, spesielt for vi som bor i Nord-europa.
           </p>
         </article>

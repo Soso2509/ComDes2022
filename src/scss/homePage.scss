@@ -1,17 +1,71 @@
 @import "variables.scss";
 
-.homePage {
+.homeGrid {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 5vh;
+
 }
 
-.item1 {
-    max-width: 50%;
-}  
+.homeTitle {
+    color: #000000;
+    @include adobeFontOskarTL;
+    display: flex;
+    font-size: 50px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.itemTitle {
+    color: #000000;
+    @include adobeFontOskarTL;
+    font-size: 35px;
+}
+
+.item {
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+    max-width: 70vw;
+    
+    a {
+        text-decoration: none;
+    }
+}
+
+p {
+    font-family: $defaultFont;
+}
 
 
 @media screen and (min-width: 1000px) {
-    .homePage {
+    .homeGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .homeTitle {
+        color: #000000;
+        @include adobeFontOskarTL;
         display: flex;
+        justify-content: center;
+        font-size: 60px;
+    }
+
+    .itemTitle {
+        color: #000000;
+        @include adobeFontOskarTL;
+        text-decoration: none;
+    }
+    
+    .item {
+        display:flex;
         flex-direction: column;
+        padding: 1rem;
+        max-width: 30vw;
+        
     }
 }
