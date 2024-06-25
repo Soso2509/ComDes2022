@@ -26,8 +26,8 @@ export default function Article3() {
           Terje Franklin-Alming (33) er utdannet marinbiolog.
         </p>
         <p>
-          Han sier at den største bekymringen ved plastikk i havet, er at det skal komme inn i diverse dyr. 
-          Hvor dette kan føre til blokkering i tarmsystemer og redusere næringen de får i seg og i verste fall resultere i at de dør, 
+          Han sier at den største bekymringen ved plastikk i havet, er at det skal komme inn i diverse dyr.
+          Hvor dette kan føre til blokkering i tarmsystemer og redusere næringen de får i seg og i verste fall resultere i at de dør,
           sier han videre.
         </p>
         <p>
@@ -45,10 +45,10 @@ export default function Article3() {
         </p>
         <p>
           {" "}
-          Han har ikke hørt at det er hvordan mikroplast kan påvirke celler til 
-          levende organismer man er mest bekymret for. Når det kommer til 
-          miljøgifter så vil det ende opp i cellene. Han tror ikke dette er det største problemet, 
-          men kan ikke si det med sikkerhet. 
+          Han har ikke hørt at det er hvordan mikroplast kan påvirke celler til
+          levende organismer man er mest bekymret for. Når det kommer til
+          miljøgifter så vil det ende opp i cellene. Han tror ikke dette er det største problemet,
+          men kan ikke si det med sikkerhet.
           Han sier også at han ikke er godt nok belest i dette feltet.{" "}
         </p>
         <p>
@@ -61,7 +61,7 @@ export default function Article3() {
         </p>
         <p>
           {" "}
-          Hvis plasten fisken har fått i seg har hatt store mengder miljøgifter, 
+          Hvis plasten fisken har fått i seg har hatt store mengder miljøgifter,
           så vil vi også få i
           oss disse miljøgiftene. Konsekvensene avhenger av hvilke miljøutgifter
           det er snakk om, men det kan være alt fra sykdom til i verste fall
@@ -156,7 +156,7 @@ export default function Article3() {
         <h3>De store plastøyene</h3>
         <p>
           En av de største klimautfordringene i dag er plastforsøpling, og
-          spesielt fordi mye av forsøplingen før eller senere havner på havet. 
+          spesielt fordi mye av forsøplingen før eller senere havner på havet.
           Plastikk bruker opp til flere hundre år på å brytes ned og
           selv om de til slutt brytes ned så er de ikke ufarlig, snarere tvert
           imot.
@@ -177,7 +177,7 @@ export default function Article3() {
           </a>
         </p>
         <p>
-          Disse øyene er store nok til at de kan vises på et kart. 
+          Disse øyene er store nok til at de kan vises på et kart.
           Kartet under viser hvor de største "øyene" befinner seg.
         </p>
       </section>
