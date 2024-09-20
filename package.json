@@ -12,7 +12,7 @@
     "react-router-dom": "^6.24.0",
     "react-scripts": "5.0.1",
     "react-simple-maps": "^3.0.0",
-    "sass": "^1.77.6"
+    "sass": "^1.79.2"
   },
   "scripts": {
     "start": "react-scripts start",
